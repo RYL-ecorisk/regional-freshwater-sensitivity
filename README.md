@@ -21,7 +21,7 @@ R scripts for cross-species toxicity prediction and region-specific freshwater h
 - `regional_prediction_taxon_traits.csv`: taxonomy and ecological traits for 1,317 taxa in the seven regional assemblages, used for regional toxicity prediction.
 - `regional_taxa.csv`: taxon membership of the seven study regions, used for regional SSDs.
 - `external_validation.csv`: independent external toxicity data for validation and applicability domain assessment.
-- `Barron_MOA_CAS_db.xlsx`: chemical mode-of-action reference database.
+- `Moa_reference_database.xlsx`: chemical mode-of-action reference database.
 - `taihu_monitoring.xlsx`: Taihu pesticide monitoring data for the risk assessment.
 
 ## Run
