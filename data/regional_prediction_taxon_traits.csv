@@ -1,0 +1,1318 @@
+Taxon,Phylum,Class,Order,Family,Genus,Log Body size,Feeding,Feeding_score,Respiration,Respiration_score,Locomotion,Locomotion_score,Body armor,Body_armor_score
+Ablabesmyia longistyla,Arthropoda,Insecta,Diptera,Chironomidae,Ablabesmyia,1,predator,1,tegument,2,crawler,3,soft_body,4
+Ablabesmyia phatta,Arthropoda,Insecta,Diptera,Chironomidae,Ablabesmyia,1,predator,1,tegument,2,crawler,3,soft_body,4
+Ablabesmyia sp.,Arthropoda,Insecta,Diptera,Chironomidae,Ablabesmyia,1,predator,1,tegument,2,crawler,3,soft_body,4
+Aciagrion hisopa,Arthropoda,Insecta,Odonata,Coenagrionidae,Aciagrion,1.30102999566398,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Acilius sulcatus,Arthropoda,Insecta,Coleoptera,Dytiscidae,Acilius,0.301029996,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Acricotopus lucens,Arthropoda,Insecta,Diptera,Chironomidae,Acricotopus,0.903089986991944,gatherer,3,tegument,2,crawler,3,soft_body,4
+Acroloxus lacustris,Mollusca,Gastropoda,Lymnaeida,Acroloxidae,Acroloxus,1,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Adicella reducta,Arthropoda,Insecta,Trichoptera,Leptoceridae,Adicella,0,shredder,2,gill; tegument,3,crawler; sessile,3,soft_body,4
+Aeolosoma sp.,Annelida,Unknown,Unknown,Aeolosomatidae,Aeolosoma,1,gatherer,3,tegument,2,burrower; crawler,3,soft_body,4
+Aeschnophlebia sp.,Arthropoda,Insecta,Odonata,Aeshnidae,Aeschnophlebia,1.54406804435028,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Aeshna mixta,Arthropoda,Insecta,Odonata,Aeshnidae,Aeshna,1.903089987,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Aeshna sp.,Arthropoda,Insecta,Odonata,Aeshnidae,Aeshna,1.903089987,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Agabus bipustulatus,Arthropoda,Insecta,Coleoptera,Dytiscidae,Agabus,0.301029995663981,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Agabus chalconatus,Arthropoda,Insecta,Coleoptera,Dytiscidae,Agabus,0.301029995663981,shredder,2,aerial,1,swimmer,4,heavily_sclerotized,2
+Agabus didymus,Arthropoda,Insecta,Coleoptera,Dytiscidae,Agabus,0.301029995663981,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Agabus guttatus,Arthropoda,Insecta,Coleoptera,Dytiscidae,Agabus,0.301029995663981,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Agabus japonicus,Arthropoda,Insecta,Coleoptera,Dytiscidae,Agabus,1.30102999566398,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Agabus paludosus,Arthropoda,Insecta,Coleoptera,Dytiscidae,Agabus,0.301029995663981,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Agabus sturmii,Arthropoda,Insecta,Coleoptera,Dytiscidae,Agabus,0.301029995663981,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Agapetus sp.,Arthropoda,Insecta,Trichoptera,Glossosomatidae,Agapetus,1,herbivore,2,tegument,2,sessile,1,partly_sclerotized,3
+Agnetina sp.,Arthropoda,Insecta,Plecoptera,Perlidae,Agnetina,1.301029996,predator,1,gill; tegument,3,crawler,3,partly_sclerotized,3
+Agonum impressum,Arthropoda,Insecta,Coleoptera,Carabidae,Agonum,1.02118929906994,predator,1,aerial,1,crawler,3,heavily_sclerotized,2
+Agraylea multipunctata,Arthropoda,Insecta,Trichoptera,Hydroptilidae,Agraylea,0,predator,1,tegument,2,crawler,3,partly_sclerotized,3
+Agraylea sexmaculata,Arthropoda,Insecta,Trichoptera,Hydroptilidae,Agraylea,0,predator,1,tegument,2,crawler,3,partly_sclerotized,3
+Agrypnia obsoleta,Arthropoda,Insecta,Trichoptera,Phryganeidae,Agrypnia,0.602059991327962,predator,1,gill; tegument,3,crawler,3,partly_sclerotized,3
+Agrypnia pagetana,Arthropoda,Insecta,Trichoptera,Phryganeidae,Agrypnia,1.60205999132796,predator,1,gill; tegument,3,crawler,3,partly_sclerotized,3
+Alainites muticus,Arthropoda,Insecta,Ephemeroptera,Baetidae,Alainites,1,gatherer,3,gill,3,swimmer,4,soft_body,4
+Allogamus auricollis,Arthropoda,Insecta,Trichoptera,Limnephilidae,Allogamus,1.60205999132796,filterer,4,gill; tegument,3,crawler,3,soft_body,4
+Allotrichia pallicornis,Arthropoda,Insecta,Trichoptera,Hydroptilidae,Allotrichia,1,herbivore,2,gill; tegument,3,crawler,3,partly_sclerotized,3
+Ameletus inopinatus,Arthropoda,Insecta,Ephemeroptera,Ameletidae,Ameletus,1.301029996,herbivore,2,gill,3,burrower; crawler; swimmer,4,soft_body,4
+Ameletus montanus,Arthropoda,Insecta,Ephemeroptera,Ameletidae,Ameletus,1.301029996,herbivore,2,gill,3,burrower; crawler; swimmer,4,soft_body,4
+Ameletus sp.,Arthropoda,Insecta,Ephemeroptera,Ameletidae,Ameletus,1.301029996,herbivore,2,gill,3,burrower; crawler; swimmer,4,soft_body,4
+Ametropus fragilis,Arthropoda,Insecta,Ephemeroptera,Ametropodidae,Ametropus,1.23044892137827,filterer; gatherer,4,gill; tegument,3,burrower,2,soft_body,4
+Ametropus sp.,Arthropoda,Insecta,Ephemeroptera,Ametropodidae,Ametropus,1.23044892137827,filterer; gatherer,4,gill,3,burrower,2,soft_body,4
+Amphinemura standfussi,Arthropoda,Insecta,Plecoptera,Nemouridae,Amphinemura,0,herbivore,2,gill; tegument,3,crawler,3,partly_sclerotized,3
+Amphinemura sulcicollis,Arthropoda,Insecta,Plecoptera,Nemouridae,Amphinemura,0,gatherer,3,gill; tegument,3,crawler,3,partly_sclerotized,3
+Amphipsyche sp.,Arthropoda,Insecta,Trichoptera,Hydropsychidae,Amphipsyche,1.30102999566398,filterer,4,gill; tegument,3,sessile,1,soft_body,4
+Anabolia furcata,Arthropoda,Insecta,Trichoptera,Limnephilidae,Anabolia,1.60205999132796,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Anabolia nervosa,Arthropoda,Insecta,Trichoptera,Limnephilidae,Anabolia,0.602059991327962,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Anabolia sp.,Arthropoda,Insecta,Trichoptera,Limnephilidae,Anabolia,1.60205999132796,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Anacaena bipustulata,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Anacaena,0.462397997898956,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Anacaena globulus,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Anacaena,0.477121254719662,predator,1,aerial,1,crawler,3,heavily_sclerotized,2
+Anacaena limbata,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Anacaena,0.477121254719662,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Anacaena lutescens,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Anacaena,0.397940008672038,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Anaciaeschna jaspidea,Arthropoda,Insecta,Odonata,Aeshnidae,Anaciaeschna,1.47712125471966,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Anagenesia paradoxa,Arthropoda,Insecta,Ephemeroptera,Palingeniidae,Anagenesia,1.47712125471966,filterer,4,gill,3,burrower,2,soft_body,4
+Anax nigrofasciatus,Arthropoda,Insecta,Odonata,Aeshnidae,Anax,1.903089987,predator,1,gill,3,crawler,3,heavily_sclerotized,2
+Anax panybeus,Arthropoda,Insecta,Odonata,Aeshnidae,Anax,1.903089987,predator,1,gill,3,crawler,3,heavily_sclerotized,2
+Ancylus fluviatilis,Mollusca,Gastropoda,Lymnaeida,Planorbidae,Ancylus,1.30102999566398,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Anisocentropus sp.,Arthropoda,Insecta,Trichoptera,Calamoceratidae,Anisocentropus,1.23044892137827,shredder,2,gill,3,crawler,3,partly_sclerotized,3
+Anisogammarus sp.,Arthropoda,Malacostraca,Amphipoda,Anisogammaridae,Anisogammarus,1.30102999566398,gatherer; herbivore,3,gill,3,crawler; swimmer,4,heavily_sclerotized,2
+Anisogomphus maacki,Arthropoda,Insecta,Odonata,Gomphidae,Anisogomphus,1.47712125471966,predator,1,gill,3,burrower,2,partly_sclerotized,3
+Anisogomphus sp.,Arthropoda,Insecta,Odonata,Gomphidae,Anisogomphus,1.47712125471966,predator,1,gill,3,burrower,2,partly_sclerotized,3
+Anisus leucostoma,Mollusca,Gastropoda,Lymnaeida,Planorbidae,Anisus,0.301029995663981,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Anisus sp.,Mollusca,Gastropoda,Lymnaeida,Planorbidae,Anisus,1.30102999566398,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Anisus vortex,Mollusca,Gastropoda,Lymnaeida,Planorbidae,Anisus,0.301029995663981,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Anodonta anatina,Mollusca,Bivalvia,Unionida,Unionidae,Anodonta,2.301029996,filterer,4,gill,3,sessile,1,hard_shelled,1
+Anodonta angula,Mollusca,Bivalvia,Unionida,Unionidae,Anodonta,2.301029996,filterer,4,gill,3,sessile,1,hard_shelled,1
+Anodonta arcaeformis,Mollusca,Bivalvia,Unionida,Unionidae,Anodonta,2.301029996,filterer,4,gill,3,sessile,1,hard_shelled,1
+Anodonta cygnea,Mollusca,Bivalvia,Unionida,Unionidae,Anodonta,2.301029996,filterer,4,gill,3,sessile,1,hard_shelled,1
+Anodonta euscaphys,Mollusca,Bivalvia,Unionida,Unionidae,Anodonta,2.301029996,filterer,4,gill,3,sessile,1,hard_shelled,1
+Anodonta sp.,Mollusca,Bivalvia,Unionida,Unionidae,Anodonta,2.301029996,filterer,4,gill,3,sessile,1,hard_shelled,1
+Anodonta tucida,Mollusca,Bivalvia,Unionida,Unionidae,Anodonta,2.301029996,filterer,4,gill,3,sessile,1,hard_shelled,1
+Anomalopterygella chauviniana,Arthropoda,Insecta,Trichoptera,Limnephilidae,Anomalopterygella,1.30102999566398,herbivore,2,gill; tegument,3,crawler,3,soft_body,4
+Anopheles sp.,Arthropoda,Insecta,Diptera,Culicidae,Anopheles,1,herbivore,2,aerial,1,crawler; swimmer,4,partly_sclerotized,3
+Anotogaster kuchenbeiseri,Arthropoda,Insecta,Odonata,Cordulegastridae,Anotogaster,1.69897000433602,predator,1,gill,3,burrower,2,soft_body,4
+Anotogaster sieboldii,Arthropoda,Insecta,Odonata,Cordulegastridae,Anotogaster,1.69897000433602,predator,1,gill,3,burrower,2,soft_body,4
+Antocha bifida,Arthropoda,Insecta,Diptera,Tipulidae,Antocha,1.20411998265592,gatherer,3,aerial,1,burrower,2,partly_sclerotized,3
+Antocha sp.,Arthropoda,Insecta,Diptera,Tipulidae,Antocha,1.20411998265592,gatherer,3,aerial,1,burrower,2,partly_sclerotized,3
+Antocha vitripennis,Arthropoda,Insecta,Diptera,Tipulidae,Antocha,1.20411998265592,shredder,2,aerial,1,burrower,2,partly_sclerotized,3
+Apatania muliebris,Arthropoda,Insecta,Trichoptera,Apataniidae,Apatania,0.301029995663981,gatherer; herbivore,3,gill; tegument,3,crawler; sessile,3,partly_sclerotized,3
+Aphelocheirus aestivalis,Arthropoda,Insecta,Hemiptera,Aphelocheiridae,Aphelocheirus,1.30102999566398,predator,1,aerial,1,crawler,3,heavily_sclerotized,2
+Aphelocheirus nawae,Arthropoda,Insecta,Hemiptera,Aphelocheiridae,Aphelocheirus,1.30102999566398,predator,1,tegument,2,crawler,3,heavily_sclerotized,2
+Aplexa hypnorum,Mollusca,Gastropoda,Lymnaeida,Physidae,Aplexa,1.301029996,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Apsectrotanypus trifascipennis,Arthropoda,Insecta,Diptera,Chironomidae,Apsectrotanypus,0.903089986991944,predator,1,tegument,2,crawler,3,soft_body,4
+Apsilochorema sutchanum,Arthropoda,Insecta,Trichoptera,Hydrobiosidae,Apsilochorema,1.17609125905568,predator,1,tegument,2,crawler,3,partly_sclerotized,3
+Aquarius najas,Arthropoda,Insecta,Hemiptera,Gerridae,Aquarius,1.301029996,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Aquarius paludum,Arthropoda,Insecta,Hemiptera,Gerridae,Aquarius,1.301029996,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Aquarius paludum paludum,Arthropoda,Insecta,Hemiptera,Gerridae,Aquarius,1.301029996,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Arconaia lanceolata,Mollusca,Bivalvia,Unionida,Unionidae,Arconaia,2.09691001300806,filterer,4,gill,3,burrower; sessile,2,hard_shelled,1
+Arctopsyche sp.,Arthropoda,Insecta,Trichoptera,Hydropsychidae,Arctopsyche,1.602059991,filterer; predator; shredder,4,gill,3,crawler,3,soft_body,4
+Argyroneta aquatica,Arthropoda,Arachnida,Araneae,Dictynidae,Argyroneta,1.271841607,predator,1,aerial,1,crawler,3,heavily_sclerotized,2
+Argyroneta sp.,Arthropoda,Arachnida,Araneae,Dictynidae,Argyroneta,1.271841607,predator,1,aerial,1,crawler,3,heavily_sclerotized,2
+Aristocypha sp.,Arthropoda,Insecta,Odonata,Chlorocyphidae,Aristocypha,1.09342168516224,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Armiger crista,Mollusca,Gastropoda,Lymnaeida,Planorbidae,Armiger,0.477121254719662,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Arthroplea sp.,Arthropoda,Insecta,Ephemeroptera,Arthropleidae,Arthroplea,1.30102999566398,filterer,4,gill,3,burrower,2,soft_body,4
+Asellus aquaticus,Arthropoda,Malacostraca,Isopoda,Asellidae,Asellus,1.301029996,gatherer,3,gill,3,crawler; swimmer,4,partly_sclerotized,3
+Asellus meridianus,Arthropoda,Malacostraca,Isopoda,Asellidae,Asellus,1.301029996,gatherer,3,gill,3,crawler,3,partly_sclerotized,3
+Asiagomphus melaenops,Arthropoda,Insecta,Odonata,Aeshnidae,Asiagomphus,1.54406804435028,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Astacus leptodactylus,Arthropoda,Malacostraca,Decapoda,Astacidae,Astacus,2.04532297878666,gatherer; predator,3,gill,3,crawler,3,heavily_sclerotized,2
+Asynarchus sp.,Arthropoda,Insecta,Trichoptera,Limnephilidae,Asynarchus,1.30102999566398,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Atherix ibis,Arthropoda,Insecta,Diptera,Athericidae,Atherix,1.602059991,predator,1,gill,3,crawler,3,soft_body,4
+Atherix marginata,Arthropoda,Insecta,Diptera,Athericidae,Atherix,1.602059991,predator,1,gill,3,crawler,3,soft_body,4
+Athripsodes albifrons,Arthropoda,Insecta,Trichoptera,Leptoceridae,Athripsodes,0.301029995663981,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Athripsodes aterrimus,Arthropoda,Insecta,Trichoptera,Leptoceridae,Athripsodes,0.301029995663981,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Athripsodes bilineatus,Arthropoda,Insecta,Trichoptera,Leptoceridae,Athripsodes,0.301029995663981,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Athripsodes cinereus,Arthropoda,Insecta,Trichoptera,Leptoceridae,Athripsodes,0.301029995663981,predator,1,gill; tegument,3,crawler,3,soft_body,4
+Athripsodes commutatus,Arthropoda,Insecta,Trichoptera,Leptoceridae,Athripsodes,0.301029995663981,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Athripsodes sp.,Arthropoda,Insecta,Trichoptera,Leptoceridae,Athripsodes,1.30102999566398,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Atrichops crassipes,Arthropoda,Insecta,Diptera,Athericidae,Atrichops,1.30102999566398,predator,1,gill,3,crawler,3,soft_body,4
+Atyaephyra desmaresti,Arthropoda,Malacostraca,Decapoda,Atyidae,Atyaephyra,1.60205999132796,shredder,2,gill,3,crawler,3,heavily_sclerotized,2
+Aulodrilus japonicus,Annelida,Clitellata,Tubificida,Naididae,Aulodrilus,1.23044892137827,gatherer,3,tegument,2,sessile,1,soft_body,4
+Aulodrilus limnobius,Annelida,Clitellata,Tubificida,Naididae,Aulodrilus,1.11394335230684,gatherer,3,tegument,2,burrower,2,soft_body,4
+Aulodrilus pigueti,Annelida,Clitellata,Tubificida,Naididae,Aulodrilus,1.23044892137827,gatherer,3,tegument,2,sessile,1,soft_body,4
+Aulodrilus pluriseta,Annelida,Clitellata,Tubificida,Naididae,Aulodrilus,1.23044892137827,gatherer,3,tegument,2,burrower,2,soft_body,4
+Aulodrilus prothecatus,Annelida,Clitellata,Tubificida,Naididae,Aulodrilus,1.23044892137827,gatherer,3,tegument,2,burrower,2,soft_body,4
+Aulophorus sp.,Annelida,Clitellata,Tubificida,Naididae,Aulophorus,1.30102999566398,gatherer,3,gill; tegument,3,swimmer,4,soft_body,4
+Austrolimnophila ochracea,Arthropoda,Insecta,Diptera,Tipulidae,Austrolimnophila,1.17609125905568,shredder,2,aerial,1,burrower,2,partly_sclerotized,3
+Baetiella japonica,Arthropoda,Insecta,Ephemeroptera,Baetidae,Baetiella,1,gatherer; herbivore,3,gill,3,swimmer,4,soft_body,4
+Baetis alpinus,Arthropoda,Insecta,Ephemeroptera,Baetidae,Baetis,1.30102999566398,gatherer; herbivore,3,gill; tegument,3,swimmer,4,soft_body,4
+Baetis buceratus,Arthropoda,Insecta,Ephemeroptera,Baetidae,Baetis,0.301029995663981,gatherer; herbivore,3,gill; tegument,3,swimmer,4,soft_body,4
+Baetis fuscatus,Arthropoda,Insecta,Ephemeroptera,Baetidae,Baetis,1.30102999566398,gatherer; herbivore,3,gill; tegument,3,swimmer,4,soft_body,4
+Baetis liebenauae,Arthropoda,Insecta,Ephemeroptera,Baetidae,Baetis,1.30102999566398,gatherer; herbivore,3,gill; tegument,3,swimmer,4,soft_body,4
+Baetis rhodani,Arthropoda,Insecta,Ephemeroptera,Baetidae,Baetis,0.301029996,gatherer; herbivore,3,gill; tegument,3,swimmer,4,soft_body,4
+Baetis scambus,Arthropoda,Insecta,Ephemeroptera,Baetidae,Baetis,0.301029995663981,gatherer; herbivore,3,gill; tegument,3,swimmer,4,soft_body,4
+Baetis sp.,Arthropoda,Insecta,Ephemeroptera,Baetidae,Baetis,1.301029996,gatherer; herbivore,3,gill,3,swimmer,4,soft_body,4
+Baetis tricolor,Arthropoda,Insecta,Ephemeroptera,Baetidae,Baetis,1.30102999566398,gatherer; herbivore,3,gill; tegument,3,swimmer,4,soft_body,4
+Baetis vardarensis,Arthropoda,Insecta,Ephemeroptera,Baetidae,Baetis,1.30102999566398,gatherer; herbivore,3,gill; tegument,3,swimmer,4,soft_body,4
+Baetis vernus,Arthropoda,Insecta,Ephemeroptera,Baetidae,Baetis,0.301029995663981,gatherer; herbivore,3,gill; tegument,3,swimmer,4,soft_body,4
+Baetopus tenellus,Arthropoda,Insecta,Ephemeroptera,Baetidae,Baetopus,1,predator,1,gill; tegument,3,swimmer,4,soft_body,4
+Barbronia sp.,Annelida,Clitellata,Hirudinida,Salifidae,Barbronia,1.33243845991561,predator,1,tegument,2,crawler,3,soft_body,4
+Barbronia weberi,Annelida,Clitellata,Hirudinida,Salifidae,Barbronia,1.33243845991561,predator,1,tegument,2,crawler,3,soft_body,4
+Bathyomphalus contortus,Mollusca,Gastropoda,Lymnaeida,Planorbidae,Bathyomphalus,1,shredder,2,tegument,2,crawler,3,hard_shelled,1
+Batracobdella paludosa,Annelida,Clitellata,Hirudinida,Glossiphoniidae,Batracobdella,1.25527250510331,predator,1,tegument,2,crawler,3,soft_body,4
+Bdellocephala punctata,Platyhelminthes,Acentrosomata,Tricladida,Dendrocoelidae,Bdellocephala,0.602059991327962,predator,1,tegument,2,crawler,3,soft_body,4
+Beckidia zabolotzkyi,Arthropoda,Insecta,Diptera,Chironomidae,Beckidia,0.698970004336019,gatherer,3,tegument,2,crawler,3,soft_body,4
+Bellamya aeruginosa,Mollusca,Gastropoda,Viviparida,Viviparidae,Bellamya,1.602059991,herbivore,2,gill,3,crawler,3,hard_shelled,1
+Bellamya angularis,Mollusca,Gastropoda,Viviparida,Viviparidae,Bellamya,1.602059991,herbivore,2,gill,3,crawler,3,hard_shelled,1
+Bellamya purificata,Mollusca,Gastropoda,Viviparida,Viviparidae,Bellamya,1.602059991,herbivore,2,gill,3,crawler,3,hard_shelled,1
+Bellamya quadrata,Mollusca,Gastropoda,Viviparida,Viviparidae,Bellamya,1.602059991,herbivore,2,gill,3,crawler,3,hard_shelled,1
+Benthalia dissidens,Arthropoda,Insecta,Diptera,Chironomidae,Benthalia,1.1476763242411,gatherer,3,tegument,2,crawler,3,soft_body,4
+Beraea maurus,Arthropoda,Insecta,Trichoptera,Beraeidae,Beraea,0,shredder,2,tegument,2,crawler,3,partly_sclerotized,3
+Beraea pullata,Arthropoda,Insecta,Trichoptera,Beraeidae,Beraea,0,gatherer,3,tegument,2,crawler,3,partly_sclerotized,3
+Beraeodes minutus,Arthropoda,Insecta,Trichoptera,Beraeidae,Beraeodes,1,herbivore,2,tegument,2,crawler,3,partly_sclerotized,3
+Berosus sp.,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Berosus,1,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Bithynia fuchsiana,Mollusca,Gastropoda,Littorinida,Bithyniidae,Bithynia,1.301029996,herbivore,2,gill,3,crawler,3,hard_shelled,1
+Bithynia leachii,Mollusca,Gastropoda,Littorinida,Bithyniidae,Bithynia,1.301029996,herbivore,2,gill,3,crawler,3,hard_shelled,1
+Bithynia misella,Mollusca,Gastropoda,Littorinida,Bithyniidae,Bithynia,1.301029996,herbivore,2,gill,3,crawler,3,hard_shelled,1
+Bithynia sp.,Mollusca,Gastropoda,Littorinida,Bithyniidae,Bithynia,1.301029996,herbivore,2,gill,3,crawler,3,hard_shelled,1
+Bithynia tentaculata,Mollusca,Gastropoda,Littorinida,Bithyniidae,Bithynia,1.301029996,herbivore,2,gill,3,crawler,3,hard_shelled,1
+Boreochlus thienemani,Arthropoda,Insecta,Diptera,Chironomidae,Boreochlus,1.1476763242411,gatherer,3,tegument,2,crawler,3,soft_body,4
+Bothrioneurum vejdovskyanum,Annelida,Clitellata,Tubificida,Naididae,Bothrioneurum,1.30102999566398,gatherer,3,tegument,2,burrower,2,soft_body,4
+Brachycentrus sp.,Arthropoda,Insecta,Trichoptera,Brachycentridae,Brachycentrus,1.301029996,filterer,4,gill; tegument,3,sessile,1,partly_sclerotized,3
+Brachycentrus subnubilus,Arthropoda,Insecta,Trichoptera,Brachycentridae,Brachycentrus,1.301029996,filterer,4,gill; tegument,3,sessile,1,partly_sclerotized,3
+Brachycercus harrisella,Arthropoda,Insecta,Ephemeroptera,Caenidae,Brachycercus,1,gatherer,3,gill; tegument,3,crawler,3,soft_body,4
+Brachycercus sp.,Arthropoda,Insecta,Ephemeroptera,Caenidae,Brachycercus,1,gatherer,3,gill,3,crawler,3,soft_body,4
+Brachyptera braueri,Arthropoda,Insecta,Plecoptera,Nemouridae,Brachyptera,1.30102999566398,herbivore,2,tegument,2,crawler,3,partly_sclerotized,3
+Brachyptera risi,Arthropoda,Insecta,Plecoptera,Nemouridae,Brachyptera,0.301029995663981,herbivore,2,tegument,2,crawler,3,partly_sclerotized,3
+Brachytron pratense,Arthropoda,Insecta,Odonata,Aeshnidae,Brachytron,0.602059991327962,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Branchiodrilus sp.,Annelida,Clitellata,Tubificida,Naididae,Branchiodrilus,1.30102999566398,gatherer,3,tegument,2,burrower,2,soft_body,4
+Branchiura sowerbyi,Annelida,Clitellata,Tubificida,Naididae,Branchiura,2.176091259,gatherer,3,gill; tegument,3,burrower,2,soft_body,4
+Branchiura sp.,Annelida,Clitellata,Tubificida,Naididae,Branchiura,2.176091259,gatherer,3,gill; tegument,3,burrower,2,soft_body,4
+Brillia flavifrons,Arthropoda,Insecta,Diptera,Chironomidae,Brillia,0.812913356642856,gatherer; shredder,3,tegument,2,crawler,3,soft_body,4
+Brillia modesta,Arthropoda,Insecta,Diptera,Chironomidae,Brillia,0.812913356642856,herbivore,2,tegument,2,crawler,3,soft_body,4
+Brychius elevatus,Arthropoda,Insecta,Coleoptera,Haliplidae,Brychius,1,herbivore,2,aerial; tegument,2,crawler; swimmer,4,heavily_sclerotized,2
+Bryophaenocladius sp.,Arthropoda,Insecta,Diptera,Chironomidae,Bryophaenocladius,0.778151250383644,herbivore,2,tegument,2,crawler,3,soft_body,4
+Caenis horaria,Arthropoda,Insecta,Ephemeroptera,Caenidae,Caenis,0,gatherer,3,gill,3,crawler,3,soft_body,4
+Caenis luctuosa,Arthropoda,Insecta,Ephemeroptera,Caenidae,Caenis,0,gatherer,3,gill,3,crawler,3,soft_body,4
+Caenis macrura,Arthropoda,Insecta,Ephemeroptera,Caenidae,Caenis,1,gatherer,3,gill,3,crawler,3,soft_body,4
+Caenis pseudorivulorum,Arthropoda,Insecta,Ephemeroptera,Caenidae,Caenis,0,gatherer,3,gill,3,crawler,3,soft_body,4
+Caenis pusilla,Arthropoda,Insecta,Ephemeroptera,Caenidae,Caenis,0,gatherer,3,gill,3,crawler,3,soft_body,4
+Caenis rivulorum,Arthropoda,Insecta,Ephemeroptera,Caenidae,Caenis,0,gatherer,3,gill,3,crawler,3,soft_body,4
+Caenis robusta,Arthropoda,Insecta,Ephemeroptera,Caenidae,Caenis,0,gatherer,3,gill,3,crawler,3,soft_body,4
+Caenis sinensis,Arthropoda,Insecta,Ephemeroptera,Caenidae,Caenis,1,gatherer,3,gill,3,crawler,3,soft_body,4
+Caenis sp.,Arthropoda,Insecta,Ephemeroptera,Caenidae,Caenis,1,gatherer,3,gill,3,crawler,3,soft_body,4
+Caenoculis sp.,Arthropoda,Insecta,Ephemeroptera,Caenidae,Caenoculis,1,gatherer,3,gill,3,crawler,3,soft_body,4
+Callicorixa praeusta,Arthropoda,Insecta,Hemiptera,Corixidae,Callicorixa,0,shredder,2,aerial,1,swimmer,4,heavily_sclerotized,2
+Calopteryx atratum,Arthropoda,Insecta,Odonata,Calopterygidae,Calopteryx,1.90308998699194,predator,1,gill,3,crawler; swimmer,4,partly_sclerotized,3
+Calopteryx sp.,Arthropoda,Insecta,Odonata,Calopterygidae,Calopteryx,1.90308998699194,predator,1,gill,3,crawler; swimmer,4,partly_sclerotized,3
+Calopteryx splendens,Arthropoda,Insecta,Odonata,Calopterygidae,Calopteryx,0.903089986991944,predator,1,gill,3,crawler; swimmer,4,partly_sclerotized,3
+Calopteryx virgo,Arthropoda,Insecta,Odonata,Calopterygidae,Calopteryx,0.903089986991944,predator,1,gill,3,crawler; swimmer,4,partly_sclerotized,3
+Cambaroides dauricus,Arthropoda,Malacostraca,Decapoda,Cambaroididae,Cambaroides,1.57886832866603,gatherer,3,gill,3,crawler; swimmer,4,heavily_sclerotized,2
+Cambaroides schrenkii,Arthropoda,Malacostraca,Decapoda,Cambaroididae,Cambaroides,1.43360984332372,gatherer,3,gill,3,crawler; swimmer,4,heavily_sclerotized,2
+Cambarus clakii,Arthropoda,Malacostraca,Decapoda,Cambaridae,Cambarus,2,gatherer; predator,3,gill,3,crawler; swimmer,4,hard_shelled,1
+Capnia bifrons,Arthropoda,Insecta,Plecoptera,Capniidae,Capnia,0,shredder,2,tegument,2,crawler,3,partly_sclerotized,3
+Capnia sp.,Arthropoda,Insecta,Plecoptera,Capniidae,Capnia,1,shredder,2,tegument,2,crawler,3,partly_sclerotized,3
+Cardiocladius capucinus,Arthropoda,Insecta,Diptera,Chironomidae,Cardiocladius,1.20411998265592,herbivore; predator,2,tegument,2,crawler,3,soft_body,4
+Cardiocladius fuscus,Arthropoda,Insecta,Diptera,Chironomidae,Cardiocladius,1.20411998265592,herbivore; predator,2,tegument,2,crawler,3,soft_body,4
+Cardiocladius sp.,Arthropoda,Insecta,Diptera,Chironomidae,Cardiocladius,1.20411998265592,herbivore; predator,2,tegument,2,crawler,3,soft_body,4
+Caridina denticulate sinensis,Arthropoda,Malacostraca,Decapoda,Atyidae,Caridina,1.602059991,filterer; gatherer,4,gill,3,crawler,3,heavily_sclerotized,2
+Caridina sp.,Arthropoda,Malacostraca,Decapoda,Atyidae,Caridina,1.602059991,filterer; gatherer,4,gill,3,crawler,3,heavily_sclerotized,2
+Centroptilum luteolum,Arthropoda,Insecta,Ephemeroptera,Baetidae,Centroptilum,1,herbivore,2,gill; tegument,3,swimmer,4,soft_body,4
+Centroptilum pennulatum,Arthropoda,Insecta,Ephemeroptera,Baetidae,Centroptilum,1,gatherer; herbivore,3,gill,3,swimmer,4,soft_body,4
+Centroptilum sp.,Arthropoda,Insecta,Ephemeroptera,Baetidae,Centroptilum,1,gatherer; herbivore,3,gill,3,swimmer,4,soft_body,4
+Cephalaeschna sp.,Arthropoda,Insecta,Odonata,Aeshnidae,Cephalaeschna,1.61278385671974,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Ceraclea albimacula,Arthropoda,Insecta,Trichoptera,Leptoceridae,Ceraclea,0.301029995663981,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Ceraclea annulicornis,Arthropoda,Insecta,Trichoptera,Leptoceridae,Ceraclea,0.301029995663981,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Ceraclea dissimilis,Arthropoda,Insecta,Trichoptera,Leptoceridae,Ceraclea,0.301029995663981,gatherer; shredder,3,gill; tegument,3,crawler,3,soft_body,4
+Ceraclea fulva,Arthropoda,Insecta,Trichoptera,Leptoceridae,Ceraclea,0.301029995663981,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Ceraclea nigronervosa,Arthropoda,Insecta,Trichoptera,Leptoceridae,Ceraclea,0.301029995663981,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Ceraclea senilis,Arthropoda,Insecta,Trichoptera,Leptoceridae,Ceraclea,0.301029995663981,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Ceraclea sp.,Arthropoda,Insecta,Trichoptera,Leptoceridae,Ceraclea,1.30102999566398,gatherer; shredder,3,gill; tegument,3,crawler,3,soft_body,4
+Ceraclea tsudai,Arthropoda,Insecta,Trichoptera,Leptoceridae,Ceraclea,1.30102999566398,gatherer; shredder,3,gill; tegument,3,crawler,3,soft_body,4
+Ceratopsyche sp.,Arthropoda,Insecta,Trichoptera,Hydropsychidae,Ceratopsyche,1.301029996,filterer,4,gill,3,crawler,3,soft_body,4
+Chaetocladius sp.,Arthropoda,Insecta,Diptera,Chironomidae,Chaetocladius,1,gatherer,3,tegument,2,crawler,3,soft_body,4
+Chaetogaster sp.,Annelida,Clitellata,Tubificida,Naididae,Chaetogaster,1.602059991,predator,1,tegument,2,crawler,3,soft_body,4
+Chaetopteryx major,Arthropoda,Insecta,Trichoptera,Limnephilidae,Chaetopteryx,1.602059991,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Chankagenesia sp.,Arthropoda,Insecta,Ephemeroptera,Palingeniidae,Chankagenesia,1.47712125471966,filterer,4,gill,3,burrower,2,soft_body,4
+Chaoborus flavicans,Arthropoda,Insecta,Diptera,Chaoboridae,Chaoborus,0.301029996,predator,1,tegument,2,swimmer,4,soft_body,4
+Chaoborus sp.,Arthropoda,Insecta,Diptera,Chaoboridae,Chaoborus,1.301029996,predator,1,tegument,2,swimmer,4,soft_body,4
+Chelicorophium curvispinum,Arthropoda,Malacostraca,Amphipoda,Corophiidae,Chelicorophium,0.903089986991944,filterer,4,gill,3,burrower,2,partly_sclerotized,3
+Chelicorophium robustum,Arthropoda,Malacostraca,Amphipoda,Corophiidae,Chelicorophium,0.903089986991944,filterer,4,gill,3,burrower,2,partly_sclerotized,3
+Chelicorophium sowinskyi,Arthropoda,Malacostraca,Amphipoda,Corophiidae,Chelicorophium,0.903089986991944,filterer,4,gill,3,burrower,2,partly_sclerotized,3
+Chelicorophium sp.,Arthropoda,Malacostraca,Amphipoda,Corophiidae,Chelicorophium,0.903089986991944,filterer,4,gill,3,burrower,2,partly_sclerotized,3
+Chelifera sp.,Arthropoda,Insecta,Diptera,Empididae,Chelifera,1.20411998265592,predator,1,tegument,2,burrower,2,soft_body,4
+Chernovskiia orbicus,Arthropoda,Insecta,Diptera,Chironomidae,Chernovskiia,0.903089986991944,gatherer,3,tegument,2,crawler,3,soft_body,4
+Cheumatopsyche brevilineata,Arthropoda,Insecta,Trichoptera,Hydropsychidae,Cheumatopsyche,1.301029996,filterer,4,gill; tegument,3,crawler,3,soft_body,4
+Cheumatopsyche lepida,Arthropoda,Insecta,Trichoptera,Hydropsychidae,Cheumatopsyche,1.301029996,filterer,4,gill; tegument,3,crawler,3,soft_body,4
+Cheumatopsyche sp.,Arthropoda,Insecta,Trichoptera,Hydropsychidae,Cheumatopsyche,1.301029996,filterer,4,gill; tegument,3,crawler,3,soft_body,4
+Chimarra marginata,Arthropoda,Insecta,Trichoptera,Philopotamidae,Chimarra,1.301029996,filterer,4,tegument,2,crawler,3,soft_body,4
+Chironomus acerbiphilus,Arthropoda,Insecta,Diptera,Chironomidae,Chironomus,1.602059991,gatherer,3,tegument,2,sessile,1,soft_body,4
+Chironomus acutiventris,Arthropoda,Insecta,Diptera,Chironomidae,Chironomus,1.602059991,gatherer,3,tegument,2,sessile,1,soft_body,4
+Chironomus anthracinus,Arthropoda,Insecta,Diptera,Chironomidae,Chironomus,1.602059991,gatherer,3,tegument,2,sessile,1,soft_body,4
+Chironomus bernensis,Arthropoda,Insecta,Diptera,Chironomidae,Chironomus,1.602059991,gatherer,3,tegument,2,sessile,1,soft_body,4
+Chironomus dorsalis,Arthropoda,Insecta,Diptera,Chironomidae,Chironomus,1.602059991,gatherer,3,tegument,2,sessile,1,soft_body,4
+Chironomus flaviplumus,Arthropoda,Insecta,Diptera,Chironomidae,Chironomus,1.602059991,gatherer,3,tegument,2,sessile,1,soft_body,4
+Chironomus nudiventris,Arthropoda,Insecta,Diptera,Chironomidae,Chironomus,1.602059991,gatherer,3,tegument,2,sessile,1,soft_body,4
+Chironomus obtusidens,Arthropoda,Insecta,Diptera,Chironomidae,Chironomus,1.602059991,gatherer,3,tegument,2,sessile,1,soft_body,4
+Chironomus pallidivittatus,Arthropoda,Insecta,Diptera,Chironomidae,Chironomus,1.602059991,gatherer,3,tegument,2,sessile,1,soft_body,4
+Chironomus plumosus,Arthropoda,Insecta,Diptera,Chironomidae,Chironomus,1.602059991,gatherer,3,tegument,2,sessile,1,soft_body,4
+Chironomus riparius,Arthropoda,Insecta,Diptera,Chironomidae,Chironomus,1.602059991,gatherer,3,tegument,2,sessile,1,soft_body,4
+Chironomus salinarius,Arthropoda,Insecta,Diptera,Chironomidae,Chironomus,1.602059991,gatherer,3,tegument,2,sessile,1,soft_body,4
+Chironomus sinicus,Arthropoda,Insecta,Diptera,Chironomidae,Chironomus,1.602059991,gatherer,3,tegument,2,sessile,1,soft_body,4
+Chironomus sp.,Arthropoda,Insecta,Diptera,Chironomidae,Chironomus,1.602059991,gatherer,3,tegument,2,sessile,1,soft_body,4
+Chlaenius sp.,Arthropoda,Insecta,Coleoptera,Carabidae,Chlaenius,1.25527250510331,predator,1,aerial,1,crawler,3,heavily_sclerotized,2
+Chloroperla torrentium,Arthropoda,Insecta,Plecoptera,Perlidae,Chloroperla,0,shredder,2,tegument,2,crawler,3,partly_sclerotized,3
+Chloroperla tripunctata,Arthropoda,Insecta,Plecoptera,Perlidae,Chloroperla,0,predator,1,tegument,2,burrower; crawler,3,partly_sclerotized,3
+Choroterpes sp.,Arthropoda,Insecta,Ephemeroptera,Leptophlebiidae,Choroterpes,1,gatherer; shredder,3,gill,3,crawler,3,soft_body,4
+Choroterpes trifurcate,Arthropoda,Insecta,Ephemeroptera,Leptophlebiidae,Choroterpes,1,gatherer; shredder,3,gill,3,crawler,3,soft_body,4
+Choroterpides sp.,Arthropoda,Insecta,Ephemeroptera,Leptophlebiidae,Choroterpides,1.30102999566398,gatherer,3,gill,3,crawler,3,soft_body,4
+Chrysops sp.,Arthropoda,Insecta,Diptera,Tabanidae,Chrysops,1.17609125905568,gatherer,3,aerial,1,burrower,2,soft_body,4
+Cincticostella levanidovae,Arthropoda,Insecta,Ephemeroptera,Ephemerellidae,Cincticostella,1,gatherer; herbivore,3,gill,3,crawler,3,soft_body,4
+Cincticostella nigra,Arthropoda,Insecta,Ephemeroptera,Ephemerellidae,Cincticostella,1,gatherer; herbivore,3,gill,3,crawler,3,soft_body,4
+Cincticostella tshernovae,Arthropoda,Insecta,Ephemeroptera,Ephemerellidae,Cincticostella,1,gatherer; herbivore,3,gill,3,crawler,3,soft_body,4
+Cinygma sp.,Arthropoda,Insecta,Ephemeroptera,Heptageniidae,Cinygma,1.602059991,herbivore,2,gill,3,crawler; swimmer,4,soft_body,4
+Cinygmina sp.,Arthropoda,Insecta,Ephemeroptera,Heptageniidae,Cinygmina,1.30102999566398,herbivore,2,gill,3,crawler,3,soft_body,4
+Cinygmula sp.,Arthropoda,Insecta,Ephemeroptera,Heptageniidae,Cinygmula,1.30102999566398,herbivore,2,gill,3,crawler,3,soft_body,4
+Cipangopaludina cathayensis,Mollusca,Gastropoda,Viviparida,Viviparidae,Cipangopaludina,1.602059991,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Cipangopaludina chinensis,Mollusca,Gastropoda,Viviparida,Viviparidae,Cipangopaludina,1.602059991,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Cipangopaludina ussuriensis,Mollusca,Gastropoda,Viviparida,Viviparidae,Cipangopaludina,1.602059991,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Cipangopaludina ventricosa,Mollusca,Gastropoda,Viviparida,Viviparidae,Cipangopaludina,1.602059991,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Cladopelma edwardsi,Arthropoda,Insecta,Diptera,Chironomidae,Cladopelma,0.812913356642856,gatherer,3,tegument,2,crawler,3,soft_body,4
+Cladopelma sp.,Arthropoda,Insecta,Diptera,Chironomidae,Cladopelma,0.812913356642856,gatherer,3,tegument,2,crawler,3,soft_body,4
+Cladopelma viridulus,Arthropoda,Insecta,Diptera,Chironomidae,Cladopelma,0.812913356642856,gatherer,3,tegument,2,crawler,3,soft_body,4
+Cladotanytarsus atridorsum,Arthropoda,Insecta,Diptera,Chironomidae,Cladotanytarsus,0.778151250383644,filterer; gatherer,4,tegument,2,burrower; sessile,2,soft_body,4
+Cladotanytarsus conversus,Arthropoda,Insecta,Diptera,Chironomidae,Cladotanytarsus,0.778151250383644,filterer; gatherer,4,tegument,2,burrower; sessile,2,soft_body,4
+Cladotanytarsus mancus,Arthropoda,Insecta,Diptera,Chironomidae,Cladotanytarsus,0.778151250383644,filterer,4,tegument,2,burrower; sessile,2,soft_body,4
+Cladotanytarsus sp.,Arthropoda,Insecta,Diptera,Chironomidae,Cladotanytarsus,0.778151250383644,filterer; gatherer,4,tegument,2,burrower; sessile,2,soft_body,4
+Cladotanytarsus vanderwulpi,Arthropoda,Insecta,Diptera,Chironomidae,Cladotanytarsus,0.778151250383644,gatherer,3,tegument,2,burrower; sessile,2,soft_body,4
+Clinotanypus nervosus,Arthropoda,Insecta,Diptera,Chironomidae,Clinotanypus,0.84509804,predator,1,tegument,2,crawler,3,soft_body,4
+Clinotanypus sp.,Arthropoda,Insecta,Diptera,Chironomidae,Clinotanypus,0.84509804,predator,1,tegument,2,crawler,3,soft_body,4
+Cloeon dipterum,Arthropoda,Insecta,Ephemeroptera,Baetidae,Cloeon,0,gatherer; herbivore,3,gill; tegument,3,swimmer,4,soft_body,4
+Cloeon simile,Arthropoda,Insecta,Ephemeroptera,Baetidae,Cloeon,0,gatherer; herbivore,3,gill; tegument,3,swimmer,4,soft_body,4
+Cloeon sp.,Arthropoda,Insecta,Ephemeroptera,Baetidae,Cloeon,1,gatherer; herbivore,3,gill,3,swimmer,4,soft_body,4
+Clogmia albipunctata,Arthropoda,Insecta,Diptera,Psychodidae,Clogmia,1.041392685,gatherer,3,aerial,1,burrower,2,partly_sclerotized,3
+Coelotanypus sp.,Arthropoda,Insecta,Diptera,Chironomidae,Coelotanypus,1,gatherer,3,tegument,2,crawler,3,soft_body,4
+Coenagrion puella,Arthropoda,Insecta,Odonata,Coenagrionidae,Coenagrion,0.301029996,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Colymbetes fuscus,Arthropoda,Insecta,Coleoptera,Dytiscidae,Colymbetes,1.30102999566398,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Conchapelopia pallidula,Arthropoda,Insecta,Diptera,Chironomidae,Conchapelopia,1,predator,1,tegument,2,crawler,3,soft_body,4
+Conchapelopia sp.,Arthropoda,Insecta,Diptera,Chironomidae,Conchapelopia,1,predator,1,tegument,2,crawler,3,soft_body,4
+Contacyphon sp.,Arthropoda,Insecta,Coleoptera,Scirtidae,Contacyphon,1,herbivore,2,gill,3,crawler,3,heavily_sclerotized,2
+Copera tokyoensis,Arthropoda,Insecta,Odonata,Platycnemididae,Copera,1.43136376415899,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Corbicula fluminea,Mollusca,Bivalvia,Venerida,Cyrenidae,Corbicula,1.903089987,filterer,4,gill,3,burrower,2,hard_shelled,1
+Corbicula largillierti,Mollusca,Bivalvia,Venerida,Cyrenidae,Corbicula,1.903089987,filterer,4,gill,3,burrower,2,hard_shelled,1
+Corbicula nitens,Mollusca,Bivalvia,Venerida,Cyrenidae,Corbicula,1.903089987,filterer,4,gill,3,burrower,2,hard_shelled,1
+Corbicula sp.,Mollusca,Bivalvia,Venerida,Cyrenidae,Corbicula,1.903089987,filterer,4,gill,3,burrower,2,hard_shelled,1
+Cordulegaster boltonii,Arthropoda,Insecta,Odonata,Cordulegastridae,Cordulegaster,0.903089986991944,predator,1,gill,3,burrower,2,soft_body,4
+Cordulegaster sp.,Arthropoda,Insecta,Odonata,Cordulegastridae,Cordulegaster,1.90308998699194,predator,1,gill,3,burrower,2,soft_body,4
+Corixa affinis,Arthropoda,Insecta,Hemiptera,Corixidae,Corixa,0.301029996,gatherer,3,aerial,1,swimmer,4,heavily_sclerotized,2
+Corixa dentipes,Arthropoda,Insecta,Hemiptera,Corixidae,Corixa,0.301029996,gatherer,3,aerial,1,swimmer,4,heavily_sclerotized,2
+Corixa panzeri,Arthropoda,Insecta,Hemiptera,Corixidae,Corixa,0.301029996,gatherer,3,aerial,1,swimmer,4,heavily_sclerotized,2
+Corixa punctata,Arthropoda,Insecta,Hemiptera,Corixidae,Corixa,0.301029996,gatherer,3,aerial,1,swimmer,4,heavily_sclerotized,2
+Corophium sp.,Arthropoda,Malacostraca,Amphipoda,Corophiidae,Corophium,1,filterer,4,gill,3,crawler,3,partly_sclerotized,3
+Corynoneura sp.,Arthropoda,Insecta,Diptera,Chironomidae,Corynoneura,0.954242509439325,herbivore,2,tegument,2,crawler,3,soft_body,4
+Crangonyx pseudogracilis,Arthropoda,Malacostraca,Amphipoda,Crangonyctidae,Crangonyx,0,shredder,2,gill,3,crawler,3,heavily_sclerotized,2
+Crenobia alpina,Platyhelminthes,Acentrosomata,Tricladida,Planariidae,Crenobia,0.602059991327962,predator,1,tegument,2,crawler,3,soft_body,4
+Cricotopus albiforceps,Arthropoda,Insecta,Diptera,Chironomidae,Cricotopus,1.602059991,gatherer; shredder,3,tegument,2,burrower; sessile,2,soft_body,4
+Cricotopus annulator,Arthropoda,Insecta,Diptera,Chironomidae,Cricotopus,1.602059991,gatherer; shredder,3,tegument,2,burrower; sessile,2,soft_body,4
+Cricotopus bicinctus,Arthropoda,Insecta,Diptera,Chironomidae,Cricotopus,1.602059991,gatherer; shredder,3,tegument,2,burrower; sessile,2,soft_body,4
+Cricotopus dobrogicus,Arthropoda,Insecta,Diptera,Chironomidae,Cricotopus,1.602059991,gatherer; shredder,3,tegument,2,burrower; sessile,2,soft_body,4
+Cricotopus sp.,Arthropoda,Insecta,Diptera,Chironomidae,Cricotopus,1.602059991,gatherer; shredder,3,tegument,2,burrower; sessile,2,soft_body,4
+Cricotopus triannulatus,Arthropoda,Insecta,Diptera,Chironomidae,Cricotopus,1.602059991,gatherer; shredder,3,tegument,2,burrower; sessile,2,soft_body,4
+Cricotopus trifascia,Arthropoda,Insecta,Diptera,Chironomidae,Cricotopus,1.602059991,gatherer; shredder,3,tegument,2,burrower; sessile,2,soft_body,4
+Cricotopus trifasciatus,Arthropoda,Insecta,Diptera,Chironomidae,Cricotopus,1.602059991,gatherer; shredder,3,tegument,2,burrower; sessile,2,soft_body,4
+Criodrilus lacuum,Annelida,Clitellata,Opisthopora,Criodrilidae,Criodrilus,2.08635983067475,gatherer,3,tegument,2,burrower,2,soft_body,4
+Cristaria plicata,Mollusca,Bivalvia,Unionida,Unionidae,Cristaria,2.38916608436453,filterer,4,gill,3,burrower; sessile,2,hard_shelled,1
+Crunoecia irrorata,Arthropoda,Insecta,Trichoptera,Lepidostomatidae,Crunoecia,0,shredder,2,gill; tegument,3,crawler,3,partly_sclerotized,3
+Cryptochironomus defectus,Arthropoda,Insecta,Diptera,Chironomidae,Cryptochironomus,1.23044892137827,predator,1,tegument,2,burrower; crawler,3,soft_body,4
+Cryptochironomus obreptans,Arthropoda,Insecta,Diptera,Chironomidae,Cryptochironomus,1.23044892137827,predator,1,tegument,2,burrower; crawler,3,soft_body,4
+Cryptochironomus rostratus,Arthropoda,Insecta,Diptera,Chironomidae,Cryptochironomus,1.23044892137827,predator,1,tegument,2,burrower; crawler,3,soft_body,4
+Cryptochironomus sp.,Arthropoda,Insecta,Diptera,Chironomidae,Cryptochironomus,1.23044892137827,predator,1,tegument,2,burrower; crawler,3,soft_body,4
+Cryptotendipes nigronitens,Arthropoda,Insecta,Diptera,Chironomidae,Cryptotendipes,0.778151250383644,gatherer,3,tegument,2,crawler,3,soft_body,4
+Cryptotendipes sp.,Arthropoda,Insecta,Diptera,Chironomidae,Cryptotendipes,0.778151250383644,gatherer,3,tegument,2,crawler,3,soft_body,4
+Culicoides sp.,Arthropoda,Insecta,Diptera,Ceratopogonidae,Culicoides,1,gatherer; predator,3,gill,3,crawler; swimmer,4,soft_body,4
+Cuneopsis sp.,Mollusca,Bivalvia,Unionida,Unionidae,Cuneopsis,2.09691001300806,filterer,4,gill,3,burrower; sessile,2,hard_shelled,1
+Cyathura sp.,Arthropoda,Malacostraca,Isopoda,Anthuridae,Cyathura,1.43136376415899,gatherer,3,gill,3,burrower,2,partly_sclerotized,3
+Cybister japonicus,Arthropoda,Insecta,Coleoptera,Dytiscidae,Cybister,1.903089987,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Cybister sp.,Arthropoda,Insecta,Coleoptera,Dytiscidae,Cybister,1.903089987,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Cymatia coleoptrata,Arthropoda,Insecta,Hemiptera,Corixidae,Cymatia,0,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Cyrnus flavidus,Arthropoda,Insecta,Trichoptera,Polycentropodidae,Cyrnus,0.301029996,predator,1,tegument,2,sessile,1,partly_sclerotized,3
+Cyrnus trimaculatus,Arthropoda,Insecta,Trichoptera,Polycentropodidae,Cyrnus,0.301029996,predator,1,tegument,2,sessile,1,partly_sclerotized,3
+Davidius sp.,Arthropoda,Insecta,Odonata,Gomphidae,Davidius,1.47712125471966,predator,1,gill,3,burrower,2,partly_sclerotized,3
+Deielia phaon,Arthropoda,Insecta,Odonata,Libellulidae,Deielia,1.38021124171161,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Demicryptochironomus sp.,Arthropoda,Insecta,Diptera,Chironomidae,Demicryptochironomus,1,gatherer,3,tegument,2,crawler,3,soft_body,4
+Demicryptochironomus vulneratus,Arthropoda,Insecta,Diptera,Chironomidae,Demicryptochironomus,1,gatherer; predator,3,tegument,2,burrower,2,soft_body,4
+Dendrocoelum lacteum,Platyhelminthes,Acentrosomata,Tricladida,Dendrocoelidae,Dendrocoelum,0.602059991327962,predator,1,tegument,2,crawler,3,soft_body,4
+Dendrocoelum romanodanubiale,Platyhelminthes,Acentrosomata,Tricladida,Dendrocoelidae,Dendrocoelum,1.60205999132796,predator,1,tegument,2,crawler; swimmer,4,soft_body,4
+Dero digitata,Annelida,Clitellata,Tubificida,Naididae,Dero,0.602059991,gatherer,3,gill; tegument,3,burrower; swimmer,4,soft_body,4
+Dero sp.,Annelida,Clitellata,Tubificida,Naididae,Dero,0.602059991,gatherer,3,gill; tegument,3,sessile,1,soft_body,4
+Deronectes latus,Arthropoda,Insecta,Coleoptera,Dytiscidae,Deronectes,0,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Diamesa insignipes,Arthropoda,Insecta,Diptera,Chironomidae,Diamesa,1.204119983,herbivore,2,tegument,2,crawler,3,soft_body,4
+Diamesa sp.,Arthropoda,Insecta,Diptera,Chironomidae,Diamesa,1.204119983,herbivore,2,tegument,2,crawler,3,soft_body,4
+Diamesa zernyi,Arthropoda,Insecta,Diptera,Chironomidae,Diamesa,1.204119983,herbivore,2,tegument,2,crawler,3,soft_body,4
+Dicosmoecus sp.,Arthropoda,Insecta,Trichoptera,Limnephilidae,Dicosmoecus,1.30102999566398,herbivore; shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Dicranota sp.,Arthropoda,Insecta,Diptera,Tipulidae,Dicranota,1.20411998265592,predator,1,aerial,1,crawler,3,partly_sclerotized,3
+Dicrotendipes lobifer,Arthropoda,Insecta,Diptera,Chironomidae,Dicrotendipes,1.602059991,herbivore,2,tegument,2,crawler,3,soft_body,4
+Dicrotendipes nervosus,Arthropoda,Insecta,Diptera,Chironomidae,Dicrotendipes,1.602059991,herbivore,2,tegument,2,crawler,3,soft_body,4
+Dicrotendipes sp.,Arthropoda,Insecta,Diptera,Chironomidae,Dicrotendipes,1.602059991,herbivore,2,tegument,2,crawler,3,soft_body,4
+Dikerogammarus bispinosus,Arthropoda,Malacostraca,Amphipoda,Gammaridae,Dikerogammarus,1.37071658853955,shredder,2,gill,3,swimmer,4,heavily_sclerotized,2
+Dikerogammarus haemobaphes,Arthropoda,Malacostraca,Amphipoda,Gammaridae,Dikerogammarus,1.32221929473392,predator,1,gill,3,swimmer,4,heavily_sclerotized,2
+Dikerogammarus sp.,Arthropoda,Malacostraca,Amphipoda,Gammaridae,Dikerogammarus,1.37071658853955,shredder,2,gill,3,swimmer,4,heavily_sclerotized,2
+Dikerogammarus villosus,Arthropoda,Malacostraca,Amphipoda,Gammaridae,Dikerogammarus,1.37071658853955,predator,1,gill,3,swimmer,4,heavily_sclerotized,2
+Dina lineata,Annelida,Clitellata,Hirudinida,Erpobdellidae,Dina,0.602059991327962,predator,1,tegument,2,crawler; sessile,3,soft_body,4
+Dinocras cephalotes,Arthropoda,Insecta,Plecoptera,Perlidae,Dinocras,0.602059991327962,predator,1,gill; tegument,3,crawler,3,partly_sclerotized,3
+Diplectrona felix,Arthropoda,Insecta,Trichoptera,Hydropsychidae,Diplectrona,1,filterer,4,gill; tegument,3,sessile,1,soft_body,4
+Diplectrona sp.,Arthropoda,Insecta,Trichoptera,Hydropsychidae,Diplectrona,1.30102999566398,filterer; gatherer,4,gill; tegument,3,crawler,3,soft_body,4
+Diplocladius cultriger,Arthropoda,Insecta,Diptera,Chironomidae,Diplocladius,0.698970004336019,gatherer,3,tegument,2,crawler,3,soft_body,4
+Diplocladius sp.,Arthropoda,Insecta,Diptera,Chironomidae,Diplocladius,0.698970004336019,gatherer,3,tegument,2,crawler,3,soft_body,4
+Diplonychus rusticus,Arthropoda,Insecta,Hemiptera,Belostomatidae,Diplonychus,1.602059991,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Diura bicaudata,Arthropoda,Insecta,Plecoptera,Perlodidae,Diura,0.602059991327962,predator,1,tegument,2,crawler,3,partly_sclerotized,3
+Diura sp.,Arthropoda,Insecta,Plecoptera,Perlodidae,Diura,1.60205999132796,predator,1,tegument,2,crawler,3,partly_sclerotized,3
+Dixa dilatata,Arthropoda,Insecta,Diptera,Dixidae,Dixa,0,filterer; gatherer,4,aerial,1,crawler; swimmer,4,soft_body,4
+Dixa maculata,Arthropoda,Insecta,Diptera,Dixidae,Dixa,0,filterer; gatherer,4,aerial,1,crawler; swimmer,4,soft_body,4
+Dixa nebulosa,Arthropoda,Insecta,Diptera,Dixidae,Dixa,0,filterer; gatherer,4,aerial,1,crawler; swimmer,4,soft_body,4
+Dixa puberula,Arthropoda,Insecta,Diptera,Dixidae,Dixa,0,filterer,4,aerial,1,crawler,3,soft_body,4
+Dixa sp.,Arthropoda,Insecta,Diptera,Dixidae,Dixa,1,filterer,4,aerial,1,crawler,3,soft_body,4
+Dixella filicornis,Arthropoda,Insecta,Diptera,Dixidae,Dixella,0,filterer,4,aerial,1,swimmer,4,soft_body,4
+Dolophilodes sp.,Arthropoda,Insecta,Trichoptera,Philopotamidae,Dolophilodes,1,filterer,4,tegument,2,sessile,1,partly_sclerotized,3
+Dreissena bugensis,Mollusca,Bivalvia,Myida,Dreissenidae,Dreissena,1.903089987,filterer,4,gill,3,crawler,3,hard_shelled,1
+Dreissena polymorpha,Mollusca,Bivalvia,Myida,Dreissenidae,Dreissena,1.903089987,filterer,4,gill,3,sessile,1,hard_shelled,1
+Dreissena rostriformis,Mollusca,Bivalvia,Myida,Dreissenidae,Dreissena,1.903089987,filterer,4,gill,3,crawler,3,hard_shelled,1
+Dreissena sp.,Mollusca,Bivalvia,Myida,Dreissenidae,Dreissena,1.903089987,filterer,4,gill,3,crawler,3,hard_shelled,1
+Drunella aculea,Arthropoda,Insecta,Ephemeroptera,Ephemerellidae,Drunella,1,herbivore; predator,2,gill,3,crawler,3,soft_body,4
+Drunella cryptomeria,Arthropoda,Insecta,Ephemeroptera,Ephemerellidae,Drunella,1,herbivore; predator,2,gill,3,crawler,3,soft_body,4
+Drunella sp.,Arthropoda,Insecta,Ephemeroptera,Ephemerellidae,Drunella,1,herbivore; predator,2,gill,3,crawler,3,soft_body,4
+Drunella trispina,Arthropoda,Insecta,Ephemeroptera,Ephemerellidae,Drunella,1,herbivore; predator,2,gill,3,crawler,3,soft_body,4
+Drusus annulatus,Arthropoda,Insecta,Trichoptera,Limnephilidae,Drusus,0.301029995663981,herbivore,2,gill; tegument,3,crawler,3,soft_body,4
+Dryops sp.,Arthropoda,Insecta,Coleoptera,Dryopidae,Dryops,1,shredder,2,aerial,1,burrower; crawler,3,heavily_sclerotized,2
+Dugesia japonica,Platyhelminthes,Acentrosomata,Tricladida,Dugesiidae,Dugesia,1.602059991,predator,1,tegument,2,crawler,3,soft_body,4
+Dugesia polychroa,Platyhelminthes,Acentrosomata,Tricladida,Dugesiidae,Dugesia,1.602059991,predator,1,tegument,2,crawler,3,soft_body,4
+Dugesia tigrina,Platyhelminthes,Acentrosomata,Tricladida,Dugesiidae,Dugesia,1.602059991,predator,1,tegument,2,crawler,3,soft_body,4
+Dytiscus semisulcatus,Arthropoda,Insecta,Coleoptera,Dytiscidae,Dytiscus,1.903089987,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Dytiscus sp.,Arthropoda,Insecta,Coleoptera,Dytiscidae,Dytiscus,1.903089987,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Ecclisomyia sp.,Arthropoda,Insecta,Trichoptera,Limnephilidae,Ecclisomyia,1.30102999566398,gatherer; herbivore,3,gill,3,crawler,3,soft_body,4
+Ecclisopteryx guttulata,Arthropoda,Insecta,Trichoptera,Limnephilidae,Ecclisopteryx,0.301029995663981,herbivore,2,gill; tegument,3,crawler,3,soft_body,4
+Ecdyonurus dracon,Arthropoda,Insecta,Ephemeroptera,Heptageniidae,Ecdyonurus,1.30102999566398,gatherer; herbivore,3,gill,3,crawler,3,soft_body,4
+Ecdyonurus insignis,Arthropoda,Insecta,Ephemeroptera,Heptageniidae,Ecdyonurus,1.30102999566398,gatherer; herbivore,3,gill; tegument,3,swimmer,4,soft_body,4
+Ecdyonurus sp.,Arthropoda,Insecta,Ephemeroptera,Heptageniidae,Ecdyonurus,1.30102999566398,gatherer; herbivore,3,gill,3,crawler,3,soft_body,4
+Ecdyonurus tobiironis,Arthropoda,Insecta,Ephemeroptera,Heptageniidae,Ecdyonurus,1.30102999566398,gatherer; herbivore,3,gill,3,crawler,3,soft_body,4
+Ecdyonurus yoshidae,Arthropoda,Insecta,Ephemeroptera,Heptageniidae,Ecdyonurus,1.30102999566398,gatherer; herbivore,3,gill,3,crawler,3,soft_body,4
+Echinocnemus sp.,Arthropoda,Insecta,Coleoptera,Erirhinidae,Echinocnemus,0.812913356642856,herbivore,2,aerial,1,crawler,3,heavily_sclerotized,2
+Echinogammarus ischnus,Arthropoda,Malacostraca,Amphipoda,Gammaridae,Echinogammarus,1.602059991,filterer,4,gill,3,crawler,3,heavily_sclerotized,2
+Echinogammarus sp.,Arthropoda,Malacostraca,Amphipoda,Gammaridae,Echinogammarus,1.602059991,shredder,2,gill,3,crawler,3,heavily_sclerotized,2
+Echinogammarus trichiatus,Arthropoda,Malacostraca,Amphipoda,Gammaridae,Echinogammarus,1.602059991,predator,1,gill,3,crawler,3,heavily_sclerotized,2
+Echinogammarus warpachowskyi,Arthropoda,Malacostraca,Amphipoda,Gammaridae,Echinogammarus,1.602059991,shredder,2,gill,3,crawler,3,heavily_sclerotized,2
+Eclipidrilus lacustris,Annelida,Clitellata,Lumbriculida,Lumbriculidae,Eclipidrilus,1.36172783601759,gatherer,3,tegument,2,burrower,2,soft_body,4
+Ecnomus tenellus,Arthropoda,Insecta,Trichoptera,Ecnomidae,Ecnomus,0,predator,1,tegument,2,crawler; sessile,3,partly_sclerotized,3
+Einfeldia sp.,Arthropoda,Insecta,Diptera,Chironomidae,Einfeldia,1.230448921,gatherer,3,tegument,2,crawler,3,soft_body,4
+Eiseniella tetraedra,Annelida,Clitellata,Opisthopora,Lumbricidae,Eiseniella,1.90308998699194,gatherer,3,tegument,2,burrower,2,soft_body,4
+Electrogena affinis,Arthropoda,Insecta,Ephemeroptera,Heptageniidae,Electrogena,1.30102999566398,herbivore,2,gill; tegument,3,crawler,3,soft_body,4
+Electrogena sp.,Arthropoda,Insecta,Ephemeroptera,Heptageniidae,Electrogena,1.30102999566398,gatherer; herbivore,3,gill,3,crawler,3,soft_body,4
+Elmis aenea,Arthropoda,Insecta,Coleoptera,Elmidae,Elmis,0.342422680822206,herbivore,2,gill; aerial,3,crawler,3,heavily_sclerotized,2
+Elmis maugetii,Arthropoda,Insecta,Coleoptera,Elmidae,Elmis,1,herbivore,2,gill; aerial,3,crawler,3,heavily_sclerotized,2
+Elmis sp.,Arthropoda,Insecta,Coleoptera,Elmidae,Elmis,1,herbivore,2,gill; aerial,3,crawler,3,heavily_sclerotized,2
+Elmomorphus brevicornis,Arthropoda,Insecta,Coleoptera,Dryopidae,Elmomorphus,0.59659709562646,herbivore,2,aerial,1,crawler,3,heavily_sclerotized,2
+Elodes sp.,Arthropoda,Insecta,Coleoptera,Scirtidae,Elodes,1,gatherer,3,gill,3,crawler,3,heavily_sclerotized,2
+Elophila interruptalis,Arthropoda,Insecta,Lepidoptera,Crambidae,Elophila,1.60205999132796,shredder,2,aerial,1,crawler,3,soft_body,4
+Elophila sp.,Arthropoda,Insecta,Lepidoptera,Crambidae,Elophila,1.60205999132796,shredder,2,aerial,1,crawler,3,soft_body,4
+Embolocephalus velutinus,Annelida,Clitellata,Tubificida,Naididae,Embolocephalus,1.30102999566398,gatherer,3,tegument,2,burrower,2,soft_body,4
+Enallagma cyathigerum,Arthropoda,Insecta,Odonata,Coenagrionidae,Enallagma,1.301029996,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Enallagma deserti,Arthropoda,Insecta,Odonata,Coenagrionidae,Enallagma,1.301029996,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Endochironomus albipennis,Arthropoda,Insecta,Diptera,Chironomidae,Endochironomus,1.07918124604762,filterer,4,tegument,2,sessile,1,soft_body,4
+Endochironomus sp.,Arthropoda,Insecta,Diptera,Chironomidae,Endochironomus,1.07918124604762,filterer,4,tegument,2,crawler,3,soft_body,4
+Endochironomus tendens,Arthropoda,Insecta,Diptera,Chironomidae,Endochironomus,1.07918124604762,filterer,4,tegument,2,sessile,1,soft_body,4
+Enochrus sp.,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Enochrus,1,predator,1,aerial,1,burrower,2,heavily_sclerotized,2
+Enochrus testaceus,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Enochrus,0,predator,1,aerial,1,burrower,2,heavily_sclerotized,2
+Eoophyla sp.,Arthropoda,Insecta,Lepidoptera,Crambidae,Eoophyla,1.44715803134222,shredder,2,aerial,1,crawler,3,soft_body,4
+Epeorus curvatulus,Arthropoda,Insecta,Ephemeroptera,Heptageniidae,Epeorus,1.301029996,herbivore,2,gill,3,crawler,3,soft_body,4
+Epeorus latifolium,Arthropoda,Insecta,Ephemeroptera,Heptageniidae,Epeorus,1.301029996,herbivore,2,gill,3,crawler,3,soft_body,4
+Epeorus sp.,Arthropoda,Insecta,Ephemeroptera,Heptageniidae,Epeorus,1.301029996,herbivore,2,gill,3,crawler,3,soft_body,4
+Ephacerella longicaudanta,Arthropoda,Insecta,Ephemeroptera,Ephemerellidae,Ephacerella,1,gatherer; herbivore,3,gill,3,crawler,3,soft_body,4
+Ephemera danica,Arthropoda,Insecta,Ephemeroptera,Ephemeridae,Ephemera,1.602059991,filterer,4,gill,3,burrower,2,soft_body,4
+Ephemera formosana,Arthropoda,Insecta,Ephemeroptera,Ephemeridae,Ephemera,1.602059991,filterer,4,gill,3,burrower,2,soft_body,4
+Ephemera lineata,Arthropoda,Insecta,Ephemeroptera,Ephemeridae,Ephemera,1.602059991,filterer,4,gill,3,burrower,2,soft_body,4
+Ephemera orientalis,Arthropoda,Insecta,Ephemeroptera,Ephemeridae,Ephemera,1.602059991,filterer,4,gill,3,burrower,2,soft_body,4
+Ephemera pulcherrima,Arthropoda,Insecta,Ephemeroptera,Ephemeridae,Ephemera,1.602059991,filterer,4,gill,3,burrower,2,soft_body,4
+Ephemera sp.,Arthropoda,Insecta,Ephemeroptera,Ephemeridae,Ephemera,1.602059991,filterer,4,gill,3,burrower,2,soft_body,4
+Ephemera strigata,Arthropoda,Insecta,Ephemeroptera,Ephemeridae,Ephemera,1.602059991,filterer,4,gill,3,burrower,2,soft_body,4
+Ephemera vulgata,Arthropoda,Insecta,Ephemeroptera,Ephemeridae,Ephemera,1.602059991,filterer,4,gill,3,burrower,2,soft_body,4
+Ephemerella antuensis,Arthropoda,Insecta,Ephemeroptera,Ephemerellidae,Ephemerella,1,gatherer; herbivore,3,gill,3,crawler,3,soft_body,4
+Ephemerella ignita,Arthropoda,Insecta,Ephemeroptera,Ephemerellidae,Ephemerella,1,gatherer; herbivore,3,gill,3,crawler,3,soft_body,4
+Ephemerella notata,Arthropoda,Insecta,Ephemeroptera,Ephemerellidae,Ephemerella,1,gatherer; herbivore,3,gill,3,crawler,3,soft_body,4
+Ephemerella sp.,Arthropoda,Insecta,Ephemeroptera,Ephemerellidae,Ephemerella,1,gatherer; herbivore,3,gill,3,crawler,3,soft_body,4
+Ephoron shigae,Arthropoda,Insecta,Ephemeroptera,Polymitarcyidae,Ephoron,1.301029996,filterer,4,gill; tegument,3,burrower,2,soft_body,4
+Ephoron sp.,Arthropoda,Insecta,Ephemeroptera,Polymitarcyidae,Ephoron,1.301029996,filterer,4,gill; tegument,3,burrower,2,soft_body,4
+Ephoron virgo,Arthropoda,Insecta,Ephemeroptera,Polymitarcyidae,Ephoron,1.301029996,filterer,4,gill; tegument,3,burrower,2,soft_body,4
+Epitheca sp.,Arthropoda,Insecta,Odonata,Corduliidae,Epitheca,1.60205999132796,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Epoicocladius flavens,Arthropoda,Insecta,Diptera,Chironomidae,Epoicocladius,0.954242509439325,gatherer,3,tegument,2,crawler,3,soft_body,4
+Epophthalmia elegans,Arthropoda,Insecta,Odonata,Corduliidae,Epophthalmia,1.57978359661681,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Epophthalmia sp.,Arthropoda,Insecta,Odonata,Corduliidae,Epophthalmia,1.57978359661681,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Eretes sp.,Arthropoda,Insecta,Coleoptera,Dytiscidae,Eretes,1.301029996,predator; shredder,2,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Eriocheir sinensis,Arthropoda,Malacostraca,Decapoda,Varunidae,Eriocheir,1.875061263,predator; shredder,2,gill,3,swimmer,4,hard_shelled,1
+Erioptera sp.,Arthropoda,Insecta,Diptera,Tipulidae,Erioptera,1.20411998265592,gatherer; herbivore,3,aerial,1,burrower,2,partly_sclerotized,3
+Eristalis sp.,Arthropoda,Insecta,Diptera,Syrphidae,Eristalis,1.301029996,gatherer,3,aerial,1,burrower; crawler,3,partly_sclerotized,3
+Erpobdella nigricollis,Annelida,Clitellata,Hirudinida,Erpobdellidae,Erpobdella,1.60205999132796,predator,1,tegument,2,crawler,3,soft_body,4
+Erpobdella octoculata,Annelida,Clitellata,Hirudinida,Erpobdellidae,Erpobdella,0.602059991,predator,1,tegument,2,crawler,3,soft_body,4
+Erpobdella sp.,Annelida,Clitellata,Hirudinida,Erpobdellidae,Erpobdella,1.602059991,predator,1,tegument,2,crawler,3,soft_body,4
+Erpobdella testacea,Annelida,Clitellata,Hirudinida,Erpobdellidae,Erpobdella,0.602059991327962,predator,1,tegument,2,crawler,3,soft_body,4
+Erpobdella vilnensis,Annelida,Clitellata,Hirudinida,Erpobdellidae,Erpobdella,1.60205999132796,predator,1,tegument,2,crawler,3,soft_body,4
+Erythromma najas,Arthropoda,Insecta,Odonata,Coenagrionidae,Erythromma,1.602059991,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Erythromma viridulum,Arthropoda,Insecta,Odonata,Coenagrionidae,Erythromma,1.602059991,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Esolus parallelepipedus,Arthropoda,Insecta,Coleoptera,Elmidae,Esolus,0.176091259055681,herbivore,2,gill; aerial,3,crawler,3,heavily_sclerotized,2
+Esolus sp.,Arthropoda,Insecta,Coleoptera,Elmidae,Esolus,1,herbivore,2,gill; aerial,3,crawler,3,heavily_sclerotized,2
+Esperiana esperi,Mollusca,Gastropoda,Cerithiida,Melanopsidae,Esperiana,1.60205999132796,herbivore,2,gill,3,crawler,3,hard_shelled,1
+Eubasilissa sp.,Arthropoda,Insecta,Trichoptera,Phryganeidae,Eubasilissa,1.65321251377534,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Eubrianax sp.,Arthropoda,Insecta,Coleoptera,Psephenidae,Eubrianax,0.662757831681574,herbivore,2,gill,3,crawler,3,heavily_sclerotized,2
+Eukiefferiella claripennis,Arthropoda,Insecta,Diptera,Chironomidae,Eukiefferiella,0.954242509439325,herbivore,2,tegument,2,crawler,3,soft_body,4
+Eukiefferiella clypeata,Arthropoda,Insecta,Diptera,Chironomidae,Eukiefferiella,0.954242509439325,herbivore,2,tegument,2,crawler,3,soft_body,4
+Eukiefferiella dittmari,Arthropoda,Insecta,Diptera,Chironomidae,Eukiefferiella,0.954242509439325,herbivore,2,tegument,2,crawler,3,soft_body,4
+Eukiefferiella ilkleyensis,Arthropoda,Insecta,Diptera,Chironomidae,Eukiefferiella,0.954242509439325,herbivore,2,tegument,2,crawler,3,soft_body,4
+Eukiefferiella lobifera,Arthropoda,Insecta,Diptera,Chironomidae,Eukiefferiella,0.954242509439325,herbivore,2,tegument,2,crawler,3,soft_body,4
+Eukiefferiella sp.,Arthropoda,Insecta,Diptera,Chironomidae,Eukiefferiella,0.954242509439325,herbivore,2,tegument,2,crawler,3,soft_body,4
+Euphylidorea sp.,Arthropoda,Insecta,Diptera,Limoniidae,Euphylidorea,1.30102999566398,predator,1,aerial,1,burrower,2,soft_body,4
+Fannia scalaris,Arthropoda,Insecta,Diptera,Fanniidae,Fannia,0.903089986991944,gatherer,3,aerial,1,burrower,2,soft_body,4
+Ferrissia clessiniana,Mollusca,Gastropoda,Lymnaeida,Planorbidae,Ferrissia,1,herbivore; shredder,2,tegument,2,crawler,3,hard_shelled,1
+Ferrissia sp.,Mollusca,Gastropoda,Lymnaeida,Planorbidae,Ferrissia,1,herbivore,2,tegument,2,burrower,2,hard_shelled,1
+Galba pervia,Mollusca,Gastropoda,Lymnaeida,Lymnaeidae,Galba,1.60205999132796,herbivore; shredder,2,tegument,2,crawler,3,hard_shelled,1
+Galba truncatula,Mollusca,Gastropoda,Lymnaeida,Lymnaeidae,Galba,1.60205999132796,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Galerucella sp.,Arthropoda,Insecta,Coleoptera,Chrysomelidae,Galerucella,1.30102999566398,shredder,2,aerial,1,burrower; sessile,2,heavily_sclerotized,2
+Gammarus duebeni,Arthropoda,Malacostraca,Amphipoda,Gammaridae,Gammarus,0.602059991327962,shredder,2,gill,3,crawler; swimmer,4,heavily_sclerotized,2
+Gammarus fossarum,Arthropoda,Malacostraca,Amphipoda,Gammaridae,Gammarus,1.602059991,shredder,2,gill,3,crawler; swimmer,4,heavily_sclerotized,2
+Gammarus pulex,Arthropoda,Malacostraca,Amphipoda,Gammaridae,Gammarus,0.602059991,shredder,2,gill,3,crawler; swimmer,4,heavily_sclerotized,2
+Gammarus roeselii,Arthropoda,Malacostraca,Amphipoda,Gammaridae,Gammarus,1.60205999132796,shredder,2,gill,3,crawler; swimmer,4,heavily_sclerotized,2
+Gammarus sp.,Arthropoda,Malacostraca,Amphipoda,Gammaridae,Gammarus,1.602059991,shredder,2,gill,3,crawler; swimmer,4,heavily_sclerotized,2
+Gammarus tigrinus,Arthropoda,Malacostraca,Amphipoda,Gammaridae,Gammarus,1.60205999132796,shredder,2,gill,3,swimmer,4,heavily_sclerotized,2
+Gammarus zaddachi,Arthropoda,Malacostraca,Amphipoda,Gammaridae,Gammarus,0.602059991327962,shredder,2,gill,3,crawler; swimmer,4,heavily_sclerotized,2
+Gerris lacustris,Arthropoda,Insecta,Hemiptera,Gerridae,Gerris,0.301029996,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Gerris najas,Arthropoda,Insecta,Hemiptera,Gerridae,Gerris,0.301029996,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Gerris odontogaster,Arthropoda,Insecta,Hemiptera,Gerridae,Gerris,0.301029996,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Gerris paludum,Arthropoda,Insecta,Hemiptera,Gerridae,Gerris,0.301029996,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Gerris sp.,Arthropoda,Insecta,Hemiptera,Gerridae,Gerris,0.301029996,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Gerris thoracicus,Arthropoda,Insecta,Hemiptera,Gerridae,Gerris,0.301029996,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Glossiphonia complanata,Annelida,Clitellata,Hirudinida,Glossiphoniidae,Glossiphonia,1.602059991,predator,1,tegument,2,crawler,3,soft_body,4
+Glossiphonia heteroclita,Annelida,Clitellata,Hirudinida,Glossiphoniidae,Glossiphonia,1.602059991,predator,1,tegument,2,crawler,3,soft_body,4
+Glossiphonia lata,Annelida,Clitellata,Hirudinida,Glossiphoniidae,Glossiphonia,1.602059991,predator,1,tegument,2,crawler,3,soft_body,4
+Glossiphonia sp.,Annelida,Clitellata,Hirudinida,Glossiphoniidae,Glossiphonia,1.602059991,predator,1,tegument,2,crawler,3,soft_body,4
+Glossiphonia verrucata,Annelida,Clitellata,Hirudinida,Glossiphoniidae,Glossiphonia,1.602059991,predator,1,tegument,2,crawler,3,soft_body,4
+Glossosoma sp.,Arthropoda,Insecta,Trichoptera,Glossosomatidae,Glossosoma,1.30102999566398,herbivore,2,tegument,2,crawler,3,partly_sclerotized,3
+Glyphotaelius pellucidus,Arthropoda,Insecta,Trichoptera,Limnephilidae,Glyphotaelius,0.602059991327962,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Glyptotendipes cauliginellus,Arthropoda,Insecta,Diptera,Chironomidae,Glyptotendipes,1.602059991,gatherer,3,tegument,2,burrower; sessile,2,soft_body,4
+Glyptotendipes imbecillis,Arthropoda,Insecta,Diptera,Chironomidae,Glyptotendipes,1.602059991,gatherer,3,tegument,2,burrower; sessile,2,soft_body,4
+Glyptotendipes lobiferus,Arthropoda,Insecta,Diptera,Chironomidae,Glyptotendipes,1.602059991,gatherer,3,tegument,2,burrower; sessile,2,soft_body,4
+Glyptotendipes pallens,Arthropoda,Insecta,Diptera,Chironomidae,Glyptotendipes,1.602059991,gatherer,3,tegument,2,burrower; sessile,2,soft_body,4
+Glyptotendipes paripes,Arthropoda,Insecta,Diptera,Chironomidae,Glyptotendipes,1.602059991,gatherer,3,tegument,2,burrower; sessile,2,soft_body,4
+Glyptotendipes sp.,Arthropoda,Insecta,Diptera,Chironomidae,Glyptotendipes,1.602059991,gatherer,3,tegument,2,burrower; sessile,2,soft_body,4
+Glyptotendipes tokunagai,Arthropoda,Insecta,Diptera,Chironomidae,Glyptotendipes,1.602059991,gatherer,3,tegument,2,burrower; sessile,2,soft_body,4
+Goera japonica,Arthropoda,Insecta,Trichoptera,Goeridae,Goera,1.30102999566398,herbivore,2,gill; tegument,3,crawler,3,partly_sclerotized,3
+Goera pilosa,Arthropoda,Insecta,Trichoptera,Goeridae,Goera,1.30102999566398,herbivore,2,gill; tegument,3,crawler,3,partly_sclerotized,3
+Goerodes japonicus,Arthropoda,Insecta,Trichoptera,Lepidostomatidae,Goerodes,1,shredder,2,gill,3,crawler,3,partly_sclerotized,3
+Gomphus flavipes,Arthropoda,Insecta,Odonata,Gomphidae,Gomphus,1.60205999132796,predator,1,gill,3,burrower,2,partly_sclerotized,3
+Gomphus sp.,Arthropoda,Insecta,Odonata,Gomphidae,Gomphus,1.60205999132796,predator,1,gill,3,burrower,2,partly_sclerotized,3
+Gomphus vulgatissimus,Arthropoda,Insecta,Odonata,Gomphidae,Gomphus,0.602059991327962,predator,1,gill,3,burrower,2,partly_sclerotized,3
+Gonempeda sp.,Arthropoda,Insecta,Diptera,Tipulidae,Gonempeda,0.832508912706236,shredder,2,aerial,1,burrower,2,partly_sclerotized,3
+Grammotaulius nigropunctatus,Arthropoda,Insecta,Trichoptera,Limnephilidae,Grammotaulius,1.60205999132796,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Grandidierella taihuensis,Arthropoda,Malacostraca,Amphipoda,Aoridae,Grandidierella,1.12057393120585,herbivore,2,gill,3,burrower,2,partly_sclerotized,3
+Graptodytes pictus,Arthropoda,Insecta,Coleoptera,Dytiscidae,Graptodytes,0.380211241711606,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Gymnometriocnemus sp.,Arthropoda,Insecta,Diptera,Chironomidae,Gymnometriocnemus,0.698970004336019,gatherer,3,tegument,2,crawler,3,soft_body,4
+Gyraulus albus,Mollusca,Gastropoda,Lymnaeida,Planorbidae,Gyraulus,0,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Gyraulus convexiusculus,Mollusca,Gastropoda,Lymnaeida,Planorbidae,Gyraulus,1,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Gyraulus laevis,Mollusca,Gastropoda,Lymnaeida,Planorbidae,Gyraulus,0,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Gyraulus sp.,Mollusca,Gastropoda,Lymnaeida,Planorbidae,Gyraulus,1,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Gyrinus aeratus,Arthropoda,Insecta,Coleoptera,Gyrinidae,Gyrinus,0,predator,1,gill; aerial,3,swimmer,4,heavily_sclerotized,2
+Gyrinus distinctus,Arthropoda,Insecta,Coleoptera,Gyrinidae,Gyrinus,0,predator,1,gill; aerial,3,swimmer,4,heavily_sclerotized,2
+Gyrinus marinus,Arthropoda,Insecta,Coleoptera,Gyrinidae,Gyrinus,0,predator,1,gill; aerial,3,swimmer,4,heavily_sclerotized,2
+Gyrinus natator,Arthropoda,Insecta,Coleoptera,Gyrinidae,Gyrinus,0,predator,1,gill; aerial,3,swimmer,4,heavily_sclerotized,2
+Gyrinus urinator,Arthropoda,Insecta,Coleoptera,Gyrinidae,Gyrinus,0,predator,1,gill; aerial,3,swimmer,4,heavily_sclerotized,2
+Haber simsi,Annelida,Clitellata,Tubificida,Naididae,Haber,1.39794000867204,gatherer,3,tegument,2,burrower,2,soft_body,4
+Haber speciosus,Annelida,Clitellata,Tubificida,Naididae,Haber,1.39794000867204,gatherer,3,tegument,2,burrower,2,soft_body,4
+Habrophlebia fusca,Arthropoda,Insecta,Ephemeroptera,Leptophlebiidae,Habrophlebia,0,gatherer,3,gill; tegument,3,crawler,3,soft_body,4
+Habrophlebiodes sp.,Arthropoda,Insecta,Ephemeroptera,Leptophlebiidae,Habrophlebiodes,1,gatherer; herbivore,3,gill,3,swimmer,4,soft_body,4
+Haemopis sanguisuga,Annelida,Clitellata,Hirudinida,Haemopidae,Haemopis,2.176091259,predator,1,tegument,2,crawler,3,soft_body,4
+Halesus digitatus,Arthropoda,Insecta,Trichoptera,Limnephilidae,Halesus,1.60205999132796,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Halesus radiatus,Arthropoda,Insecta,Trichoptera,Limnephilidae,Halesus,1.60205999132796,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Halesus sp.,Arthropoda,Insecta,Trichoptera,Limnephilidae,Halesus,1.60205999132796,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Halesus tesselatus,Arthropoda,Insecta,Trichoptera,Limnephilidae,Halesus,1.60205999132796,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Haliplus confinis,Arthropoda,Insecta,Coleoptera,Haliplidae,Haliplus,0.544068044350276,shredder,2,aerial; tegument,2,crawler,3,heavily_sclerotized,2
+Haliplus flavicollis,Arthropoda,Insecta,Coleoptera,Haliplidae,Haliplus,-0.301029996,shredder,2,aerial; tegument,2,crawler,3,heavily_sclerotized,2
+Haliplus fluviatilis,Arthropoda,Insecta,Coleoptera,Haliplidae,Haliplus,0.505149978319906,shredder,2,aerial; tegument,2,crawler,3,heavily_sclerotized,2
+Haliplus heydeni,Arthropoda,Insecta,Coleoptera,Haliplidae,Haliplus,0.447158031342219,shredder,2,aerial; tegument,2,crawler,3,heavily_sclerotized,2
+Haliplus immaculatus,Arthropoda,Insecta,Coleoptera,Haliplidae,Haliplus,0.491361693834273,shredder,2,aerial; tegument,2,crawler,3,heavily_sclerotized,2
+Haliplus laminatus,Arthropoda,Insecta,Coleoptera,Haliplidae,Haliplus,0.477121254719662,shredder,2,aerial; tegument,2,crawler,3,heavily_sclerotized,2
+Haliplus lineatocollis,Arthropoda,Insecta,Coleoptera,Haliplidae,Haliplus,0.544068044350276,shredder,2,aerial; tegument,2,crawler,3,heavily_sclerotized,2
+Haliplus lineolatus,Arthropoda,Insecta,Coleoptera,Haliplidae,Haliplus,0.447158031342219,shredder,2,aerial; tegument,2,crawler,3,heavily_sclerotized,2
+Haliplus ruficollis,Arthropoda,Insecta,Coleoptera,Haliplidae,Haliplus,0.477121254719662,shredder,2,aerial; tegument,2,crawler,3,heavily_sclerotized,2
+Haliplus sp.,Arthropoda,Insecta,Coleoptera,Haliplidae,Haliplus,-0.301029996,shredder,2,aerial; tegument,2,crawler,3,heavily_sclerotized,2
+Haliplus wehnckei,Arthropoda,Insecta,Coleoptera,Haliplidae,Haliplus,0.491361693834273,shredder,2,aerial; tegument,2,crawler,3,heavily_sclerotized,2
+Haplotaxis gordioides,Annelida,Clitellata,Tubificida,Haplotaxidae,Haplotaxis,2.47712125471966,gatherer,3,tegument,2,burrower; crawler,3,soft_body,4
+Harnischia angularis,Arthropoda,Insecta,Diptera,Chironomidae,Harnischia,0.954242509439325,gatherer,3,tegument,2,crawler; sessile,3,soft_body,4
+Harnischia fuscimana,Arthropoda,Insecta,Diptera,Chironomidae,Harnischia,0.954242509439325,gatherer,3,tegument,2,crawler; sessile,3,soft_body,4
+Harnischia sp.,Arthropoda,Insecta,Diptera,Chironomidae,Harnischia,0.954242509439325,gatherer,3,tegument,2,crawler; sessile,3,soft_body,4
+Heleniella ornaticollis,Arthropoda,Insecta,Diptera,Chironomidae,Heleniella,0.903089986991944,gatherer,3,tegument,2,crawler,3,soft_body,4
+Helice tientsinensis,Arthropoda,Malacostraca,Decapoda,Varunidae,Helice,1.48855071650044,gatherer; herbivore,3,gill,3,burrower,2,hard_shelled,1
+Helichus substriatus,Arthropoda,Insecta,Coleoptera,Dryopidae,Helichus,0.954242509439325,herbivore,2,aerial,1,crawler,3,heavily_sclerotized,2
+Helicorbis cantori,Mollusca,Gastropoda,Lymnaeida,Planorbidae,Helicorbis,1,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Helicorbis umbilicalis,Mollusca,Gastropoda,Lymnaeida,Planorbidae,Helicorbis,1,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Helius sp.,Arthropoda,Insecta,Diptera,Tipulidae,Helius,1.17609125905568,gatherer,3,aerial,1,burrower; crawler,3,partly_sclerotized,3
+Helobdella sp.,Annelida,Clitellata,Hirudinida,Glossiphoniidae,Helobdella,1.301029996,predator,1,tegument,2,crawler,3,soft_body,4
+Helobdella stagnalis,Annelida,Clitellata,Hirudinida,Glossiphoniidae,Helobdella,1.301029996,predator,1,tegument,2,crawler,3,soft_body,4
+Helochares lividus,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Helochares,1,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Helophorus aequalis,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,0,herbivore,2,aerial,1,crawler,3,heavily_sclerotized,2
+Helophorus arvernicus,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,0,herbivore,2,aerial,1,crawler,3,heavily_sclerotized,2
+Helophorus brevipalpis,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,0,herbivore,2,aerial,1,crawler,3,heavily_sclerotized,2
+Helophorus flavipes,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,0,herbivore,2,aerial,1,crawler,3,heavily_sclerotized,2
+Helophorus grandis,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,0,herbivore,2,aerial,1,crawler,3,heavily_sclerotized,2
+Helophorus minutus,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,0,herbivore,2,aerial,1,crawler,3,heavily_sclerotized,2
+Helophorus obscurus,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,0,herbivore,2,aerial,1,crawler,3,heavily_sclerotized,2
+Helophorus sp.,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,1,herbivore,2,aerial,1,crawler,3,heavily_sclerotized,2
+Hemerodromia sp.,Arthropoda,Insecta,Diptera,Empididae,Hemerodromia,1.20411998265592,gatherer; predator,3,tegument,2,burrower,2,soft_body,4
+Hemimysis anomala,Arthropoda,Malacostraca,Mysida,Mysidae,Hemimysis,1.30102999566398,predator,1,gill,3,swimmer,4,partly_sclerotized,3
+Heptagenia coerulans,Arthropoda,Insecta,Ephemeroptera,Heptageniidae,Heptagenia,0.301029996,gatherer; herbivore,3,gill; tegument,3,crawler,3,soft_body,4
+Heptagenia flava,Arthropoda,Insecta,Ephemeroptera,Heptageniidae,Heptagenia,0.301029996,gatherer; herbivore,3,gill; tegument,3,crawler,3,soft_body,4
+Heptagenia lateralis,Arthropoda,Insecta,Ephemeroptera,Heptageniidae,Heptagenia,0.301029996,gatherer; herbivore,3,gill; tegument,3,crawler,3,soft_body,4
+Heptagenia longicauda,Arthropoda,Insecta,Ephemeroptera,Heptageniidae,Heptagenia,0.301029996,gatherer; herbivore,3,gill; tegument,3,crawler,3,soft_body,4
+Heptagenia sp.,Arthropoda,Insecta,Ephemeroptera,Heptageniidae,Heptagenia,0.301029996,gatherer; herbivore,3,gill; tegument,3,crawler,3,soft_body,4
+Heptagenia sulphurea,Arthropoda,Insecta,Ephemeroptera,Heptageniidae,Heptagenia,0.301029996,gatherer; herbivore,3,gill; tegument,3,crawler,3,soft_body,4
+Hesperocorixa linnei,Arthropoda,Insecta,Hemiptera,Corixidae,Hesperocorixa,1,gatherer,3,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Hesperocorixa sahlbergi,Arthropoda,Insecta,Hemiptera,Corixidae,Hesperocorixa,1,gatherer,3,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Heterotanytarsus apicalis,Arthropoda,Insecta,Diptera,Chironomidae,Heterotanytarsus,0.602059991327962,gatherer,3,tegument,2,crawler,3,soft_body,4
+Heterotrissocladius marcidus,Arthropoda,Insecta,Diptera,Chironomidae,Heterotrissocladius,0.977723605288848,gatherer,3,tegument,2,burrower; crawler,3,soft_body,4
+Heterotrissocladius sp.,Arthropoda,Insecta,Diptera,Chironomidae,Heterotrissocladius,0.977723605288848,gatherer,3,tegument,2,crawler,3,soft_body,4
+Hexagenia sp.,Arthropoda,Insecta,Ephemeroptera,Ephemeridae,Hexagenia,1.602059991,filterer; gatherer,4,gill,3,burrower,2,soft_body,4
+Hexatoma sp.,Arthropoda,Insecta,Diptera,Limoniidae,Hexatoma,1.204119983,predator,1,aerial,1,crawler,3,partly_sclerotized,3
+Hippeutis complanatus,Mollusca,Gastropoda,Lymnaeida,Planorbidae,Hippeutis,1,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Hippeutis sp.,Mollusca,Gastropoda,Lymnaeida,Planorbidae,Hippeutis,0,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Holandriana holandrii,Mollusca,Gastropoda,Cerithiida,Amphimelaniidae,Holandriana,1.17609125905568,gatherer; herbivore; shredder,3,gill,3,crawler,3,hard_shelled,1
+Holocentropus picicornis,Arthropoda,Insecta,Trichoptera,Polycentropodidae,Holocentropus,0.301029995663981,predator,1,tegument,2,sessile,1,partly_sclerotized,3
+Holorusia sp.,Arthropoda,Insecta,Diptera,Tipulidae,Holorusia,1.74036268949424,gatherer,3,aerial,1,burrower,2,partly_sclerotized,3
+Homoeoneuria sp.,Arthropoda,Insecta,Ephemeroptera,Oligoneuriidae,Homoeoneuria,1.30102999566398,filterer,4,gill,3,burrower,2,partly_sclerotized,3
+Hybomitra hirticeps,Arthropoda,Insecta,Diptera,Tabanidae,Hybomitra,1.60205999132796,predator,1,aerial,1,burrower,2,soft_body,4
+Hydatophylax infumatus,Arthropoda,Insecta,Trichoptera,Limnephilidae,Hydatophylax,0.602059991327962,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Hydatophylax nigrovittatus,Arthropoda,Insecta,Trichoptera,Limnephilidae,Hydatophylax,1.60205999132796,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Hydatophylax sp.,Arthropoda,Insecta,Trichoptera,Limnephilidae,Hydatophylax,1.60205999132796,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Hydraena gracilis,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,0.380211241711606,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Hydraena pulchella,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,0.176091259055681,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Hydraena riparia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,0.397940008672038,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Hydraena rufipes,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,0.301029995663981,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Hydraena sp.,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,1,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Hydraena testacea,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,0.176091259055681,herbivore,2,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Hydrobaenus kondoi,Arthropoda,Insecta,Diptera,Chironomidae,Hydrobaenus,0.954242509439325,gatherer; herbivore,3,tegument,2,crawler,3,soft_body,4
+Hydrobaenus sp.,Arthropoda,Insecta,Diptera,Chironomidae,Hydrobaenus,0.954242509439325,gatherer; herbivore,3,tegument,2,crawler,3,soft_body,4
+Hydrobius fuscipes,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Hydrobius,0.301029996,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Hydrocassis sp.,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Hydrocassis,1,predator,1,aerial,1,crawler,3,heavily_sclerotized,2
+Hydrochara caraboides,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Hydrochara,1.30102999566398,predator,1,aerial,1,crawler,3,heavily_sclerotized,2
+Hydrochus angustatus,Arthropoda,Insecta,Coleoptera,Hydrochidae,Hydrochus,0.602059991327962,herbivore,2,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Hydrocyphon deflexicollis,Arthropoda,Insecta,Coleoptera,Scirtidae,Hydrocyphon,-0.301029995663981,herbivore,2,gill,3,crawler,3,heavily_sclerotized,2
+Hydrometra stagnorum,Arthropoda,Insecta,Hemiptera,Hydrometridae,Hydrometra,0.301029995663981,predator,1,aerial,1,swimmer,4,partly_sclerotized,3
+Hydrophilus acuminatus,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Hydrophilus,1.903089987,predator,1,aerial,1,crawler,3,heavily_sclerotized,2
+Hydrophilus sp.,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Hydrophilus,1.903089987,predator,1,aerial,1,crawler,3,heavily_sclerotized,2
+Hydroporus angustatus,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydroporus,0,predator,1,aerial,1,crawler,3,heavily_sclerotized,2
+Hydroporus discretus,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydroporus,0,predator,1,aerial,1,crawler,3,heavily_sclerotized,2
+Hydroporus memnonius,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydroporus,0,predator,1,aerial,1,crawler,3,heavily_sclerotized,2
+Hydroporus palustris,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydroporus,0,predator,1,aerial,1,crawler,3,heavily_sclerotized,2
+Hydroporus planus,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydroporus,0,predator,1,aerial,1,crawler,3,heavily_sclerotized,2
+Hydroporus pubescens,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydroporus,0,predator,1,aerial,1,crawler,3,heavily_sclerotized,2
+Hydroporus tessellatus,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydroporus,0,shredder,2,aerial,1,crawler,3,heavily_sclerotized,2
+Hydropsyche angustipennis,Arthropoda,Insecta,Trichoptera,Hydropsychidae,Hydropsyche,0.602059991,filterer,4,gill; tegument,3,sessile,1,soft_body,4
+Hydropsyche bulgaromanorum,Arthropoda,Insecta,Trichoptera,Hydropsychidae,Hydropsyche,1.60205999132796,filterer,4,gill; tegument,3,sessile,1,soft_body,4
+Hydropsyche contubernalis,Arthropoda,Insecta,Trichoptera,Hydropsychidae,Hydropsyche,0.602059991327962,filterer,4,gill; tegument,3,sessile,1,soft_body,4
+Hydropsyche exocellata,Arthropoda,Insecta,Trichoptera,Hydropsychidae,Hydropsyche,1.60205999132796,filterer,4,gill; tegument,3,sessile,1,soft_body,4
+Hydropsyche fulvipes,Arthropoda,Insecta,Trichoptera,Hydropsychidae,Hydropsyche,0.602059991327962,filterer,4,gill; tegument,3,sessile,1,soft_body,4
+Hydropsyche incognita,Arthropoda,Insecta,Trichoptera,Hydropsychidae,Hydropsyche,1.60205999132796,filterer,4,gill; tegument,3,sessile,1,soft_body,4
+Hydropsyche instabilis,Arthropoda,Insecta,Trichoptera,Hydropsychidae,Hydropsyche,0.602059991327962,filterer,4,gill; tegument,3,sessile,1,soft_body,4
+Hydropsyche modesta,Arthropoda,Insecta,Trichoptera,Hydropsychidae,Hydropsyche,1.60205999132796,filterer,4,gill; tegument,3,sessile,1,soft_body,4
+Hydropsyche pellucidula,Arthropoda,Insecta,Trichoptera,Hydropsychidae,Hydropsyche,0.602059991327962,filterer,4,gill; tegument,3,sessile,1,soft_body,4
+Hydropsyche saxonica,Arthropoda,Insecta,Trichoptera,Hydropsychidae,Hydropsyche,0.602059991327962,filterer,4,gill; tegument,3,sessile,1,soft_body,4
+Hydropsyche siltalai,Arthropoda,Insecta,Trichoptera,Hydropsychidae,Hydropsyche,0.602059991,filterer,4,gill; tegument,3,sessile,1,soft_body,4
+Hydropsyche sp.,Arthropoda,Insecta,Trichoptera,Hydropsychidae,Hydropsyche,1.602059991,filterer,4,gill; tegument,3,sessile,1,soft_body,4
+Hydroptila sp.,Arthropoda,Insecta,Trichoptera,Hydroptilidae,Hydroptila,1,herbivore; shredder,2,gill; tegument,3,crawler,3,partly_sclerotized,3
+Hydroptila sparsa,Arthropoda,Insecta,Trichoptera,Hydroptilidae,Hydroptila,1,herbivore; shredder,2,gill; tegument,3,crawler,3,partly_sclerotized,3
+Hygrotus inaequalis,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hygrotus,1,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Hygrotus versicolor,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hygrotus,1,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Hypania invalida,Annelida,Polychaeta,Terebellida,Ampharetidae,Hypania,1.52504480703685,filterer,4,gill,3,burrower,2,soft_body,4
+Hyphydrus japonicus,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hyphydrus,1,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Hyphydrus ovatus,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hyphydrus,0.698970004336019,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Hyriopsis cumingii,Mollusca,Bivalvia,Unionida,Unionidae,Hyriopsis,2.17609125905568,filterer,4,gill,3,burrower; sessile,2,hard_shelled,1
+Ictinogomphus rapax,Arthropoda,Insecta,Odonata,Gomphidae,Ictinogomphus,1.47712125471966,predator,1,gill,3,burrower,2,partly_sclerotized,3
+Idioptera sp.,Arthropoda,Insecta,Diptera,Limoniidae,Idioptera,1.12057393120585,predator,1,aerial,1,burrower,2,soft_body,4
+Ilisia sp.,Arthropoda,Insecta,Diptera,Limoniidae,Ilisia,1,predator,1,aerial,1,burrower,2,soft_body,4
+Ilybius fenestratus,Arthropoda,Insecta,Coleoptera,Dytiscidae,Ilybius,1.301029996,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Ilybius sp.,Arthropoda,Insecta,Coleoptera,Dytiscidae,Ilybius,1.301029996,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Ilyocoris cimicoides,Arthropoda,Insecta,Hemiptera,Naucoridae,Ilyocoris,0.301029996,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Ilyocoris exclamationis,Arthropoda,Insecta,Hemiptera,Naucoridae,Ilyocoris,0.301029996,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Indolestes sp.,Arthropoda,Insecta,Odonata,Lestidae,Indolestes,1.4983105537896,predator,1,gill,3,crawler,3,soft_body,4
+Isca sp.,Arthropoda,Insecta,Ephemeroptera,Leptophlebiidae,Isca,1.30102999566398,gatherer,3,gill,3,crawler,3,soft_body,4
+Ischnura asiatica,Arthropoda,Insecta,Odonata,Coenagrionidae,Ischnura,1.30102999566398,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Ischnura elegans,Arthropoda,Insecta,Odonata,Coenagrionidae,Ischnura,0.301029996,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Ischnura labata,Arthropoda,Insecta,Odonata,Coenagrionidae,Ischnura,1.30102999566398,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Ischnura senegalensis,Arthropoda,Insecta,Odonata,Coenagrionidae,Ischnura,1.30102999566398,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Isochaetides michaelseni,Annelida,Clitellata,Tubificida,Naididae,Isochaetides,1.30102999566398,gatherer,3,tegument,2,burrower,2,soft_body,4
+Isonychia sp.,Arthropoda,Insecta,Ephemeroptera,Isonychiidae,Isonychia,1.301029996,filterer,4,gill,3,crawler; swimmer,4,soft_body,4
+Isoperla asakawae,Arthropoda,Insecta,Plecoptera,Perlodidae,Isoperla,1.301029996,predator,1,tegument,2,crawler,3,partly_sclerotized,3
+Isoperla grammatica,Arthropoda,Insecta,Plecoptera,Perlodidae,Isoperla,1.301029996,predator,1,tegument,2,crawler,3,partly_sclerotized,3
+Isoperla sp.,Arthropoda,Insecta,Plecoptera,Perlodidae,Isoperla,1.301029996,predator,1,tegument,2,crawler,3,partly_sclerotized,3
+Ithytrichia lamellaris,Arthropoda,Insecta,Trichoptera,Hydroptilidae,Ithytrichia,1,herbivore,2,gill; tegument,3,crawler,3,partly_sclerotized,3
+Ithytrichia sp.,Arthropoda,Insecta,Trichoptera,Hydroptilidae,Ithytrichia,1,herbivore,2,gill; tegument,3,crawler,3,partly_sclerotized,3
+Jaera istri,Arthropoda,Malacostraca,Isopoda,Janiridae,Jaera,1,herbivore,2,gill,3,crawler,3,partly_sclerotized,3
+Jaera sp.,Arthropoda,Malacostraca,Isopoda,Janiridae,Jaera,1,herbivore,2,gill,3,crawler,3,partly_sclerotized,3
+Kageronia fuscogrisea,Arthropoda,Insecta,Ephemeroptera,Heptageniidae,Kageronia,1.07918124604762,gatherer; herbivore,3,gill; tegument,3,crawler,3,soft_body,4
+Kamimuria sp.,Arthropoda,Insecta,Plecoptera,Perlidae,Kamimuria,1.30102999566398,predator,1,gill; tegument,3,crawler,3,partly_sclerotized,3
+Kamimuria tibialis,Arthropoda,Insecta,Plecoptera,Perlidae,Kamimuria,1.30102999566398,predator,1,gill; tegument,3,crawler,3,partly_sclerotized,3
+Katamysis warpachowskyi,Arthropoda,Malacostraca,Mysida,Mysidae,Katamysis,0.763427993562937,predator,1,tegument,2,swimmer,4,partly_sclerotized,3
+Kiefferulus sp.,Arthropoda,Insecta,Diptera,Chironomidae,Kiefferulus,1.602059991,gatherer,3,tegument,2,crawler,3,soft_body,4
+Kiefferulus tendipediformis,Arthropoda,Insecta,Diptera,Chironomidae,Kiefferulus,1.602059991,gatherer,3,tegument,2,crawler,3,soft_body,4
+Kloosia pusilla,Arthropoda,Insecta,Diptera,Chironomidae,Kloosia,0.698970004336019,gatherer,3,tegument,2,crawler,3,soft_body,4
+Krenopelopia sp.,Arthropoda,Insecta,Diptera,Chironomidae,Krenopelopia,0.903089986991944,predator,1,tegument,2,crawler,3,soft_body,4
+Krenosmittia camptophieps,Arthropoda,Insecta,Diptera,Chironomidae,Krenosmittia,0.544068044350276,gatherer,3,tegument,2,crawler,3,soft_body,4
+Labiobaetis atrebatinus,Arthropoda,Insecta,Ephemeroptera,Baetidae,Labiobaetis,0.886490725172482,gatherer,3,gill,3,swimmer,4,soft_body,4
+Laccobius atratus,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Laccobius,0.602059991327962,shredder,2,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Laccobius atrocephalus,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Laccobius,0.602059991327962,shredder,2,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Laccobius biguttatus,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Laccobius,0.477121254719662,shredder,2,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Laccobius minutus,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Laccobius,0.505149978319906,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Laccobius sinuatus,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Laccobius,0.602059991327962,shredder,2,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Laccobius striatulus,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Laccobius,0.633468455579587,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Laccophilus difficilis,Arthropoda,Insecta,Coleoptera,Dytiscidae,Laccophilus,1,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Laccophilus hyalinus,Arthropoda,Insecta,Coleoptera,Dytiscidae,Laccophilus,1,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Laccophilus minutus,Arthropoda,Insecta,Coleoptera,Dytiscidae,Laccophilus,1,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Laccotrephes japonensis,Arthropoda,Insecta,Hemiptera,Nepidae,Laccotrephes,1.57978359661681,predator,1,aerial,1,crawler,3,heavily_sclerotized,2
+Lachlania sp.,Arthropoda,Insecta,Ephemeroptera,Oligoneuriidae,Lachlania,1.14612803567824,gatherer,3,gill; tegument,3,crawler,3,partly_sclerotized,3
+Lamelligomphus sp.,Arthropoda,Insecta,Odonata,Gomphidae,Lamelligomphus,1.47712125471966,predator,1,gill,3,burrower,2,partly_sclerotized,3
+Lamprotula leai,Mollusca,Bivalvia,Unionida,Unionidae,Lamprotula,2.02869322839392,filterer,4,gill,3,burrower; sessile,2,hard_shelled,1
+Lanceolaria eucylindrica,Mollusca,Bivalvia,Unionida,Unionidae,Lanceolaria,2.07445071895459,filterer,4,gill,3,burrower; sessile,2,hard_shelled,1
+Lanceolaria gladiola,Mollusca,Bivalvia,Unionida,Unionidae,Lanceolaria,2.06370855939142,filterer,4,gill,3,burrower; sessile,2,hard_shelled,1
+Lanceolaria grayana,Mollusca,Bivalvia,Unionida,Unionidae,Lanceolaria,2.06370855939142,filterer,4,gill,3,burrower; sessile,2,hard_shelled,1
+Lanceolaria sp.,Mollusca,Bivalvia,Unionida,Unionidae,Lanceolaria,2.06370855939142,filterer,4,gill,3,burrower; sessile,2,hard_shelled,1
+Lanceolaria triformis,Mollusca,Bivalvia,Unionida,Unionidae,Lanceolaria,2.06370855939142,filterer,4,gill,3,burrower; sessile,2,hard_shelled,1
+Larsia curticalcar,Arthropoda,Insecta,Diptera,Chironomidae,Larsia,0.740362689494244,predator,1,tegument,2,crawler,3,soft_body,4
+Lasiocephala basalis,Arthropoda,Insecta,Trichoptera,Lepidostomatidae,Lasiocephala,0.301029995663981,shredder,2,gill; tegument,3,crawler,3,partly_sclerotized,3
+Lepidostoma basale,Arthropoda,Insecta,Trichoptera,Lepidostomatidae,Lepidostoma,1.301029996,herbivore; shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Lepidostoma flavum,Arthropoda,Insecta,Trichoptera,Lepidostomatidae,Lepidostoma,1.301029996,herbivore; shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Lepidostoma hirtum,Arthropoda,Insecta,Trichoptera,Lepidostomatidae,Lepidostoma,1.301029996,herbivore; shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Leptocerus interruptus,Arthropoda,Insecta,Trichoptera,Leptoceridae,Leptocerus,1,herbivore; shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Leptocerus lusitanicus,Arthropoda,Insecta,Trichoptera,Leptoceridae,Leptocerus,1,herbivore; shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Leptocerus tineiformis,Arthropoda,Insecta,Trichoptera,Leptoceridae,Leptocerus,1,herbivore; shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Leptophlebia marginata,Arthropoda,Insecta,Ephemeroptera,Leptophlebiidae,Leptophlebia,0.301029995663981,gatherer,3,gill; tegument,3,crawler,3,soft_body,4
+Leptophlebia sp.,Arthropoda,Insecta,Ephemeroptera,Leptophlebiidae,Leptophlebia,1.30102999566398,gatherer,3,gill,3,crawler,3,soft_body,4
+Leptophlebia vespertina,Arthropoda,Insecta,Ephemeroptera,Leptophlebiidae,Leptophlebia,0.301029995663981,gatherer,3,gill; tegument,3,crawler,3,soft_body,4
+Lestes sp.,Arthropoda,Insecta,Odonata,Lestidae,Lestes,1.602059991,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Leuctra fusca,Arthropoda,Insecta,Plecoptera,Leuctridae,Leuctra,0.301029996,gatherer,3,tegument,2,burrower; crawler,3,partly_sclerotized,3
+Leuctra geniculata,Arthropoda,Insecta,Plecoptera,Leuctridae,Leuctra,0.301029996,gatherer,3,tegument,2,burrower; crawler,3,partly_sclerotized,3
+Leuctra hippopus,Arthropoda,Insecta,Plecoptera,Leuctridae,Leuctra,0.301029996,gatherer,3,tegument,2,burrower; crawler,3,partly_sclerotized,3
+Leuctra inermis,Arthropoda,Insecta,Plecoptera,Leuctridae,Leuctra,0.301029996,gatherer,3,tegument,2,burrower; crawler,3,partly_sclerotized,3
+Leuctra moselyi,Arthropoda,Insecta,Plecoptera,Leuctridae,Leuctra,0.301029996,gatherer,3,tegument,2,burrower; crawler,3,partly_sclerotized,3
+Leuctra nigra,Arthropoda,Insecta,Plecoptera,Leuctridae,Leuctra,0.301029996,gatherer,3,tegument,2,burrower; crawler,3,partly_sclerotized,3
+Leuctra sp.,Arthropoda,Insecta,Plecoptera,Leuctridae,Leuctra,0.301029996,gatherer,3,tegument,2,burrower; crawler,3,partly_sclerotized,3
+Limnebius nitidus,Arthropoda,Insecta,Coleoptera,Hydraenidae,Limnebius,0.176091259055681,herbivore,2,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Limnebius truncatellus,Arthropoda,Insecta,Coleoptera,Hydraenidae,Limnebius,0.397940008672038,herbivore,2,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Limnephilus auricula,Arthropoda,Insecta,Trichoptera,Limnephilidae,Limnephilus,1.602059991,shredder,2,gill; tegument,3,crawler; sessile,3,soft_body,4
+Limnephilus binotatus,Arthropoda,Insecta,Trichoptera,Limnephilidae,Limnephilus,1.602059991,shredder,2,gill; tegument,3,crawler; sessile,3,soft_body,4
+Limnephilus decipiens,Arthropoda,Insecta,Trichoptera,Limnephilidae,Limnephilus,1.602059991,shredder,2,gill; tegument,3,crawler; sessile,3,soft_body,4
+Limnephilus extricatus,Arthropoda,Insecta,Trichoptera,Limnephilidae,Limnephilus,1.602059991,shredder,2,gill; tegument,3,crawler; sessile,3,soft_body,4
+Limnephilus flavicornis,Arthropoda,Insecta,Trichoptera,Limnephilidae,Limnephilus,1.602059991,shredder,2,gill; tegument,3,crawler; sessile,3,soft_body,4
+Limnephilus fuscicornis,Arthropoda,Insecta,Trichoptera,Limnephilidae,Limnephilus,1.602059991,shredder,2,gill; tegument,3,crawler; sessile,3,soft_body,4
+Limnephilus incisus,Arthropoda,Insecta,Trichoptera,Limnephilidae,Limnephilus,1.602059991,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Limnephilus lunatus,Arthropoda,Insecta,Trichoptera,Limnephilidae,Limnephilus,1.602059991,shredder,2,gill; tegument,3,crawler; sessile,3,soft_body,4
+Limnephilus marmoratus,Arthropoda,Insecta,Trichoptera,Limnephilidae,Limnephilus,1.602059991,shredder,2,gill; tegument,3,crawler; sessile,3,soft_body,4
+Limnephilus politus,Arthropoda,Insecta,Trichoptera,Limnephilidae,Limnephilus,1.602059991,shredder,2,gill; tegument,3,crawler; sessile,3,soft_body,4
+Limnephilus rhombicus,Arthropoda,Insecta,Trichoptera,Limnephilidae,Limnephilus,1.602059991,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Limnephilus sp.,Arthropoda,Insecta,Trichoptera,Limnephilidae,Limnephilus,1.602059991,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Limnephilus vittatus,Arthropoda,Insecta,Trichoptera,Limnephilidae,Limnephilus,1.602059991,shredder,2,gill; tegument,3,crawler; sessile,3,soft_body,4
+Limnius sp.,Arthropoda,Insecta,Coleoptera,Elmidae,Limnius,1,herbivore,2,gill; aerial,3,crawler,3,heavily_sclerotized,2
+Limnius volckmari,Arthropoda,Insecta,Coleoptera,Elmidae,Limnius,0.505149978319906,herbivore,2,gill; aerial,3,crawler,3,heavily_sclerotized,2
+Limnodrilus cervix,Annelida,Clitellata,Tubificida,Naididae,Limnodrilus,1,gatherer,3,tegument,2,crawler,3,soft_body,4
+Limnodrilus claparedianus,Annelida,Clitellata,Tubificida,Naididae,Limnodrilus,1,gatherer,3,tegument,2,crawler,3,soft_body,4
+Limnodrilus grandisetosus,Annelida,Clitellata,Tubificida,Naididae,Limnodrilus,1,gatherer,3,tegument,2,crawler,3,soft_body,4
+Limnodrilus helveticus,Annelida,Clitellata,Tubificida,Naididae,Limnodrilus,1,gatherer,3,tegument,2,crawler,3,soft_body,4
+Limnodrilus hoffmeisteri,Annelida,Clitellata,Tubificida,Naididae,Limnodrilus,1,gatherer,3,tegument,2,sessile,1,soft_body,4
+Limnodrilus profundicola,Annelida,Clitellata,Tubificida,Naididae,Limnodrilus,1,gatherer,3,tegument,2,burrower,2,soft_body,4
+Limnodrilus sp.,Annelida,Clitellata,Tubificida,Naididae,Limnodrilus,1,gatherer,3,tegument,2,crawler,3,soft_body,4
+Limnodrilus udekemianus,Annelida,Clitellata,Tubificida,Naididae,Limnodrilus,1,gatherer,3,tegument,2,burrower,2,soft_body,4
+Limnomysis benedeni,Arthropoda,Malacostraca,Mysida,Mysidae,Limnomysis,1.30102999566398,filterer,4,gill,3,swimmer,4,partly_sclerotized,3
+Limnoperna lacustris,Mollusca,Bivalvia,Mytilida,Modiolidae,Limnoperna,1.65321251377534,filterer,4,gill,3,sessile,1,hard_shelled,1
+Limnophila sp.,Arthropoda,Insecta,Diptera,Tipulidae,Limnophila,1.20411998265592,predator,1,aerial,1,burrower,2,partly_sclerotized,3
+Limnophora sp.,Arthropoda,Insecta,Diptera,Muscidae,Limnophora,1.07918124604762,predator,1,aerial,1,crawler,3,soft_body,4
+Limnophyes asquamatus,Arthropoda,Insecta,Diptera,Chironomidae,Limnophyes,0.698970004336019,gatherer,3,tegument,2,crawler,3,soft_body,4
+Limnophyes sp.,Arthropoda,Insecta,Diptera,Chironomidae,Limnophyes,0.698970004336019,gatherer,3,tegument,2,crawler,3,soft_body,4
+Limnoporus rufoscutellatus,Arthropoda,Insecta,Hemiptera,Gerridae,Limnoporus,1.30102999566398,predator,1,aerial,1,swimmer,4,partly_sclerotized,3
+Limnoxenus niger,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Limnoxenus,1,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Limonia sp.,Arthropoda,Insecta,Diptera,Tipulidae,Limonia,1.20411998265592,shredder,2,aerial,1,burrower,2,partly_sclerotized,3
+Liodessus sp.,Arthropoda,Insecta,Coleoptera,Dytiscidae,Liodessus,1,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Lipiniella araenicola,Arthropoda,Insecta,Diptera,Chironomidae,Lipiniella,1.04139268515823,gatherer,3,tegument,2,crawler,3,soft_body,4
+Lipiniella moderata,Arthropoda,Insecta,Diptera,Chironomidae,Lipiniella,1.04139268515823,gatherer,3,tegument,2,crawler,3,soft_body,4
+Lipsothrix sp.,Arthropoda,Insecta,Diptera,Tipulidae,Lipsothrix,1.20411998265592,shredder,2,aerial,1,burrower,2,partly_sclerotized,3
+Lispe sp.,Arthropoda,Insecta,Diptera,Muscidae,Lispe,1.07918124604762,predator,1,aerial,1,crawler,3,soft_body,4
+Lithoglyphus naticoides,Mollusca,Gastropoda,Littorinida,Lithoglyphidae,Lithoglyphus,1,gatherer,3,gill,3,crawler,3,hard_shelled,1
+Lumbriculus sp.,Annelida,Clitellata,Lumbriculida,Lumbriculidae,Lumbriculus,2,gatherer,3,tegument,2,burrower; crawler,3,soft_body,4
+Lumbriculus variegatus,Annelida,Clitellata,Lumbriculida,Lumbriculidae,Lumbriculus,2,gatherer,3,tegument,2,burrower; crawler,3,soft_body,4
+Lymnaea auricularia,Mollusca,Gastropoda,Lymnaeida,Lymnaeidae,Lymnaea,0.903089986991944,herbivore,2,aerial,1,crawler,3,hard_shelled,1
+Lymnaea palustris,Mollusca,Gastropoda,Lymnaeida,Lymnaeidae,Lymnaea,0.903089987,herbivore,2,aerial,1,crawler,3,hard_shelled,1
+Lymnaea peregra,Mollusca,Gastropoda,Lymnaeida,Lymnaeidae,Lymnaea,0.903089986991944,herbivore,2,aerial,1,crawler,3,hard_shelled,1
+Lymnaea stagnalis,Mollusca,Gastropoda,Lymnaeida,Lymnaeidae,Lymnaea,1.301029996,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Lymnaea truncatula,Mollusca,Gastropoda,Lymnaeida,Lymnaeidae,Lymnaea,0.903089986991944,herbivore,2,aerial,1,crawler,3,hard_shelled,1
+Lype phaeopa,Arthropoda,Insecta,Trichoptera,Psychomyiidae,Lype,1.30102999566398,herbivore,2,tegument,2,sessile,1,partly_sclerotized,3
+Lype sp.,Arthropoda,Insecta,Trichoptera,Psychomyiidae,Lype,1.30102999566398,herbivore,2,tegument,2,sessile,1,partly_sclerotized,3
+Lyriothemis elegantissima,Arthropoda,Insecta,Odonata,Libellulidae,Lyriothemis,1.17609125905568,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Macrobrachium nipponense,Arthropoda,Malacostraca,Decapoda,Palaemonidae,Macrobrachium,2.068185862,gatherer; predator,3,gill,3,swimmer,4,heavily_sclerotized,2
+Macrobrachium sp.,Arthropoda,Malacostraca,Decapoda,Palaemonidae,Macrobrachium,2.068185862,gatherer; predator,3,gill,3,swimmer,4,heavily_sclerotized,2
+Macrobrachium superbum,Arthropoda,Malacostraca,Decapoda,Palaemonidae,Macrobrachium,2.068185862,gatherer; predator,3,gill,3,swimmer,4,heavily_sclerotized,2
+Macrogomphus sp.,Arthropoda,Insecta,Odonata,Gomphidae,Macrogomphus,1.47712125471966,predator,1,gill,3,burrower,2,partly_sclerotized,3
+Macromia sp.,Arthropoda,Insecta,Odonata,Macromiidae,Macromia,1.505149978,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Macronychus quadrituberculatus,Arthropoda,Insecta,Coleoptera,Elmidae,Macronychus,1,shredder,2,gill; aerial,3,burrower; crawler,3,heavily_sclerotized,2
+Macropelopia paranebulosa,Arthropoda,Insecta,Diptera,Chironomidae,Macropelopia,1.602059991,predator,1,tegument,2,crawler,3,soft_body,4
+Macropelopia sp.,Arthropoda,Insecta,Diptera,Chironomidae,Macropelopia,1.602059991,predator,1,tegument,2,crawler,3,soft_body,4
+Macrostemum carolina,Arthropoda,Insecta,Trichoptera,Hydropsychidae,Macrostemum,1.30102999566398,filterer,4,gill,3,crawler,3,soft_body,4
+Mataeopsephus sp.,Arthropoda,Insecta,Coleoptera,Psephenidae,Mataeopsephus,0.991226075692495,herbivore,2,gill,3,crawler,3,heavily_sclerotized,2
+Megalogomphus sp.,Arthropoda,Insecta,Odonata,Gomphidae,Megalogomphus,1.47712125471966,predator,1,gill,3,burrower,2,partly_sclerotized,3
+Megarcys ochracea,Arthropoda,Insecta,Plecoptera,Perlodidae,Megarcys,1.20411998265592,predator,1,tegument,2,crawler,3,partly_sclerotized,3
+Megarcys sp.,Arthropoda,Insecta,Plecoptera,Perlodidae,Megarcys,1.20411998265592,predator,1,tegument,2,crawler,3,partly_sclerotized,3
+Melampophylax mucoreus,Arthropoda,Insecta,Trichoptera,Limnephilidae,Melampophylax,0.602059991327962,herbivore,2,gill; tegument,3,crawler,3,soft_body,4
+Melligomphus sp.,Arthropoda,Insecta,Odonata,Gomphidae,Melligomphus,1.47712125471966,predator,1,gill,3,burrower,2,partly_sclerotized,3
+Menetus dilatatus,Mollusca,Gastropoda,Lymnaeida,Planorbidae,Menetus,1,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Mesovelia furcata,Arthropoda,Insecta,Hemiptera,Mesoveliidae,Mesovelia,-0.301029995663981,predator,1,aerial,1,swimmer,4,partly_sclerotized,3
+Metalype fragilis,Arthropoda,Insecta,Trichoptera,Psychomyiidae,Metalype,0.681241237375587,gatherer,3,tegument,2,sessile,1,partly_sclerotized,3
+Metriocnemus sp.,Arthropoda,Insecta,Diptera,Chironomidae,Metriocnemus,0.954242509439325,gatherer; predator,3,tegument,2,burrower; crawler,3,soft_body,4
+Micrasema sp.,Arthropoda,Insecta,Trichoptera,Brachycentridae,Micrasema,1,herbivore; shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Microchironomus sp.,Arthropoda,Insecta,Diptera,Chironomidae,Microchironomus,0.903089986991944,gatherer,3,tegument,2,crawler,3,soft_body,4
+Microchironomus tener,Arthropoda,Insecta,Diptera,Chironomidae,Microchironomus,0.903089986991944,gatherer,3,tegument,2,burrower,2,soft_body,4
+Microcolpia daudebartii,Mollusca,Gastropoda,Cerithiida,Melanopsidae,Microcolpia,1.27875360095283,herbivore,2,gill,3,crawler,3,hard_shelled,1
+Micronecta griseola,Arthropoda,Insecta,Hemiptera,Micronectidae,Micronecta,1,gatherer,3,aerial,1,swimmer,4,heavily_sclerotized,2
+Micronecta guttata,Arthropoda,Insecta,Hemiptera,Micronectidae,Micronecta,1,gatherer,3,aerial,1,swimmer,4,heavily_sclerotized,2
+Micronecta minutissima,Arthropoda,Insecta,Hemiptera,Micronectidae,Micronecta,1,gatherer,3,aerial,1,swimmer,4,heavily_sclerotized,2
+Micronecta scholtzi,Arthropoda,Insecta,Hemiptera,Micronectidae,Micronecta,1,gatherer,3,aerial,1,swimmer,4,heavily_sclerotized,2
+Micronecta sp.,Arthropoda,Insecta,Hemiptera,Micronectidae,Micronecta,1,gatherer,3,aerial,1,swimmer,4,heavily_sclerotized,2
+Micropsectra chuzeprima,Arthropoda,Insecta,Diptera,Chironomidae,Micropsectra,0.929418925714293,gatherer,3,tegument,2,crawler; sessile,3,soft_body,4
+Micropsectra sp.,Arthropoda,Insecta,Diptera,Chironomidae,Micropsectra,0.929418925714293,gatherer,3,tegument,2,crawler; sessile,3,soft_body,4
+Micropterna sp.,Arthropoda,Insecta,Trichoptera,Limnephilidae,Micropterna,1.60205999132796,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Microtendipes britteni,Arthropoda,Insecta,Diptera,Chironomidae,Microtendipes,1.17609125905568,gatherer,3,tegument,2,sessile,1,soft_body,4
+Microtendipes chloris,Arthropoda,Insecta,Diptera,Chironomidae,Microtendipes,1.17609125905568,gatherer,3,tegument,2,sessile,1,soft_body,4
+Microtendipes pedellus,Arthropoda,Insecta,Diptera,Chironomidae,Microtendipes,1.17609125905568,gatherer,3,tegument,2,sessile,1,soft_body,4
+Microtendipes sp.,Arthropoda,Insecta,Diptera,Chironomidae,Microtendipes,1.17609125905568,gatherer,3,tegument,2,sessile,1,soft_body,4
+Mimobdella japonica,Annelida,Clitellata,Hirudinida,Salifidae,Mimobdella,1.959518376973,predator,1,tegument,2,crawler,3,soft_body,4
+Mnais strigata,Arthropoda,Insecta,Odonata,Calopterygidae,Mnais,1.43136376415899,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Molanna angustata,Arthropoda,Insecta,Trichoptera,Molannidae,Molanna,0.301029996,predator,1,gill; tegument,3,crawler; sessile,3,soft_body,4
+Molanna moesta,Arthropoda,Insecta,Trichoptera,Molannidae,Molanna,0.301029996,predator,1,gill; tegument,3,crawler; sessile,3,soft_body,4
+Molophilus sp.,Arthropoda,Insecta,Diptera,Tipulidae,Molophilus,1.20411998265592,shredder,2,aerial,1,burrower,2,partly_sclerotized,3
+Monodiamesa nitida,Arthropoda,Insecta,Diptera,Chironomidae,Monodiamesa,1.13640344813399,predator,1,tegument,2,crawler,3,soft_body,4
+Monodiamesa sp.,Arthropoda,Insecta,Diptera,Chironomidae,Monodiamesa,1.13640344813399,predator,1,tegument,2,crawler,3,soft_body,4
+Monopelopia tenuicalcar,Arthropoda,Insecta,Diptera,Chironomidae,Monopelopia,0.778151250383644,predator,1,tegument,2,crawler,3,soft_body,4
+Monopylephorus sp.,Annelida,Clitellata,Tubificida,Naididae,Monopylephorus,1.30102999566398,gatherer,3,tegument,2,burrower,2,soft_body,4
+Musculium lacustre,Mollusca,Bivalvia,Venerida,Sphaeriidae,Musculium,1,filterer,4,gill,3,crawler,3,hard_shelled,1
+Mystacides azurea,Arthropoda,Insecta,Trichoptera,Leptoceridae,Mystacides,0.301029995663981,gatherer,3,gill; tegument,3,crawler,3,soft_body,4
+Mystacides longicornis,Arthropoda,Insecta,Trichoptera,Leptoceridae,Mystacides,1.30102999566398,gatherer,3,gill; tegument,3,crawler,3,soft_body,4
+Mystacides nigra,Arthropoda,Insecta,Trichoptera,Leptoceridae,Mystacides,0.301029995663981,gatherer,3,gill; tegument,3,crawler,3,soft_body,4
+Mystacides sp.,Arthropoda,Insecta,Trichoptera,Leptoceridae,Mystacides,1.30102999566398,gatherer,3,gill; tegument,3,crawler,3,soft_body,4
+Nais alpina,Annelida,Clitellata,Tubificida,Naididae,Nais,0.301029996,gatherer; herbivore,3,tegument,2,crawler,3,soft_body,4
+Nais barbata,Annelida,Clitellata,Tubificida,Naididae,Nais,0.301029996,gatherer; herbivore,3,tegument,2,crawler,3,soft_body,4
+Nais bretscheri,Annelida,Clitellata,Tubificida,Naididae,Nais,0.301029996,gatherer; herbivore,3,tegument,2,crawler,3,soft_body,4
+Nais christinae,Annelida,Clitellata,Tubificida,Naididae,Nais,0.301029996,gatherer; herbivore,3,tegument,2,crawler,3,soft_body,4
+Nais communis,Annelida,Clitellata,Tubificida,Naididae,Nais,0.301029996,gatherer; herbivore,3,tegument,2,crawler,3,soft_body,4
+Nais elinguis,Annelida,Clitellata,Tubificida,Naididae,Nais,0.301029996,gatherer; herbivore,3,tegument,2,crawler,3,soft_body,4
+Nais pardalis,Annelida,Clitellata,Tubificida,Naididae,Nais,0.301029996,gatherer; herbivore,3,tegument,2,crawler,3,soft_body,4
+Nais simplex,Annelida,Clitellata,Tubificida,Naididae,Nais,0.301029996,gatherer; herbivore,3,tegument,2,crawler,3,soft_body,4
+Nais sp.,Annelida,Clitellata,Tubificida,Naididae,Nais,0.301029996,gatherer; herbivore,3,tegument,2,crawler,3,soft_body,4
+Nais variabilis,Annelida,Clitellata,Tubificida,Naididae,Nais,0.301029996,gatherer; herbivore,3,tegument,2,crawler,3,soft_body,4
+Nanocladius dichromus,Arthropoda,Insecta,Diptera,Chironomidae,Nanocladius,0.602059991327962,gatherer; herbivore,3,tegument,2,crawler,3,soft_body,4
+Nanocladius distinctus,Arthropoda,Insecta,Diptera,Chironomidae,Nanocladius,0.602059991327962,gatherer,3,tegument,2,crawler,3,soft_body,4
+Nanocladius rectinervis,Arthropoda,Insecta,Diptera,Chironomidae,Nanocladius,0.602059991327962,gatherer,3,tegument,2,crawler,3,soft_body,4
+Nanocladius sp.,Arthropoda,Insecta,Diptera,Chironomidae,Nanocladius,0.602059991327962,gatherer,3,tegument,2,crawler,3,soft_body,4
+Natarsia punctata,Arthropoda,Insecta,Diptera,Chironomidae,Natarsia,0.845098040014257,predator,1,tegument,2,crawler,3,soft_body,4
+Natarsia sp.,Arthropoda,Insecta,Diptera,Chironomidae,Natarsia,0.845098040014257,predator,1,tegument,2,crawler,3,soft_body,4
+Naucoris sp.,Arthropoda,Insecta,Hemiptera,Naucoridae,Naucoris,1.30102999566398,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Nebrioporus assimilis,Arthropoda,Insecta,Coleoptera,Dytiscidae,Nebrioporus,0,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Nebrioporus depressus,Arthropoda,Insecta,Coleoptera,Dytiscidae,Nebrioporus,0,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Nebrioporus elegans,Arthropoda,Insecta,Coleoptera,Dytiscidae,Nebrioporus,1,predator,1,aerial,1,crawler,3,heavily_sclerotized,2
+Nebrioporus hostilis,Arthropoda,Insecta,Coleoptera,Dytiscidae,Nebrioporus,1,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Nemotaulius admorsus,Arthropoda,Insecta,Trichoptera,Limnephilidae,Nemotaulius,1.30102999566398,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Nemotaulius sp.,Arthropoda,Insecta,Trichoptera,Limnephilidae,Nemotaulius,1.30102999566398,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Nemotelus sp.,Arthropoda,Insecta,Diptera,Stratiomyidae,Nemotelus,0.812913356642856,gatherer,3,aerial,1,crawler,3,heavily_sclerotized,2
+Nemoura avicularis,Arthropoda,Insecta,Plecoptera,Nemouridae,Nemoura,0,shredder,2,tegument,2,crawler,3,partly_sclerotized,3
+Nemoura cambrica,Arthropoda,Insecta,Plecoptera,Nemouridae,Nemoura,0,shredder,2,tegument,2,crawler,3,partly_sclerotized,3
+Nemoura cinerea,Arthropoda,Insecta,Plecoptera,Nemouridae,Nemoura,0,shredder,2,tegument,2,crawler,3,partly_sclerotized,3
+Nemoura sp.,Arthropoda,Insecta,Plecoptera,Nemouridae,Nemoura,1,shredder,2,tegument,2,crawler,3,partly_sclerotized,3
+Nemurella picteti,Arthropoda,Insecta,Plecoptera,Nemouridae,Nemurella,0,shredder,2,tegument,2,crawler; sessile,3,partly_sclerotized,3
+Neocaridina sp.,Arthropoda,Malacostraca,Decapoda,Atyidae,Neocaridina,1.602059991,filterer; gatherer,4,gill,3,crawler,3,heavily_sclerotized,2
+Neochauliodes sp.,Arthropoda,Insecta,Megaloptera,Corydalidae,Neochauliodes,1.71180722904119,predator,1,tegument,2,crawler,3,heavily_sclerotized,2
+Neolimnomyia sp.,Arthropoda,Insecta,Diptera,Limoniidae,Neolimnomyia,1.25527250510331,shredder,2,aerial,1,burrower,2,soft_body,4
+Neoperla niponensis,Arthropoda,Insecta,Plecoptera,Perlidae,Neoperla,1.30102999566398,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Neoperla sp.,Arthropoda,Insecta,Plecoptera,Perlidae,Neoperla,1.30102999566398,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Neophylax iaponicas,Arthropoda,Insecta,Trichoptera,Uenoidae,Neophylax,1.17609125905568,gatherer; herbivore; shredder,3,gill; tegument,3,crawler,3,partly_sclerotized,3
+Neozavrelia fuldensis,Arthropoda,Insecta,Diptera,Chironomidae,Neozavrelia,0.602059991327962,gatherer,3,tegument,2,crawler,3,soft_body,4
+Neozavrelia luteola,Arthropoda,Insecta,Diptera,Chironomidae,Neozavrelia,0.602059991327962,gatherer,3,tegument,2,crawler,3,soft_body,4
+Neozavrelia sp.,Arthropoda,Insecta,Diptera,Chironomidae,Neozavrelia,0.602059991327962,gatherer,3,tegument,2,crawler,3,soft_body,4
+Nepa cinerea,Arthropoda,Insecta,Hemiptera,Nepidae,Nepa,1.602059991,predator,1,aerial,1,crawler,3,heavily_sclerotized,2
+Nephrotoma sp.,Arthropoda,Insecta,Diptera,Tipulidae,Nephrotoma,1.60205999132796,gatherer; shredder,3,aerial,1,burrower,2,partly_sclerotized,3
+Nephtys sp.,Annelida,Polychaeta,Phyllodocida,Nephtyidae,Nephtys,2.17609125905568,predator,1,gill,3,burrower,2,soft_body,4
+Neureclipsis bimaculata,Arthropoda,Insecta,Trichoptera,Polycentropodidae,Neureclipsis,1.30102999566398,predator,1,tegument,2,sessile,1,partly_sclerotized,3
+Neurobasis sp.,Arthropoda,Insecta,Odonata,Calopterygidae,Neurobasis,1.69897000433602,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Nigrobaetis digitatus,Arthropoda,Insecta,Ephemeroptera,Baetidae,Nigrobaetis,0.778151250383644,gatherer,3,gill,3,swimmer,4,soft_body,4
+Nigrobaetis niger,Arthropoda,Insecta,Ephemeroptera,Baetidae,Nigrobaetis,0.602059991327962,gatherer,3,gill,3,swimmer,4,soft_body,4
+Nihonogomphus sp.,Arthropoda,Insecta,Odonata,Gomphidae,Nihonogomphus,1.47712125471966,predator,1,gill,3,burrower,2,partly_sclerotized,3
+Nilotanypus dubius,Arthropoda,Insecta,Diptera,Chironomidae,Nilotanypus,0.477121254719662,predator,1,tegument,2,crawler,3,soft_body,4
+Nilothauma brayi,Arthropoda,Insecta,Diptera,Chironomidae,Nilothauma,0.845098040014257,gatherer,3,tegument,2,crawler,3,soft_body,4
+Niphargus aquilex,Arthropoda,Malacostraca,Amphipoda,Niphargidae,Niphargus,1.602059991,gatherer,3,gill,3,crawler; swimmer,4,heavily_sclerotized,2
+Niphargus hrabei,Arthropoda,Malacostraca,Amphipoda,Niphargidae,Niphargus,1.602059991,gatherer,3,gill,3,crawler; swimmer,4,heavily_sclerotized,2
+Normandia nitens,Arthropoda,Insecta,Coleoptera,Elmidae,Normandia,0.290034611362518,herbivore,2,gill; aerial,3,crawler,3,heavily_sclerotized,2
+Noterus clavicornis,Arthropoda,Insecta,Coleoptera,Noteridae,Noterus,0.698970004336019,predator,1,aerial; tegument,2,burrower; swimmer,4,heavily_sclerotized,2
+Notidobia ciliaris,Arthropoda,Insecta,Trichoptera,Sericostomatidae,Notidobia,0.301029995663981,shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Notonecta chinensis,Arthropoda,Insecta,Hemiptera,Notonectidae,Notonecta,1.30102999566398,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Notonecta glauca,Arthropoda,Insecta,Hemiptera,Notonectidae,Notonecta,0.301029996,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Notonecta maculata,Arthropoda,Insecta,Hemiptera,Notonectidae,Notonecta,0.301029996,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Notonecta obliqua,Arthropoda,Insecta,Hemiptera,Notonectidae,Notonecta,0.301029995663981,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Notonecta sp.,Arthropoda,Insecta,Hemiptera,Notonectidae,Notonecta,1.301029996,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Novaculina chinensis,Mollusca,Bivalvia,Adapedonta,Pharidae,Novaculina,1.66275783168157,filterer,4,gill,3,burrower,2,hard_shelled,1
+Obesogammarus crassus,Arthropoda,Malacostraca,Amphipoda,Gammaridae,Obesogammarus,1.07918124604762,shredder,2,gill,3,crawler; swimmer,4,heavily_sclerotized,2
+Obesogammarus obesus,Arthropoda,Malacostraca,Amphipoda,Gammaridae,Obesogammarus,1.04139268515823,predator,1,gill,3,crawler; swimmer,4,heavily_sclerotized,2
+Ochthebius bicolon,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,0.255272505103306,herbivore,2,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Ochthebius dilatatus,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,0.322219294733919,herbivore,2,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Ochthebius minimus,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,0.301029995663981,herbivore,2,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Odontocerum albicorne,Arthropoda,Insecta,Trichoptera,Odontoceridae,Odontocerum,0.602059991327962,predator,1,gill; tegument,3,crawler,3,partly_sclerotized,3
+Odontomesa fulva,Arthropoda,Insecta,Diptera,Chironomidae,Odontomesa,0.845098040014257,filterer,4,tegument,2,crawler,3,soft_body,4
+Odontomyia sp.,Arthropoda,Insecta,Diptera,Stratiomyidae,Odontomyia,1.31993843998031,gatherer,3,aerial,1,crawler,3,heavily_sclerotized,2
+Oecetis lacustris,Arthropoda,Insecta,Trichoptera,Leptoceridae,Oecetis,0.301029995663981,predator,1,gill; tegument,3,crawler; sessile,3,soft_body,4
+Oecetis notata,Arthropoda,Insecta,Trichoptera,Leptoceridae,Oecetis,0.301029995663981,predator,1,gill; tegument,3,crawler,3,soft_body,4
+Oecetis ochracea,Arthropoda,Insecta,Trichoptera,Leptoceridae,Oecetis,1.30102999566398,predator,1,gill; tegument,3,crawler; sessile,3,soft_body,4
+Oecetis sp.,Arthropoda,Insecta,Trichoptera,Leptoceridae,Oecetis,1.30102999566398,predator,1,gill; tegument,3,crawler,3,soft_body,4
+Oecetis testacea,Arthropoda,Insecta,Trichoptera,Leptoceridae,Oecetis,0.301029995663981,predator,1,gill; tegument,3,crawler; sessile,3,soft_body,4
+Oecetis tripunctata,Arthropoda,Insecta,Trichoptera,Leptoceridae,Oecetis,1.30102999566398,predator; shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Olecryptotendipes lenzi,Arthropoda,Insecta,Diptera,Chironomidae,Olecryptotendipes,0.903089986991944,gatherer,3,tegument,2,crawler,3,soft_body,4
+Oligoneuriella rhenana,Arthropoda,Insecta,Ephemeroptera,Oligoneuriidae,Oligoneuriella,1.30102999566398,filterer,4,gill; tegument,3,crawler,3,partly_sclerotized,3
+Oligoneuriella sp.,Arthropoda,Insecta,Ephemeroptera,Oligoneuriidae,Oligoneuriella,1.30102999566398,filterer,4,gill; tegument,3,crawler,3,partly_sclerotized,3
+Oncomelania sp.,Mollusca,Gastropoda,Littorinida,Pomatiopsidae,Oncomelania,0.903089987,herbivore,2,gill,3,crawler,3,hard_shelled,1
+Onychogomphus forcipatus,Arthropoda,Insecta,Odonata,Gomphidae,Onychogomphus,1.60205999132796,predator,1,gill,3,burrower,2,partly_sclerotized,3
+Onychogomphus viridicostus,Arthropoda,Insecta,Odonata,Gomphidae,Onychogomphus,1.60205999132796,predator,1,gill,3,burrower,2,partly_sclerotized,3
+Ophidonais serpentina,Annelida,Clitellata,Tubificida,Naididae,Ophidonais,0.602059991327962,gatherer,3,tegument,2,crawler; swimmer,4,soft_body,4
+Ophiogomphus cecilia,Arthropoda,Insecta,Odonata,Gomphidae,Ophiogomphus,1.602059991,predator,1,gill,3,burrower; crawler,3,partly_sclerotized,3
+Ophiogomphus sp.,Arthropoda,Insecta,Odonata,Gomphidae,Ophiogomphus,1.602059991,predator,1,gill,3,burrower; crawler,3,partly_sclerotized,3
+Orchestia cavimana,Arthropoda,Malacostraca,Amphipoda,Talitridae,Orchestia,1.34242268082221,shredder,2,gill,3,crawler; sessile,3,partly_sclerotized,3
+Orconectes limosus,Arthropoda,Malacostraca,Decapoda,Cambaridae,Orconectes,1.929418926,gatherer; predator,3,gill,3,crawler,3,hard_shelled,1
+Orectochilus villosus,Arthropoda,Insecta,Coleoptera,Gyrinidae,Orectochilus,1,predator,1,gill; aerial,3,swimmer,4,heavily_sclerotized,2
+Oreodytes davisii,Arthropoda,Insecta,Coleoptera,Dytiscidae,Oreodytes,0.672097857935718,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Oreodytes natrix,Arthropoda,Insecta,Coleoptera,Dytiscidae,Oreodytes,1,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Oreodytes sanmarkii,Arthropoda,Insecta,Coleoptera,Dytiscidae,Oreodytes,0.477121254719662,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Oreodytes septentrionalis,Arthropoda,Insecta,Coleoptera,Dytiscidae,Oreodytes,0.544068044350276,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Oreodytes sp.,Arthropoda,Insecta,Coleoptera,Dytiscidae,Oreodytes,1,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Orientogalba ollula,Mollusca,Gastropoda,Lymnaeida,Lymnaeidae,Orientogalba,1.30102999566398,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Orientogomphus sp.,Arthropoda,Insecta,Odonata,Gomphidae,Orientogomphus,1.47712125471966,predator,1,gill,3,burrower,2,partly_sclerotized,3
+Ormosia sp.,Arthropoda,Insecta,Diptera,Tipulidae,Ormosia,1.20411998265592,gatherer,3,aerial,1,burrower,2,partly_sclerotized,3
+Orthetrum albistylum,Arthropoda,Insecta,Odonata,Libellulidae,Orthetrum,1.602059991,predator,1,gill,3,crawler; swimmer,4,partly_sclerotized,3
+Orthetrum cancellatum,Arthropoda,Insecta,Odonata,Libellulidae,Orthetrum,1.602059991,predator,1,gill,3,crawler; swimmer,4,partly_sclerotized,3
+Orthetrum sp.,Arthropoda,Insecta,Odonata,Libellulidae,Orthetrum,1.602059991,predator,1,gill,3,crawler; swimmer,4,partly_sclerotized,3
+Orthocladius lignicola,Arthropoda,Insecta,Diptera,Chironomidae,Orthocladius,0.954242509,filterer; gatherer; herbivore,4,tegument,2,crawler,3,soft_body,4
+Orthocladius rubicundus,Arthropoda,Insecta,Diptera,Chironomidae,Orthocladius,0.954242509,filterer; gatherer; herbivore,4,tegument,2,crawler,3,soft_body,4
+Orthocladius sp.,Arthropoda,Insecta,Diptera,Chironomidae,Orthocladius,0.954242509,filterer; gatherer; herbivore,4,tegument,2,crawler,3,soft_body,4
+Orthotrichia sp.,Arthropoda,Insecta,Trichoptera,Hydroptilidae,Orthotrichia,1,herbivore,2,tegument,2,sessile,1,partly_sclerotized,3
+Osmylus fulvicephalus,Arthropoda,Insecta,Neuroptera,Osmylidae,Osmylus,0.301029995663981,predator,1,aerial,1,crawler,3,partly_sclerotized,3
+Oulimnius major,Arthropoda,Insecta,Coleoptera,Elmidae,Oulimnius,0.301029995663981,herbivore,2,gill; aerial,3,crawler,3,heavily_sclerotized,2
+Oulimnius rivularis,Arthropoda,Insecta,Coleoptera,Elmidae,Oulimnius,0.278753600952829,herbivore,2,gill; aerial,3,crawler,3,heavily_sclerotized,2
+Oulimnius sp.,Arthropoda,Insecta,Coleoptera,Elmidae,Oulimnius,1,herbivore,2,gill; aerial,3,crawler,3,heavily_sclerotized,2
+Oulimnius troglodytes,Arthropoda,Insecta,Coleoptera,Elmidae,Oulimnius,0.230448921378274,herbivore,2,gill; aerial,3,crawler,3,heavily_sclerotized,2
+Oulimnius tuberculatus,Arthropoda,Insecta,Coleoptera,Elmidae,Oulimnius,0.278753600952829,herbivore,2,gill; aerial,3,crawler,3,heavily_sclerotized,2
+Oxycera sp.,Arthropoda,Insecta,Diptera,Stratiomyidae,Oxycera,1.07918124604762,herbivore,2,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Oxyethira flavicornis,Arthropoda,Insecta,Trichoptera,Hydroptilidae,Oxyethira,1,herbivore,2,tegument,2,crawler,3,partly_sclerotized,3
+Oxyethira sp.,Arthropoda,Insecta,Trichoptera,Hydroptilidae,Oxyethira,1,herbivore,2,tegument,2,crawler,3,partly_sclerotized,3
+Oxyethira tristella,Arthropoda,Insecta,Trichoptera,Hydroptilidae,Oxyethira,1,herbivore,2,tegument,2,crawler,3,partly_sclerotized,3
+Oyamia sp.,Arthropoda,Insecta,Plecoptera,Perlidae,Oyamia,1.30102999566398,predator,1,gill; tegument,3,crawler,3,partly_sclerotized,3
+Paegniodes sp.,Arthropoda,Insecta,Ephemeroptera,Heptageniidae,Paegniodes,1.30102999566398,herbivore,2,gill,3,crawler,3,soft_body,4
+Palaemon modestus,Arthropoda,Malacostraca,Decapoda,Palaemonidae,Palaemon,1.903089987,gatherer; predator,3,gill,3,crawler,3,heavily_sclerotized,2
+Palaemon myadii,Arthropoda,Malacostraca,Decapoda,Palaemonidae,Palaemon,1.903089987,gatherer; predator,3,gill,3,crawler,3,heavily_sclerotized,2
+Palaemon serrifer,Arthropoda,Malacostraca,Decapoda,Palaemonidae,Palaemon,1.903089987,gatherer; predator,3,gill,3,crawler,3,heavily_sclerotized,2
+Palaemon sinensis,Arthropoda,Malacostraca,Decapoda,Palaemonidae,Palaemon,1.903089987,gatherer; predator,3,gill,3,crawler,3,heavily_sclerotized,2
+Palaemon sp.,Arthropoda,Malacostraca,Decapoda,Palaemonidae,Palaemon,1.903089987,gatherer; predator,3,gill,3,crawler,3,heavily_sclerotized,2
+Pantala flavescens,Arthropoda,Insecta,Odonata,Libellulidae,Pantala,1.39794000867204,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Paracercion calamorum,Arthropoda,Insecta,Odonata,Coenagrionidae,Paracercion,1.30102999566398,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Paracercion hieroglyphicum,Arthropoda,Insecta,Odonata,Coenagrionidae,Paracercion,1.30102999566398,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Paracercion plagiosum,Arthropoda,Insecta,Odonata,Coenagrionidae,Paracercion,1.30102999566398,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Paracercion sexlineatum,Arthropoda,Insecta,Odonata,Coenagrionidae,Paracercion,1.30102999566398,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Paracercion sp.,Arthropoda,Insecta,Odonata,Coenagrionidae,Paracercion,1.30102999566398,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Parachaetocladius sp.,Arthropoda,Insecta,Diptera,Chironomidae,Parachaetocladius,0.845098040014257,gatherer,3,tegument,2,crawler,3,soft_body,4
+Parachironomus gracilior,Arthropoda,Insecta,Diptera,Chironomidae,Parachironomus,1.23044892137827,gatherer; herbivore,3,tegument,2,crawler,3,soft_body,4
+Parachironomus sp.,Arthropoda,Insecta,Diptera,Chironomidae,Parachironomus,1.23044892137827,predator,1,tegument,2,crawler,3,soft_body,4
+Paracladius conversus,Arthropoda,Insecta,Diptera,Chironomidae,Paracladius,0.954242509439325,gatherer,3,tegument,2,crawler,3,soft_body,4
+Paracladopelma nigritula,Arthropoda,Insecta,Diptera,Chironomidae,Paracladopelma,0.812913356642856,gatherer,3,tegument,2,crawler,3,soft_body,4
+Paracladopelma sp.,Arthropoda,Insecta,Diptera,Chironomidae,Paracladopelma,0.812913356642856,gatherer,3,tegument,2,crawler,3,soft_body,4
+Paracladopelma undine,Arthropoda,Insecta,Diptera,Chironomidae,Paracladopelma,0.812913356642856,gatherer,3,tegument,2,crawler,3,soft_body,4
+Paracricotopus niger,Arthropoda,Insecta,Diptera,Chironomidae,Paracricotopus,0.698970004336019,herbivore,2,tegument,2,crawler,3,soft_body,4
+Paracymus scutellaris,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Paracymus,0.477121254719662,shredder,2,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Parafossarulus eximius,Mollusca,Gastropoda,Littorinida,Bithyniidae,Parafossarulus,1.17609125905568,filterer,4,gill,3,crawler,3,hard_shelled,1
+Parafossarulus striatulus,Mollusca,Gastropoda,Littorinida,Bithyniidae,Parafossarulus,1.17609125905568,filterer,4,gill,3,crawler,3,hard_shelled,1
+Paragnetina sp.,Arthropoda,Insecta,Plecoptera,Perlidae,Paragnetina,1.301029996,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Parakiefferiella sp.,Arthropoda,Insecta,Diptera,Chironomidae,Parakiefferiella,0.954242509439325,gatherer,3,tegument,2,crawler,3,soft_body,4
+Paralauterborniella nigrohalteralis,Arthropoda,Insecta,Diptera,Chironomidae,Paralauterborniella,0.698970004336019,gatherer,3,tegument,2,crawler,3,soft_body,4
+Paraleptophlebia cincta,Arthropoda,Insecta,Ephemeroptera,Leptophlebiidae,Paraleptophlebia,0.301029995663981,gatherer,3,gill; tegument,3,crawler,3,soft_body,4
+Paraleptophlebia sp.,Arthropoda,Insecta,Ephemeroptera,Leptophlebiidae,Paraleptophlebia,1.301029996,gatherer,3,gill,3,crawler,3,soft_body,4
+Paraleptophlebia submarginata,Arthropoda,Insecta,Ephemeroptera,Leptophlebiidae,Paraleptophlebia,0.301029996,gatherer,3,gill; tegument,3,crawler,3,soft_body,4
+Paraleptophlebia werneri,Arthropoda,Insecta,Ephemeroptera,Leptophlebiidae,Paraleptophlebia,0.301029995663981,gatherer,3,gill; tegument,3,crawler,3,soft_body,4
+Parametriocnemus stylatus,Arthropoda,Insecta,Diptera,Chironomidae,Parametriocnemus,0.698970004336019,gatherer,3,tegument,2,crawler,3,soft_body,4
+Paraphaenocladius sp.,Arthropoda,Insecta,Diptera,Chironomidae,Paraphaenocladius,0.954242509439325,gatherer,3,tegument,2,crawler,3,soft_body,4
+Parapoynx sp.,Arthropoda,Insecta,Lepidoptera,Crambidae,Parapoynx,1.602059991,shredder,2,gill,3,crawler; sessile,3,soft_body,4
+Parasmittia carinata,Arthropoda,Insecta,Diptera,Chironomidae,Parasmittia,0.653212513775344,gatherer,3,tegument,2,crawler,3,soft_body,4
+Paratanytarsus dissimilis,Arthropoda,Insecta,Diptera,Chironomidae,Paratanytarsus,1.602059991,herbivore,2,tegument,2,crawler,3,soft_body,4
+Paratanytarsus sp.,Arthropoda,Insecta,Diptera,Chironomidae,Paratanytarsus,1.602059991,gatherer; herbivore,3,tegument,2,crawler,3,soft_body,4
+Paratendipes albimanus,Arthropoda,Insecta,Diptera,Chironomidae,Paratendipes,0.845098040014257,gatherer,3,tegument,2,crawler,3,soft_body,4
+Paratendipes sp.,Arthropoda,Insecta,Diptera,Chironomidae,Paratendipes,0.845098040014257,gatherer,3,tegument,2,crawler,3,soft_body,4
+Paratrichocladius rufiventris,Arthropoda,Insecta,Diptera,Chironomidae,Paratrichocladius,0.6232492903979,herbivore,2,tegument,2,crawler,3,soft_body,4
+Paratrissocladius excerptus,Arthropoda,Insecta,Diptera,Chironomidae,Paratrissocladius,0.518513939877887,gatherer,3,tegument,2,crawler,3,soft_body,4
+Pedicia sp.,Arthropoda,Insecta,Diptera,Tipulidae,Pedicia,1.20411998265592,predator,1,aerial,1,burrower,2,partly_sclerotized,3
+Peltodytes sp.,Arthropoda,Insecta,Coleoptera,Haliplidae,Peltodytes,1,herbivore; shredder,2,gill; aerial,3,crawler; swimmer,4,heavily_sclerotized,2
+Pentagenia sp.,Arthropoda,Insecta,Ephemeroptera,Palingeniidae,Pentagenia,1.47712125471966,filterer,4,gill,3,burrower,2,soft_body,4
+Pericoma blandula,Arthropoda,Insecta,Diptera,Psychodidae,Pericoma,0.954242509439325,gatherer,3,aerial,1,burrower,2,partly_sclerotized,3
+Pericoma calcilega,Arthropoda,Insecta,Diptera,Psychodidae,Pericoma,0.954242509439325,gatherer,3,aerial,1,burrower,2,partly_sclerotized,3
+Pericoma canescens,Arthropoda,Insecta,Diptera,Psychodidae,Pericoma,0.954242509439325,gatherer,3,aerial,1,burrower,2,partly_sclerotized,3
+Pericoma cognata,Arthropoda,Insecta,Diptera,Psychodidae,Pericoma,0.954242509439325,gatherer,3,aerial,1,burrower,2,partly_sclerotized,3
+Pericoma diversa,Arthropoda,Insecta,Diptera,Psychodidae,Pericoma,0.954242509439325,gatherer,3,aerial,1,burrower,2,partly_sclerotized,3
+Pericoma exquisita,Arthropoda,Insecta,Diptera,Psychodidae,Pericoma,0.954242509439325,gatherer,3,aerial,1,burrower,2,partly_sclerotized,3
+Pericoma fallax,Arthropoda,Insecta,Diptera,Psychodidae,Pericoma,0.954242509439325,gatherer,3,aerial,1,burrower,2,partly_sclerotized,3
+Pericoma fuliginosa,Arthropoda,Insecta,Diptera,Psychodidae,Pericoma,0.954242509439325,gatherer,3,aerial,1,burrower,2,partly_sclerotized,3
+Pericoma neglecta,Arthropoda,Insecta,Diptera,Psychodidae,Pericoma,0.954242509439325,gatherer,3,aerial,1,burrower,2,partly_sclerotized,3
+Pericoma pseudoexquisita,Arthropoda,Insecta,Diptera,Psychodidae,Pericoma,0.954242509439325,gatherer,3,aerial,1,burrower,2,partly_sclerotized,3
+Pericoma pulchra,Arthropoda,Insecta,Diptera,Psychodidae,Pericoma,0.954242509439325,gatherer,3,aerial,1,burrower,2,partly_sclerotized,3
+Pericoma trifasciata,Arthropoda,Insecta,Diptera,Psychodidae,Pericoma,0.954242509439325,gatherer,3,aerial,1,burrower,2,partly_sclerotized,3
+Pericoma trivialis,Arthropoda,Insecta,Diptera,Psychodidae,Pericoma,0.954242509439325,gatherer,3,aerial,1,burrower,2,partly_sclerotized,3
+Peripsychoda fusca,Arthropoda,Insecta,Diptera,Psychodidae,Peripsychoda,1,gatherer,3,aerial,1,burrower,2,partly_sclerotized,3
+Perla bipunctata,Arthropoda,Insecta,Plecoptera,Perlidae,Perla,0.602059991327962,predator,1,gill; tegument,3,crawler,3,partly_sclerotized,3
+Perlodes dispar,Arthropoda,Insecta,Plecoptera,Perlodidae,Perlodes,1.60205999132796,predator,1,tegument,2,crawler,3,partly_sclerotized,3
+Perlodes microcephala,Arthropoda,Insecta,Plecoptera,Perlodidae,Perlodes,0.602059991327962,shredder,2,tegument,2,crawler,3,partly_sclerotized,3
+Perlomyia sp.,Arthropoda,Insecta,Plecoptera,Leuctridae,Perlomyia,1,gatherer,3,tegument,2,crawler,3,partly_sclerotized,3
+Phaenopsectra flavipes,Arthropoda,Insecta,Diptera,Chironomidae,Phaenopsectra,1.23044892137827,gatherer; herbivore,3,tegument,2,sessile,1,soft_body,4
+Phaenopsectra sp.,Arthropoda,Insecta,Diptera,Chironomidae,Phaenopsectra,1.23044892137827,gatherer; herbivore,3,tegument,2,sessile,1,soft_body,4
+Phagocata vitta,Platyhelminthes,Acentrosomata,Tricladida,Planariidae,Phagocata,0.602059991327962,predator,1,tegument,2,crawler,3,soft_body,4
+Philopotamus montanus,Arthropoda,Insecta,Trichoptera,Philopotamidae,Philopotamus,0.301029995663981,filterer,4,tegument,2,crawler,3,partly_sclerotized,3
+Philorus sp.,Arthropoda,Insecta,Diptera,Blephariceridae,Philorus,1,herbivore,2,gill,3,crawler,3,soft_body,4
+Phryganea sp.,Arthropoda,Insecta,Trichoptera,Phryganeidae,Phryganea,1.602059991,predator,1,gill; tegument,3,crawler,3,soft_body,4
+Phylidorea sp.,Arthropoda,Insecta,Diptera,Limoniidae,Phylidorea,1.11394335230684,predator,1,aerial,1,burrower,2,soft_body,4
+Physa fontinalis,Mollusca,Gastropoda,Lymnaeida,Physidae,Physa,1.301029996,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Physa sp.,Mollusca,Gastropoda,Lymnaeida,Physidae,Physa,1.301029996,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Physella acuta,Mollusca,Gastropoda,Lymnaeida,Physidae,Physella,1.301029996,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Physella sp.,Mollusca,Gastropoda,Lymnaeida,Physidae,Physella,1.301029996,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Piguetiella blanci,Annelida,Clitellata,Tubificida,Naididae,Piguetiella,1.30102999566398,gatherer,3,tegument,2,crawler,3,soft_body,4
+Pilaria sp.,Arthropoda,Insecta,Diptera,Tipulidae,Pilaria,1.20411998265592,predator,1,aerial,1,burrower,2,partly_sclerotized,3
+Pisidium amnicum,Mollusca,Bivalvia,Venerida,Sphaeriidae,Pisidium,1.301029996,filterer,4,gill,3,sessile,1,hard_shelled,1
+Pisidium casertanum,Mollusca,Bivalvia,Venerida,Sphaeriidae,Pisidium,1.301029996,filterer,4,gill,3,sessile,1,hard_shelled,1
+Pisidium crassum,Mollusca,Bivalvia,Venerida,Sphaeriidae,Pisidium,1.301029996,filterer,4,gill,3,sessile,1,hard_shelled,1
+Pisidium henslowanum,Mollusca,Bivalvia,Venerida,Sphaeriidae,Pisidium,1.301029996,filterer,4,gill,3,sessile,1,hard_shelled,1
+Pisidium hibernicum,Mollusca,Bivalvia,Venerida,Sphaeriidae,Pisidium,1.301029996,filterer,4,gill,3,sessile,1,hard_shelled,1
+Pisidium milium,Mollusca,Bivalvia,Venerida,Sphaeriidae,Pisidium,1.301029996,filterer,4,gill,3,sessile,1,hard_shelled,1
+Pisidium moitessierianum,Mollusca,Bivalvia,Venerida,Sphaeriidae,Pisidium,1.301029996,filterer,4,gill,3,sessile,1,hard_shelled,1
+Pisidium nitidum,Mollusca,Bivalvia,Venerida,Sphaeriidae,Pisidium,1.301029996,filterer,4,gill,3,sessile,1,hard_shelled,1
+Pisidium obtusale,Mollusca,Bivalvia,Venerida,Sphaeriidae,Pisidium,1.301029996,filterer,4,gill,3,sessile,1,hard_shelled,1
+Pisidium personatum,Mollusca,Bivalvia,Venerida,Sphaeriidae,Pisidium,1.301029996,filterer,4,gill,3,sessile,1,hard_shelled,1
+Pisidium pseudosphaerium,Mollusca,Bivalvia,Venerida,Sphaeriidae,Pisidium,1.301029996,filterer,4,gill,3,sessile,1,hard_shelled,1
+Pisidium pulchellum,Mollusca,Bivalvia,Venerida,Sphaeriidae,Pisidium,1.301029996,filterer,4,gill,3,sessile,1,hard_shelled,1
+Pisidium sp.,Mollusca,Bivalvia,Venerida,Sphaeriidae,Pisidium,1.301029996,filterer,4,gill,3,sessile,1,hard_shelled,1
+Pisidium subtruncatum,Mollusca,Bivalvia,Venerida,Sphaeriidae,Pisidium,1.301029996,filterer,4,gill,3,sessile,1,hard_shelled,1
+Pisidium supinum,Mollusca,Bivalvia,Venerida,Sphaeriidae,Pisidium,1.301029996,filterer,4,gill,3,sessile,1,hard_shelled,1
+Pisidium tenuilineatum,Mollusca,Bivalvia,Venerida,Sphaeriidae,Pisidium,1.301029996,filterer,4,gill,3,sessile,1,hard_shelled,1
+Planaria torva,Platyhelminthes,Acentrosomata,Tricladida,Planariidae,Planaria,0.301029995663981,predator,1,tegument,2,crawler,3,soft_body,4
+Planorbarius corneus,Mollusca,Gastropoda,Lymnaeida,Planorbidae,Planorbarius,0.602059991327962,shredder,2,tegument,2,crawler,3,hard_shelled,1
+Planorbis carinatus,Mollusca,Gastropoda,Lymnaeida,Planorbidae,Planorbis,0.301029996,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Planorbis planorbis,Mollusca,Gastropoda,Lymnaeida,Planorbidae,Planorbis,0.301029996,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Platambus maculatus,Arthropoda,Insecta,Coleoptera,Dytiscidae,Platambus,1,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Platycnemis pennipes,Arthropoda,Insecta,Odonata,Platycnemididae,Platycnemis,0.301029996,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Plea minutissima,Arthropoda,Insecta,Hemiptera,Pleidae,Plea,0.698970004,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Plectrocnemia conspersa,Arthropoda,Insecta,Trichoptera,Polycentropodidae,Plectrocnemia,0.602059991327962,predator,1,tegument,2,sessile,1,partly_sclerotized,3
+Plectrocnemia geniculata,Arthropoda,Insecta,Trichoptera,Polycentropodidae,Plectrocnemia,0.602059991327962,predator,1,tegument,2,sessile,1,partly_sclerotized,3
+Plectrocnemia sp.,Arthropoda,Insecta,Trichoptera,Polycentropodidae,Plectrocnemia,1.60205999132796,predator,1,tegument,2,sessile,1,partly_sclerotized,3
+Polycanthagyna sp.,Arthropoda,Insecta,Odonata,Aeshnidae,Polycanthagyna,1.61909333062674,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Polycelis felina,Platyhelminthes,Acentrosomata,Tricladida,Planariidae,Polycelis,0.301029996,predator,1,tegument,2,crawler,3,soft_body,4
+Polycelis nigra,Platyhelminthes,Acentrosomata,Tricladida,Planariidae,Polycelis,0.301029995663981,predator,1,tegument,2,crawler,3,soft_body,4
+Polycentropus flavomaculatus,Arthropoda,Insecta,Trichoptera,Polycentropodidae,Polycentropus,0.301029995663981,predator,1,tegument,2,sessile,1,partly_sclerotized,3
+Polycentropus irroratus,Arthropoda,Insecta,Trichoptera,Polycentropodidae,Polycentropus,0.301029995663981,predator,1,tegument,2,sessile,1,partly_sclerotized,3
+Polycentropus kingi,Arthropoda,Insecta,Trichoptera,Polycentropodidae,Polycentropus,0.301029995663981,predator,1,tegument,2,sessile,1,partly_sclerotized,3
+Polycentropus sp.,Arthropoda,Insecta,Trichoptera,Polycentropodidae,Polycentropus,1.30102999566398,predator,1,tegument,2,sessile,1,partly_sclerotized,3
+Polymorphanisus sp.,Arthropoda,Insecta,Trichoptera,Hydropsychidae,Polymorphanisus,1.30102999566398,filterer,4,gill; tegument,3,sessile,1,soft_body,4
+Polypedilum acifer,Arthropoda,Insecta,Diptera,Chironomidae,Polypedilum,1.602059991,shredder,2,tegument,2,crawler,3,soft_body,4
+Polypedilum aegyptium,Arthropoda,Insecta,Diptera,Chironomidae,Polypedilum,1.602059991,shredder,2,tegument,2,crawler,3,soft_body,4
+Polypedilum albicorne,Arthropoda,Insecta,Diptera,Chironomidae,Polypedilum,1.602059991,shredder,2,tegument,2,crawler,3,soft_body,4
+Polypedilum apfelbecki,Arthropoda,Insecta,Diptera,Chironomidae,Polypedilum,1.602059991,shredder,2,tegument,2,crawler,3,soft_body,4
+Polypedilum bicrenatum,Arthropoda,Insecta,Diptera,Chironomidae,Polypedilum,1.602059991,shredder,2,tegument,2,crawler,3,soft_body,4
+Polypedilum breviantenratum,Arthropoda,Insecta,Diptera,Chironomidae,Polypedilum,1.602059991,shredder,2,tegument,2,crawler,3,soft_body,4
+Polypedilum convictum,Arthropoda,Insecta,Diptera,Chironomidae,Polypedilum,1.602059991,shredder,2,tegument,2,crawler,3,soft_body,4
+Polypedilum cultellatum,Arthropoda,Insecta,Diptera,Chironomidae,Polypedilum,1.602059991,shredder,2,tegument,2,crawler,3,soft_body,4
+Polypedilum fallax,Arthropoda,Insecta,Diptera,Chironomidae,Polypedilum,1.602059991,shredder,2,tegument,2,crawler,3,soft_body,4
+Polypedilum laetum,Arthropoda,Insecta,Diptera,Chironomidae,Polypedilum,1.602059991,shredder,2,tegument,2,crawler,3,soft_body,4
+Polypedilum masudai,Arthropoda,Insecta,Diptera,Chironomidae,Polypedilum,1.602059991,shredder,2,tegument,2,crawler,3,soft_body,4
+Polypedilum nubeculosum,Arthropoda,Insecta,Diptera,Chironomidae,Polypedilum,1.602059991,shredder,2,tegument,2,crawler,3,soft_body,4
+Polypedilum nubifer,Arthropoda,Insecta,Diptera,Chironomidae,Polypedilum,1.602059991,shredder,2,tegument,2,crawler,3,soft_body,4
+Polypedilum paraviceps,Arthropoda,Insecta,Diptera,Chironomidae,Polypedilum,1.602059991,shredder,2,tegument,2,crawler,3,soft_body,4
+Polypedilum pedestre,Arthropoda,Insecta,Diptera,Chironomidae,Polypedilum,1.602059991,shredder,2,tegument,2,crawler,3,soft_body,4
+Polypedilum scalaenum,Arthropoda,Insecta,Diptera,Chironomidae,Polypedilum,1.602059991,shredder,2,tegument,2,crawler,3,soft_body,4
+Polypedilum sp.,Arthropoda,Insecta,Diptera,Chironomidae,Polypedilum,1.602059991,shredder,2,tegument,2,crawler,3,soft_body,4
+Polypylis sp.,Mollusca,Gastropoda,Lymnaeida,Planorbidae,Polypylis,1,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Pomacea canaliculata,Mollusca,Gastropoda,Ampullariida,Ampullariidae,Pomacea,1.77815125,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Pontogammarus robustoides,Arthropoda,Malacostraca,Amphipoda,Pontogammaridae,Pontogammarus,1.34242268082221,gatherer; herbivore,3,gill,3,burrower; swimmer,4,partly_sclerotized,3
+Pontogammarus sarsi,Arthropoda,Malacostraca,Amphipoda,Pontogammaridae,Pontogammarus,1.34242268082221,gatherer; herbivore,3,gill,3,burrower; swimmer,4,partly_sclerotized,3
+Pontogammarus sp.,Arthropoda,Malacostraca,Amphipoda,Pontogammaridae,Pontogammarus,1.34242268082221,gatherer; herbivore,3,gill,3,burrower; swimmer,4,partly_sclerotized,3
+Porhydrus lineatus,Arthropoda,Insecta,Coleoptera,Dytiscidae,Porhydrus,1,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Potamanthellus sp.,Arthropoda,Insecta,Ephemeroptera,Neoephemeridae,Potamanthellus,0.903089986991944,gatherer,3,gill,3,crawler,3,soft_body,4
+Potamanthus luteus,Arthropoda,Insecta,Ephemeroptera,Potamanthidae,Potamanthus,1.30102999566398,gatherer,3,gill; tegument,3,crawler,3,soft_body,4
+Potamophylax rotundipennis,Arthropoda,Insecta,Trichoptera,Limnephilidae,Potamophylax,1.60205999132796,shredder,2,gill; tegument,3,crawler; sessile,3,soft_body,4
+Potamophylax sp.,Arthropoda,Insecta,Trichoptera,Limnephilidae,Potamophylax,1.60205999132796,shredder,2,gill; tegument,3,crawler; sessile,3,soft_body,4
+Potamopyrgus antipodarum,Mollusca,Gastropoda,Littorinida,Tateidae,Potamopyrgus,1,shredder,2,gill,3,crawler,3,hard_shelled,1
+Potamopyrgus jenkinsi,Mollusca,Gastropoda,Littorinida,Tateidae,Potamopyrgus,0,shredder,2,gill,3,crawler,3,hard_shelled,1
+Potamothrix bavaricus,Annelida,Clitellata,Tubificida,Naididae,Potamothrix,0.903089986991944,gatherer,3,tegument,2,burrower,2,soft_body,4
+Potamothrix danubialis,Annelida,Clitellata,Tubificida,Naididae,Potamothrix,1.90308998699194,gatherer,3,tegument,2,burrower,2,soft_body,4
+Potamothrix hammoniensis,Annelida,Clitellata,Tubificida,Naididae,Potamothrix,0.903089986991944,gatherer,3,tegument,2,burrower,2,soft_body,4
+Potamothrix heuscheri,Annelida,Clitellata,Tubificida,Naididae,Potamothrix,0.903089986991944,gatherer,3,tegument,2,burrower,2,soft_body,4
+Potamothrix moldaviensis,Annelida,Clitellata,Tubificida,Naididae,Potamothrix,0.903089986991944,gatherer,3,tegument,2,burrower,2,soft_body,4
+Potamothrix sp.,Annelida,Clitellata,Tubificida,Naididae,Potamothrix,1.90308998699194,gatherer,3,tegument,2,burrower,2,soft_body,4
+Potamothrix vejdovskyi,Annelida,Clitellata,Tubificida,Naididae,Potamothrix,0.903089986991944,gatherer,3,tegument,2,burrower,2,soft_body,4
+Potamyia sp.,Arthropoda,Insecta,Trichoptera,Hydropsychidae,Potamyia,1.30102999566398,filterer; gatherer,4,gill,3,burrower,2,soft_body,4
+Potthastia gaedii,Arthropoda,Insecta,Diptera,Chironomidae,Potthastia,1,herbivore,2,tegument,2,crawler,3,soft_body,4
+Potthastia longimana,Arthropoda,Insecta,Diptera,Chironomidae,Potthastia,1,gatherer,3,tegument,2,crawler,3,soft_body,4
+Pristina aequiseta,Annelida,Clitellata,Tubificida,Naididae,Pristina,0,gatherer,3,tegument,2,crawler,3,soft_body,4
+Pristina longiseta,Annelida,Clitellata,Tubificida,Naididae,Pristina,0,gatherer,3,tegument,2,crawler,3,soft_body,4
+Pristina sp.,Annelida,Clitellata,Tubificida,Naididae,Pristina,0,gatherer,3,tegument,2,crawler,3,soft_body,4
+Proasellus coxalis,Arthropoda,Malacostraca,Isopoda,Asellidae,Proasellus,1,shredder,2,gill,3,crawler; sessile,3,partly_sclerotized,3
+Proasellus sp.,Arthropoda,Malacostraca,Isopoda,Asellidae,Proasellus,1,shredder,2,gill,3,crawler; sessile,3,partly_sclerotized,3
+Procladius choreus,Arthropoda,Insecta,Diptera,Chironomidae,Procladius,1.602059991,predator,1,tegument,2,crawler,3,soft_body,4
+Procladius sp.,Arthropoda,Insecta,Diptera,Chironomidae,Procladius,1.602059991,predator,1,tegument,2,crawler,3,soft_body,4
+Procloeon bifidum,Arthropoda,Insecta,Ephemeroptera,Baetidae,Procloeon,1,gatherer,3,gill,3,crawler; swimmer,4,soft_body,4
+Procloeon pennulatum,Arthropoda,Insecta,Ephemeroptera,Baetidae,Procloeon,1,gatherer,3,gill,3,crawler; swimmer,4,soft_body,4
+Procloeon sp.,Arthropoda,Insecta,Ephemeroptera,Baetidae,Procloeon,1,gatherer,3,gill,3,crawler; swimmer,4,soft_body,4
+Prodiamesa olivacea,Arthropoda,Insecta,Diptera,Chironomidae,Prodiamesa,0.903089986991944,gatherer,3,tegument,2,burrower; crawler,3,soft_body,4
+Prodiamesa rufovittata,Arthropoda,Insecta,Diptera,Chironomidae,Prodiamesa,0.903089986991944,gatherer,3,tegument,2,crawler,3,soft_body,4
+Propappus volki,Annelida,Clitellata,Tubificida,Propappidae,Propappus,1.30102999566398,gatherer,3,tegument,2,crawler,3,soft_body,4
+Propsilocerus akamusi,Arthropoda,Insecta,Diptera,Chironomidae,Propsilocerus,1.23044892137827,gatherer,3,tegument,2,crawler,3,soft_body,4
+Propsilocerus sp.,Arthropoda,Insecta,Diptera,Chironomidae,Propsilocerus,1.23044892137827,gatherer,3,tegument,2,crawler,3,soft_body,4
+Prosimulium hirtipes,Arthropoda,Insecta,Diptera,Simuliidae,Prosimulium,0.954242509439325,filterer,4,tegument,2,crawler,3,soft_body,4
+Prosimulium latimucro,Arthropoda,Insecta,Diptera,Simuliidae,Prosimulium,0.954242509439325,filterer,4,tegument,2,crawler,3,soft_body,4
+Prosimulium liaoningense,Arthropoda,Insecta,Diptera,Simuliidae,Prosimulium,0.954242509439325,filterer,4,tegument,2,crawler,3,soft_body,4
+Prosimulium tomosvaryi,Arthropoda,Insecta,Diptera,Simuliidae,Prosimulium,0.954242509439325,filterer,4,tegument,2,crawler,3,soft_body,4
+Protanyderus sp.,Arthropoda,Insecta,Diptera,Tanyderidae,Protanyderus,1.47712125471966,gatherer,3,gill,3,burrower,2,partly_sclerotized,3
+Protohermes grandis,Arthropoda,Insecta,Megaloptera,Corydalidae,Protohermes,1.84509804001426,predator,1,tegument,2,crawler,3,heavily_sclerotized,2
+Protohermes sp.,Arthropoda,Insecta,Megaloptera,Corydalidae,Protohermes,1.84509804001426,predator,1,tegument,2,crawler,3,heavily_sclerotized,2
+Protonemura meyeri,Arthropoda,Insecta,Plecoptera,Nemouridae,Protonemura,0.301029996,shredder,2,gill; tegument,3,crawler,3,partly_sclerotized,3
+Protonemura montana,Arthropoda,Insecta,Plecoptera,Nemouridae,Protonemura,0.301029996,shredder,2,gill; tegument,3,crawler,3,partly_sclerotized,3
+Protonemura praecox,Arthropoda,Insecta,Plecoptera,Nemouridae,Protonemura,0.301029996,shredder,2,gill; tegument,3,crawler,3,partly_sclerotized,3
+Psammoryctides albicola,Annelida,Clitellata,Tubificida,Naididae,Psammoryctides,1.54406804435028,gatherer,3,tegument,2,burrower,2,soft_body,4
+Psammoryctides barbatus,Annelida,Clitellata,Tubificida,Naididae,Psammoryctides,1.20411998265592,gatherer,3,tegument,2,burrower,2,soft_body,4
+Psammoryctides moravicus,Annelida,Clitellata,Tubificida,Naididae,Psammoryctides,1.54406804435028,gatherer,3,tegument,2,burrower,2,soft_body,4
+Psectrocladius sp.,Arthropoda,Insecta,Diptera,Chironomidae,Psectrocladius,1.602059991,herbivore,2,tegument,2,sessile,1,soft_body,4
+Psectrotanypus varius,Arthropoda,Insecta,Diptera,Chironomidae,Psectrotanypus,0.903089986991944,predator,1,tegument,2,crawler,3,soft_body,4
+Psephenoides sp.,Arthropoda,Insecta,Coleoptera,Psephenidae,Psephenoides,1.17609125905568,herbivore,2,gill,3,crawler,3,heavily_sclerotized,2
+Pseudamophilus japonicus,Arthropoda,Insecta,Coleoptera,Elmidae,Pseudamophilus,1,herbivore,2,aerial,1,crawler,3,heavily_sclerotized,2
+Pseudanodonta complanata,Mollusca,Bivalvia,Unionida,Unionidae,Pseudanodonta,1.86213137931304,filterer,4,gill,3,burrower,2,hard_shelled,1
+Pseudocloeon sp.,Arthropoda,Insecta,Ephemeroptera,Baetidae,Pseudocloeon,1,gatherer; herbivore,3,gill,3,crawler,3,soft_body,4
+Pseudodiamesa sp.,Arthropoda,Insecta,Diptera,Chironomidae,Pseudodiamesa,1.20411998265592,predator,1,tegument,2,crawler,3,soft_body,4
+Pseudolimnophila sp.,Arthropoda,Insecta,Diptera,Tipulidae,Pseudolimnophila,1.20411998265592,gatherer,3,aerial,1,burrower,2,partly_sclerotized,3
+Pseudosmittia sp.,Arthropoda,Insecta,Diptera,Chironomidae,Pseudosmittia,0.602059991327962,gatherer,3,tegument,2,crawler,3,soft_body,4
+Pseudostenophylax sp.,Arthropoda,Insecta,Trichoptera,Limnephilidae,Pseudostenophylax,1.30102999566398,shredder,2,gill; tegument,3,burrower; crawler,3,soft_body,4
+Pseudovivipara longicornis,Mollusca,Gastropoda,Littorinida,Bithyniidae,Pseudovivipara,1.17609125905568,filterer,4,gill,3,crawler,3,hard_shelled,1
+Psilotreta kisoensis,Arthropoda,Insecta,Trichoptera,Odontoceridae,Psilotreta,1.14612803567824,filterer; gatherer; herbivore,4,gill,3,burrower; crawler,3,partly_sclerotized,3
+Psychoda alternata,Arthropoda,Insecta,Diptera,Psychodidae,Psychoda,0.653212513775344,gatherer,3,aerial,1,burrower,2,partly_sclerotized,3
+Psychoda gemina,Arthropoda,Insecta,Diptera,Psychodidae,Psychoda,0.653212513775344,gatherer,3,aerial,1,burrower,2,partly_sclerotized,3
+Psychoda phalaenoides,Arthropoda,Insecta,Diptera,Psychodidae,Psychoda,0.653212513775344,gatherer,3,aerial,1,burrower,2,partly_sclerotized,3
+Psychoda severini,Arthropoda,Insecta,Diptera,Psychodidae,Psychoda,0.653212513775344,gatherer,3,aerial,1,burrower,2,partly_sclerotized,3
+Psychoda surcoufi,Arthropoda,Insecta,Diptera,Psychodidae,Psychoda,0.653212513775344,gatherer,3,aerial,1,burrower,2,partly_sclerotized,3
+Psychomyia flavida,Arthropoda,Insecta,Trichoptera,Psychomyiidae,Psychomyia,1,filterer; gatherer,4,tegument,2,sessile,1,partly_sclerotized,3
+Psychomyia pusilla,Arthropoda,Insecta,Trichoptera,Psychomyiidae,Psychomyia,1,herbivore,2,tegument,2,sessile,1,partly_sclerotized,3
+Pteronarcys sachalina,Arthropoda,Insecta,Plecoptera,Pteronarcyidae,Pteronarcys,1.602059991,shredder,2,gill,3,crawler,3,partly_sclerotized,3
+Pteronarcys sp.,Arthropoda,Insecta,Plecoptera,Pteronarcyidae,Pteronarcys,1.602059991,shredder,2,gill,3,crawler,3,partly_sclerotized,3
+Ptychoptera sp.,Arthropoda,Insecta,Diptera,Ptychopteridae,Ptychoptera,1.17609125905568,gatherer; shredder,3,aerial; tegument,2,burrower,2,soft_body,4
+Pyrrhosoma nymphula,Arthropoda,Insecta,Odonata,Coenagrionidae,Pyrrhosoma,1.30102999566398,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Radix acuminata,Mollusca,Gastropoda,Lymnaeida,Lymnaeidae,Radix,1.602059991,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Radix ampla,Mollusca,Gastropoda,Lymnaeida,Lymnaeidae,Radix,1.602059991,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Radix auricularia,Mollusca,Gastropoda,Lymnaeida,Lymnaeidae,Radix,1.602059991,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Radix balthica,Mollusca,Gastropoda,Lymnaeida,Lymnaeidae,Radix,1.602059991,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Radix clessini,Mollusca,Gastropoda,Lymnaeida,Lymnaeidae,Radix,1.602059991,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Radix lagotis,Mollusca,Gastropoda,Lymnaeida,Lymnaeidae,Radix,1.602059991,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Radix ovata,Mollusca,Gastropoda,Lymnaeida,Lymnaeidae,Radix,1.602059991,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Radix plicatula,Mollusca,Gastropoda,Lymnaeida,Lymnaeidae,Radix,1.602059991,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Radix sp.,Mollusca,Gastropoda,Lymnaeida,Lymnaeidae,Radix,1.602059991,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Radix swinhoei,Mollusca,Gastropoda,Lymnaeida,Lymnaeidae,Radix,1.602059991,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Ranatra chinensis,Arthropoda,Insecta,Hemiptera,Nepidae,Ranatra,1.602059991,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Ranatra linearis,Arthropoda,Insecta,Hemiptera,Nepidae,Ranatra,1.602059991,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Rhantus latitans,Arthropoda,Insecta,Coleoptera,Dytiscidae,Rhantus,1.30102999566398,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Rhantus suturalis,Arthropoda,Insecta,Coleoptera,Dytiscidae,Rhantus,1.30102999566398,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Rhaphium sp.,Arthropoda,Insecta,Diptera,Dolichopodidae,Rhaphium,1.34242268082221,predator,1,aerial,1,crawler,3,soft_body,4
+Rheocricotopus chalybeatus,Arthropoda,Insecta,Diptera,Chironomidae,Rheocricotopus,0.954242509439325,herbivore,2,tegument,2,crawler,3,soft_body,4
+Rheocricotopus effuses,Arthropoda,Insecta,Diptera,Chironomidae,Rheocricotopus,0.954242509439325,gatherer,3,tegument,2,crawler,3,soft_body,4
+Rheocricotopus sp.,Arthropoda,Insecta,Diptera,Chironomidae,Rheocricotopus,0.954242509439325,gatherer,3,tegument,2,crawler,3,soft_body,4
+Rheopelopia maculipennis,Arthropoda,Insecta,Diptera,Chironomidae,Rheopelopia,0.903089986991944,predator,1,tegument,2,crawler,3,soft_body,4
+Rheopelopia ornata,Arthropoda,Insecta,Diptera,Chironomidae,Rheopelopia,0.903089986991944,predator,1,tegument,2,crawler,3,soft_body,4
+Rheopelopia sp.,Arthropoda,Insecta,Diptera,Chironomidae,Rheopelopia,0.903089986991944,predator,1,tegument,2,crawler,3,soft_body,4
+Rheotanytarsus muscicola,Arthropoda,Insecta,Diptera,Chironomidae,Rheotanytarsus,0.698970004336019,filterer,4,tegument,2,sessile,1,soft_body,4
+Rheotanytarsus pentapoda,Arthropoda,Insecta,Diptera,Chironomidae,Rheotanytarsus,0.698970004336019,filterer,4,tegument,2,sessile,1,soft_body,4
+Rheotanytarsus rhenanus,Arthropoda,Insecta,Diptera,Chironomidae,Rheotanytarsus,0.698970004336019,filterer,4,tegument,2,sessile,1,soft_body,4
+Rheotanytarsus sp.,Arthropoda,Insecta,Diptera,Chironomidae,Rheotanytarsus,0.698970004336019,filterer,4,tegument,2,sessile,1,soft_body,4
+Rhithrogena sp.,Arthropoda,Insecta,Ephemeroptera,Heptageniidae,Rhithrogena,1.30102999566398,herbivore,2,gill,3,crawler,3,soft_body,4
+Rhoenanthus sp.,Arthropoda,Insecta,Ephemeroptera,Potamanthidae,Rhoenanthus,1.32221929473392,filterer; gatherer; herbivore,4,gill,3,crawler,3,soft_body,4
+Rhyacodrilus coccineus,Annelida,Clitellata,Tubificida,Naididae,Rhyacodrilus,1.342422681,gatherer,3,tegument,2,burrower; crawler,3,soft_body,4
+Rhyacodrilus falciformis,Annelida,Clitellata,Tubificida,Naididae,Rhyacodrilus,1.342422681,gatherer,3,tegument,2,burrower; crawler,3,soft_body,4
+Rhyacodrilus sinicus,Annelida,Clitellata,Tubificida,Naididae,Rhyacodrilus,1.342422681,gatherer,3,tegument,2,burrower; crawler,3,soft_body,4
+Rhyacophila brevicephala,Arthropoda,Insecta,Trichoptera,Rhyacophilidae,Rhyacophila,1.30102999566398,predator,1,gill; tegument,3,crawler,3,partly_sclerotized,3
+Rhyacophila dorsalis,Arthropoda,Insecta,Trichoptera,Rhyacophilidae,Rhyacophila,0.602059991327962,predator,1,gill; tegument,3,crawler,3,partly_sclerotized,3
+Rhyacophila fasciata,Arthropoda,Insecta,Trichoptera,Rhyacophilidae,Rhyacophila,1.30102999566398,predator,1,gill; tegument,3,crawler,3,partly_sclerotized,3
+Rhyacophila lata,Arthropoda,Insecta,Trichoptera,Rhyacophilidae,Rhyacophila,1.30102999566398,predator,1,gill; tegument,3,crawler,3,partly_sclerotized,3
+Rhyacophila munda,Arthropoda,Insecta,Trichoptera,Rhyacophilidae,Rhyacophila,0.602059991327962,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Rhyacophila narvae,Arthropoda,Insecta,Trichoptera,Rhyacophilidae,Rhyacophila,1.30102999566398,predator,1,gill; tegument,3,crawler,3,partly_sclerotized,3
+Rhyacophila nigrocephala,Arthropoda,Insecta,Trichoptera,Rhyacophilidae,Rhyacophila,1.30102999566398,predator,1,gill; tegument,3,crawler,3,partly_sclerotized,3
+Rhyacophila nubila,Arthropoda,Insecta,Trichoptera,Rhyacophilidae,Rhyacophila,1.30102999566398,predator,1,gill; tegument,3,crawler,3,partly_sclerotized,3
+Rhyacophila obliterata,Arthropoda,Insecta,Trichoptera,Rhyacophilidae,Rhyacophila,0.602059991327962,predator,1,gill; tegument,3,crawler,3,partly_sclerotized,3
+Rhyacophila retracta,Arthropoda,Insecta,Trichoptera,Rhyacophilidae,Rhyacophila,1.30102999566398,predator,1,gill; tegument,3,crawler,3,partly_sclerotized,3
+Rhyacophila septentrionis,Arthropoda,Insecta,Trichoptera,Rhyacophilidae,Rhyacophila,0.602059991327962,predator,1,gill; tegument,3,crawler,3,partly_sclerotized,3
+Rhyacophila sp.,Arthropoda,Insecta,Trichoptera,Rhyacophilidae,Rhyacophila,1.30102999566398,predator,1,gill; tegument,3,crawler,3,partly_sclerotized,3
+Rhynchelmis limosella,Annelida,Clitellata,Lumbriculida,Lumbriculidae,Rhynchelmis,2.14612803567824,gatherer,3,tegument,2,burrower,2,soft_body,4
+Rhypholophus sp.,Arthropoda,Insecta,Diptera,Limoniidae,Rhypholophus,0.903089986991944,gatherer,3,aerial,1,burrower,2,soft_body,4
+Riolus cupreus,Arthropoda,Insecta,Coleoptera,Elmidae,Riolus,0.290034611362518,herbivore,2,gill; aerial,3,crawler,3,heavily_sclerotized,2
+Riolus sp.,Arthropoda,Insecta,Coleoptera,Elmidae,Riolus,1,herbivore,2,gill; aerial,3,crawler,3,heavily_sclerotized,2
+Riolus subviolaceus,Arthropoda,Insecta,Coleoptera,Elmidae,Riolus,0.361727836017593,herbivore,2,gill; aerial,3,crawler,3,heavily_sclerotized,2
+Ripistes parasita,Annelida,Clitellata,Tubificida,Naididae,Ripistes,1,filterer,4,tegument,2,crawler; swimmer,4,soft_body,4
+Rivularia sp.,Mollusca,Gastropoda,Viviparida,Viviparidae,Rivularia,1.39794000867204,filterer,4,gill,3,crawler,3,hard_shelled,1
+Robackia demeijerei,Arthropoda,Insecta,Diptera,Chironomidae,Robackia,0.903089986991944,gatherer,3,tegument,2,crawler,3,soft_body,4
+Robackia pilicauda,Arthropoda,Insecta,Diptera,Chironomidae,Robackia,0.903089986991944,gatherer,3,tegument,2,crawler,3,soft_body,4
+Saetheria ressi,Arthropoda,Insecta,Diptera,Chironomidae,Saetheria,0.698970004336019,gatherer,3,tegument,2,crawler,3,soft_body,4
+Saldula koreana,Arthropoda,Insecta,Hemiptera,Saldidae,Saldula,0.653212513775344,predator,1,aerial,1,crawler,3,partly_sclerotized,3
+Saldula saltatoria,Arthropoda,Insecta,Hemiptera,Saldidae,Saldula,0.672097857935718,predator,1,aerial,1,crawler,3,partly_sclerotized,3
+Scarodytes halensis,Arthropoda,Insecta,Coleoptera,Dytiscidae,Scarodytes,1,predator,1,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Schistodesmus lampreyanus,Mollusca,Bivalvia,Unionida,Unionidae,Schistodesmus,1.75815462196739,filterer,4,gill,3,burrower; sessile,2,hard_shelled,1
+Schizorhamphus scabriusculus,Arthropoda,Malacostraca,Cumacea,Pseudocumatidae,Schizorhamphus,0.602059991327962,gatherer,3,gill,3,burrower; swimmer,4,partly_sclerotized,3
+Segmentina nitida,Mollusca,Gastropoda,Lymnaeida,Planorbidae,Segmentina,1,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Segmentina sp.,Mollusca,Gastropoda,Lymnaeida,Planorbidae,Segmentina,1,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Semblis sp.,Arthropoda,Insecta,Trichoptera,Phryganeidae,Semblis,1.65321251377534,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Semisulcospira amurensis,Mollusca,Gastropoda,Cerithiida,Semisulcospiridae,Semisulcospira,1.602059991,herbivore,2,gill,3,crawler,3,hard_shelled,1
+Semisulcospira cancellata,Mollusca,Gastropoda,Cerithiida,Semisulcospiridae,Semisulcospira,1.602059991,herbivore,2,gill,3,crawler,3,hard_shelled,1
+Semisulcospira gredleri,Mollusca,Gastropoda,Cerithiida,Semisulcospiridae,Semisulcospira,1.602059991,herbivore,2,gill,3,crawler,3,hard_shelled,1
+Semisulcospira libertina,Mollusca,Gastropoda,Cerithiida,Semisulcospiridae,Semisulcospira,1.602059991,herbivore,2,gill,3,crawler,3,hard_shelled,1
+Semisulcospira mandarina,Mollusca,Gastropoda,Cerithiida,Semisulcospiridae,Semisulcospira,1.602059991,herbivore,2,gill,3,crawler,3,hard_shelled,1
+Sericostoma personatum,Arthropoda,Insecta,Trichoptera,Sericostomatidae,Sericostoma,0.301029995663981,shredder,2,gill; tegument,3,crawler,3,partly_sclerotized,3
+Serratella ignita,Arthropoda,Insecta,Ephemeroptera,Ephemerellidae,Serratella,1,gatherer; herbivore,3,gill,3,crawler,3,soft_body,4
+Serratella sp.,Arthropoda,Insecta,Ephemeroptera,Ephemerellidae,Serratella,1,gatherer; herbivore,3,gill,3,crawler,3,soft_body,4
+Setodes punctatus,Arthropoda,Insecta,Trichoptera,Leptoceridae,Setodes,1,gatherer; predator,3,gill; tegument,3,crawler; swimmer,4,soft_body,4
+Sialis fuliginosa,Arthropoda,Insecta,Megaloptera,Sialidae,Sialis,0.602059991,predator,1,gill,3,crawler; swimmer,4,heavily_sclerotized,2
+Sialis lutaria,Arthropoda,Insecta,Megaloptera,Sialidae,Sialis,0.602059991,predator,1,gill,3,crawler; swimmer,4,heavily_sclerotized,2
+Sialis nigripes,Arthropoda,Insecta,Megaloptera,Sialidae,Sialis,0.602059991,predator,1,gill,3,crawler; swimmer,4,heavily_sclerotized,2
+Sieboldius albardae,Arthropoda,Insecta,Odonata,Gomphidae,Sieboldius,1.47712125471966,predator,1,gill,3,burrower,2,partly_sclerotized,3
+Sigara distincta,Arthropoda,Insecta,Hemiptera,Corixidae,Sigara,1,gatherer,3,aerial,1,swimmer,4,heavily_sclerotized,2
+Sigara falleni,Arthropoda,Insecta,Hemiptera,Corixidae,Sigara,1,gatherer,3,aerial,1,swimmer,4,heavily_sclerotized,2
+Sigara fossarum,Arthropoda,Insecta,Hemiptera,Corixidae,Sigara,1,gatherer,3,aerial,1,swimmer,4,heavily_sclerotized,2
+Sigara lateralis,Arthropoda,Insecta,Hemiptera,Corixidae,Sigara,1,gatherer,3,aerial,1,swimmer,4,heavily_sclerotized,2
+Sigara nigrolineata,Arthropoda,Insecta,Hemiptera,Corixidae,Sigara,1,gatherer,3,aerial,1,swimmer,4,heavily_sclerotized,2
+Sigara scotti,Arthropoda,Insecta,Hemiptera,Corixidae,Sigara,1,gatherer,3,aerial,1,swimmer,4,heavily_sclerotized,2
+Sigara semistriata,Arthropoda,Insecta,Hemiptera,Corixidae,Sigara,1,gatherer,3,aerial,1,swimmer,4,heavily_sclerotized,2
+Sigara sp.,Arthropoda,Insecta,Hemiptera,Corixidae,Sigara,1,gatherer,3,aerial,1,swimmer,4,heavily_sclerotized,2
+Sigara striata,Arthropoda,Insecta,Hemiptera,Corixidae,Sigara,1,gatherer,3,aerial,1,swimmer,4,heavily_sclerotized,2
+Sigara substriata,Arthropoda,Insecta,Hemiptera,Corixidae,Sigara,1,gatherer,3,aerial,1,swimmer,4,heavily_sclerotized,2
+Sigara venusta,Arthropoda,Insecta,Hemiptera,Corixidae,Sigara,1,gatherer,3,aerial,1,swimmer,4,heavily_sclerotized,2
+Silo nigricornis,Arthropoda,Insecta,Trichoptera,Goeridae,Silo,0.301029996,herbivore,2,gill; tegument,3,sessile,1,soft_body,4
+Silo pallipes,Arthropoda,Insecta,Trichoptera,Goeridae,Silo,0.301029996,herbivore,2,gill; tegument,3,sessile,1,soft_body,4
+Simulium aemulum,Arthropoda,Insecta,Diptera,Simuliidae,Simulium,1,filterer,4,tegument,2,sessile,1,partly_sclerotized,3
+Simulium angustipes,Arthropoda,Insecta,Diptera,Simuliidae,Simulium,1,filterer,4,tegument,2,sessile,1,partly_sclerotized,3
+Simulium angustitarse,Arthropoda,Insecta,Diptera,Simuliidae,Simulium,0.954242509439325,filterer,4,tegument,2,sessile,1,partly_sclerotized,3
+Simulium argyreatum,Arthropoda,Insecta,Diptera,Simuliidae,Simulium,0.954242509439325,filterer,4,tegument,2,sessile,1,partly_sclerotized,3
+Simulium aureum,Arthropoda,Insecta,Diptera,Simuliidae,Simulium,0.954242509439325,filterer,4,tegument,2,sessile,1,partly_sclerotized,3
+Simulium balcanicum,Arthropoda,Insecta,Diptera,Simuliidae,Simulium,1,filterer,4,tegument,2,sessile,1,partly_sclerotized,3
+Simulium costatum,Arthropoda,Insecta,Diptera,Simuliidae,Simulium,0.954242509439325,filterer,4,tegument,2,sessile,1,partly_sclerotized,3
+Simulium cryophilum,Arthropoda,Insecta,Diptera,Simuliidae,Simulium,0.954242509439325,filterer,4,tegument,2,sessile,1,partly_sclerotized,3
+Simulium equinum,Arthropoda,Insecta,Diptera,Simuliidae,Simulium,1,filterer,4,tegument,2,sessile,1,partly_sclerotized,3
+Simulium erythrocephalum,Arthropoda,Insecta,Diptera,Simuliidae,Simulium,0.954242509439325,filterer,4,tegument,2,sessile,1,partly_sclerotized,3
+Simulium latipes,Arthropoda,Insecta,Diptera,Simuliidae,Simulium,0.954242509439325,filterer,4,tegument,2,sessile,1,partly_sclerotized,3
+Simulium lineatum,Arthropoda,Insecta,Diptera,Simuliidae,Simulium,1,filterer,4,tegument,2,sessile,1,partly_sclerotized,3
+Simulium morsitans,Arthropoda,Insecta,Diptera,Simuliidae,Simulium,0.954242509439325,filterer,4,tegument,2,sessile,1,partly_sclerotized,3
+Simulium noelleri,Arthropoda,Insecta,Diptera,Simuliidae,Simulium,0.954242509439325,filterer,4,tegument,2,sessile,1,partly_sclerotized,3
+Simulium ornatum,Arthropoda,Insecta,Diptera,Simuliidae,Simulium,0.954242509,filterer,4,tegument,2,sessile,1,partly_sclerotized,3
+Simulium posticatum,Arthropoda,Insecta,Diptera,Simuliidae,Simulium,0.954242509439325,filterer,4,tegument,2,sessile,1,partly_sclerotized,3
+Simulium reptans,Arthropoda,Insecta,Diptera,Simuliidae,Simulium,0.954242509439325,filterer,4,tegument,2,sessile,1,partly_sclerotized,3
+Simulium rostratum,Arthropoda,Insecta,Diptera,Simuliidae,Simulium,0.954242509439325,filterer,4,tegument,2,sessile,1,partly_sclerotized,3
+Simulium sp.,Arthropoda,Insecta,Diptera,Simuliidae,Simulium,1,filterer,4,tegument,2,sessile,1,partly_sclerotized,3
+Simulium tuberosum,Arthropoda,Insecta,Diptera,Simuliidae,Simulium,0.954242509439325,filterer,4,tegument,2,sessile,1,partly_sclerotized,3
+Simulium vernum,Arthropoda,Insecta,Diptera,Simuliidae,Simulium,0.954242509439325,filterer,4,tegument,2,sessile,1,partly_sclerotized,3
+Simulium xinbinense,Arthropoda,Insecta,Diptera,Simuliidae,Simulium,1,filterer,4,tegument,2,sessile,1,partly_sclerotized,3
+Sinanodonta woodiana,Mollusca,Bivalvia,Unionida,Unionidae,Sinanodonta,2.414973348,filterer,4,gill,3,burrower; sessile,2,hard_shelled,1
+Sinictinogomphus sp.,Arthropoda,Insecta,Odonata,Gomphidae,Sinictinogomphus,1.47712125471966,predator,1,gill,3,burrower,2,partly_sclerotized,3
+Siphlonurus lacustris,Arthropoda,Insecta,Ephemeroptera,Siphlonuridae,Siphlonurus,1.301029996,gatherer,3,gill,3,swimmer,4,soft_body,4
+Siphlonurus sp.,Arthropoda,Insecta,Ephemeroptera,Siphlonuridae,Siphlonurus,1.301029996,gatherer,3,gill,3,swimmer,4,soft_body,4
+Siphluriscus sp.,Arthropoda,Insecta,Ephemeroptera,Siphlonuridae,Siphluriscus,1.38021124171161,herbivore,2,gill,3,swimmer,4,soft_body,4
+Skwala sp.,Arthropoda,Insecta,Plecoptera,Perlodidae,Skwala,1.602059991,predator,1,tegument,2,crawler; swimmer,4,partly_sclerotized,3
+Slavina appendiculata,Annelida,Clitellata,Tubificida,Naididae,Slavina,1.30102999566398,gatherer,3,tegument,2,crawler; swimmer,4,soft_body,4
+Somatochlora graeseri,Arthropoda,Insecta,Odonata,Corduliidae,Somatochlora,1.60205999132796,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Somatochlora metallica,Arthropoda,Insecta,Odonata,Corduliidae,Somatochlora,1.60205999132796,predator,1,gill,3,burrower; crawler,3,partly_sclerotized,3
+Somatochlora sp.,Arthropoda,Insecta,Odonata,Corduliidae,Somatochlora,1.60205999132796,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Specaria josinae,Annelida,Clitellata,Tubificida,Naididae,Specaria,1.30102999566398,gatherer,3,tegument,2,crawler,3,soft_body,4
+Sphaerium corneum,Mollusca,Bivalvia,Venerida,Sphaeriidae,Sphaerium,0.602059991,filterer,4,gill,3,sessile,1,hard_shelled,1
+Sphaerium japonicum,Mollusca,Bivalvia,Venerida,Sphaeriidae,Sphaerium,1.60205999132796,filterer,4,gill,3,burrower,2,hard_shelled,1
+Sphaerium lacustre,Mollusca,Bivalvia,Venerida,Sphaeriidae,Sphaerium,0.602059991327962,filterer,4,gill,3,burrower,2,hard_shelled,1
+Sphaerium ovale,Mollusca,Bivalvia,Venerida,Sphaeriidae,Sphaerium,1.60205999132796,filterer,4,gill,3,burrower,2,hard_shelled,1
+Sphaerium rivicola,Mollusca,Bivalvia,Venerida,Sphaeriidae,Sphaerium,0.602059991327962,filterer,4,gill,3,sessile,1,hard_shelled,1
+Sphaerium sp.,Mollusca,Bivalvia,Venerida,Sphaeriidae,Sphaerium,1.602059991,filterer,4,gill,3,burrower,2,hard_shelled,1
+Sphaerium transversum,Mollusca,Bivalvia,Venerida,Sphaeriidae,Sphaerium,0.602059991327962,filterer,4,gill,3,burrower,2,hard_shelled,1
+Spirosperma ferox,Annelida,Clitellata,Tubificida,Naididae,Spirosperma,1.602059991,gatherer,3,tegument,2,burrower,2,soft_body,4
+Spirosperma velutinus,Annelida,Clitellata,Tubificida,Naididae,Spirosperma,1.602059991,gatherer,3,tegument,2,burrower,2,soft_body,4
+Stagnicola sp.,Mollusca,Gastropoda,Lymnaeida,Lymnaeidae,Stagnicola,1.301029996,herbivore,2,tegument,2,crawler,3,hard_shelled,1
+Stavsolus sp.,Arthropoda,Insecta,Plecoptera,Perlodidae,Stavsolus,1.20411998265592,predator,1,tegument,2,crawler,3,partly_sclerotized,3
+Stempellina bausei,Arthropoda,Insecta,Diptera,Chironomidae,Stempellina,0.698970004336019,gatherer,3,tegument,2,crawler; sessile,3,soft_body,4
+Stempellinella minor,Arthropoda,Insecta,Diptera,Chironomidae,Stempellinella,0.698970004336019,filterer; gatherer,4,tegument,2,crawler,3,soft_body,4
+Stempellinella sp.,Arthropoda,Insecta,Diptera,Chironomidae,Stempellinella,0.698970004336019,filterer; gatherer,4,tegument,2,crawler,3,soft_body,4
+Stenochironomus gibbus,Arthropoda,Insecta,Diptera,Chironomidae,Stenochironomus,1.17609125905568,shredder,2,tegument,2,burrower,2,soft_body,4
+Stenochironomus sp.,Arthropoda,Insecta,Diptera,Chironomidae,Stenochironomus,1.17609125905568,gatherer; shredder,3,tegument,2,burrower,2,soft_body,4
+Stenopsyche marmorata,Arthropoda,Insecta,Trichoptera,Stenopsychidae,Stenopsyche,1.84509804001426,filterer,4,gill,3,sessile,1,partly_sclerotized,3
+Stenopsyche sauteri,Arthropoda,Insecta,Trichoptera,Stenopsychidae,Stenopsyche,1.84509804001426,filterer,4,gill,3,sessile,1,partly_sclerotized,3
+Stictochironomus akizukii,Arthropoda,Insecta,Diptera,Chironomidae,Stictochironomus,1.07918124604762,gatherer; shredder,3,tegument,2,burrower,2,soft_body,4
+Stictochironomus juncai,Arthropoda,Insecta,Diptera,Chironomidae,Stictochironomus,1.07918124604762,gatherer; shredder,3,tegument,2,burrower,2,soft_body,4
+Stictochironomus maculipennis,Arthropoda,Insecta,Diptera,Chironomidae,Stictochironomus,1.07918124604762,gatherer; shredder,3,tegument,2,burrower,2,soft_body,4
+Stictochironomus pictulus,Arthropoda,Insecta,Diptera,Chironomidae,Stictochironomus,1.07918124604762,gatherer; shredder,3,tegument,2,burrower,2,soft_body,4
+Stictochironomus sp.,Arthropoda,Insecta,Diptera,Chironomidae,Stictochironomus,1.07918124604762,gatherer; shredder,3,tegument,2,burrower,2,soft_body,4
+Stictochironomus sticticus,Arthropoda,Insecta,Diptera,Chironomidae,Stictochironomus,1.07918124604762,gatherer,3,tegument,2,burrower,2,soft_body,4
+Stictonectes lepidus,Arthropoda,Insecta,Coleoptera,Dytiscidae,Stictonectes,0.477121254719662,shredder,2,aerial,1,crawler; swimmer,4,heavily_sclerotized,2
+Stictotarsus duodecimpustulatus,Arthropoda,Insecta,Coleoptera,Dytiscidae,Stictotarsus,0,predator,1,aerial,1,swimmer,4,heavily_sclerotized,2
+Stratiomys sp.,Arthropoda,Insecta,Diptera,Stratiomyidae,Stratiomys,1.65321251377534,gatherer,3,aerial,1,crawler,3,heavily_sclerotized,2
+Stylaria lacustris,Annelida,Clitellata,Tubificida,Naididae,Stylaria,1.301029996,gatherer,3,tegument,2,crawler,3,soft_body,4
+Stylaria sp.,Annelida,Clitellata,Tubificida,Naididae,Stylaria,1.301029996,gatherer,3,tegument,2,crawler,3,soft_body,4
+Stylodrilus brachystylus,Annelida,Clitellata,Lumbriculida,Lumbriculidae,Stylodrilus,1.903089987,gatherer,3,tegument,2,burrower,2,soft_body,4
+Stylodrilus heringianus,Annelida,Clitellata,Lumbriculida,Lumbriculidae,Stylodrilus,1.903089987,gatherer,3,tegument,2,burrower,2,soft_body,4
+Stylodrilus lemani,Annelida,Clitellata,Lumbriculida,Lumbriculidae,Stylodrilus,1.903089987,gatherer,3,tegument,2,burrower,2,soft_body,4
+Stylodrilus sp.,Annelida,Clitellata,Lumbriculida,Lumbriculidae,Stylodrilus,1.903089987,gatherer,3,tegument,2,burrower,2,soft_body,4
+Stylurus nagoyanus,Arthropoda,Insecta,Odonata,Gomphidae,Stylurus,1.47712125471966,predator,1,gill,3,burrower; crawler,3,partly_sclerotized,3
+Suragina caerulescens,Arthropoda,Insecta,Diptera,Athericidae,Suragina,1.25527250510331,predator,1,aerial,1,burrower; crawler,3,soft_body,4
+Sweltsa sp.,Arthropoda,Insecta,Plecoptera,Chloroperlidae,Sweltsa,1.30102999566398,predator,1,tegument,2,crawler,3,soft_body,4
+Sympetrum frequens,Arthropoda,Insecta,Odonata,Libellulidae,Sympetrum,1.301029996,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Sympetrum kunckeli,Arthropoda,Insecta,Odonata,Libellulidae,Sympetrum,1.301029996,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Sympetrum sp.,Arthropoda,Insecta,Odonata,Libellulidae,Sympetrum,1.301029996,predator,1,gill,3,crawler,3,partly_sclerotized,3
+Sympotthastia sp.,Arthropoda,Insecta,Diptera,Chironomidae,Sympotthastia,1,gatherer,3,tegument,2,crawler,3,soft_body,4
+Sympotthastia takatensis,Arthropoda,Insecta,Diptera,Chironomidae,Sympotthastia,1,gatherer,3,tegument,2,crawler,3,soft_body,4
+Synorthocladius semivirens,Arthropoda,Insecta,Diptera,Chironomidae,Synorthocladius,0.602059991327962,gatherer; herbivore,3,tegument,2,sessile,1,soft_body,4
+Tabanus sp.,Arthropoda,Insecta,Diptera,Tabanidae,Tabanus,1.60205999132796,predator,1,aerial,1,burrower,2,soft_body,4
+Tadamus kohnonis,Arthropoda,Insecta,Plecoptera,Perlodidae,Tadamus,1.20411998265592,predator,1,tegument,2,crawler,3,partly_sclerotized,3
+Taeniopteryx nebulosa,Arthropoda,Insecta,Plecoptera,Taeniopterygidae,Taeniopteryx,1.301029996,shredder,2,gill; tegument,3,crawler,3,partly_sclerotized,3
+Tanypus chinensis,Arthropoda,Insecta,Diptera,Chironomidae,Tanypus,1.602059991,predator,1,tegument,2,crawler,3,soft_body,4
+Tanypus kraatzi,Arthropoda,Insecta,Diptera,Chironomidae,Tanypus,1.602059991,predator,1,tegument,2,crawler,3,soft_body,4
+Tanypus punctipennis,Arthropoda,Insecta,Diptera,Chironomidae,Tanypus,1.602059991,predator,1,tegument,2,crawler,3,soft_body,4
+Tanypus sp.,Arthropoda,Insecta,Diptera,Chironomidae,Tanypus,1.602059991,predator,1,tegument,2,crawler,3,soft_body,4
+Tanypus villipennis,Arthropoda,Insecta,Diptera,Chironomidae,Tanypus,1.602059991,predator,1,tegument,2,crawler,3,soft_body,4
+Tanytarsus arduennensis,Arthropoda,Insecta,Diptera,Chironomidae,Tanytarsus,1.602059991,gatherer,3,tegument,2,crawler,3,soft_body,4
+Tanytarsus brundini,Arthropoda,Insecta,Diptera,Chironomidae,Tanytarsus,1.602059991,gatherer,3,tegument,2,crawler,3,soft_body,4
+Tanytarsus ejuncidus,Arthropoda,Insecta,Diptera,Chironomidae,Tanytarsus,1.602059991,gatherer,3,tegument,2,crawler,3,soft_body,4
+Tanytarsus eminulus,Arthropoda,Insecta,Diptera,Chironomidae,Tanytarsus,1.602059991,gatherer,3,tegument,2,crawler,3,soft_body,4
+Tanytarsus formosanus,Arthropoda,Insecta,Diptera,Chironomidae,Tanytarsus,1.602059991,gatherer,3,tegument,2,crawler,3,soft_body,4
+Tanytarsus mendax,Arthropoda,Insecta,Diptera,Chironomidae,Tanytarsus,1.602059991,gatherer,3,tegument,2,crawler,3,soft_body,4
+Tanytarsus pallidicornis,Arthropoda,Insecta,Diptera,Chironomidae,Tanytarsus,1.602059991,gatherer,3,tegument,2,crawler,3,soft_body,4
+Tanytarsus sp.,Arthropoda,Insecta,Diptera,Chironomidae,Tanytarsus,1.602059991,gatherer,3,tegument,2,crawler,3,soft_body,4
+Telopelopia fascigera,Arthropoda,Insecta,Diptera,Chironomidae,Telopelopia,0.903089986991944,gatherer,3,tegument,2,crawler,3,soft_body,4
+Thalerosphyrus sp.,Arthropoda,Insecta,Ephemeroptera,Heptageniidae,Thalerosphyrus,1.30102999566398,herbivore,2,gill,3,crawler,3,soft_body,4
+Thaumalea sp.,Arthropoda,Insecta,Diptera,Thaumaleidae,Thaumalea,0.845098040014257,herbivore,2,aerial,1,crawler,3,soft_body,4
+Thaumastoptera calceata,Arthropoda,Insecta,Diptera,Tipulidae,Thaumastoptera,0.903089986991944,shredder,2,aerial,1,burrower,2,partly_sclerotized,3
+Theodoxus danubialis,Mollusca,Gastropoda,Neritopsida,Neritidae,Theodoxus,1.30102999566398,herbivore,2,gill,3,crawler,3,hard_shelled,1
+Theodoxus fluviatilis,Mollusca,Gastropoda,Neritopsida,Neritidae,Theodoxus,1.30102999566398,herbivore,2,gill,3,crawler,3,hard_shelled,1
+Theodoxus transversalis,Mollusca,Gastropoda,Neritopsida,Neritidae,Theodoxus,1.30102999566398,herbivore,2,gill,3,crawler,3,hard_shelled,1
+Thienemannia gracilis,Arthropoda,Insecta,Diptera,Chironomidae,Thienemannia,0.653212513775344,gatherer,3,tegument,2,crawler,3,soft_body,4
+Thienemanniella sp.,Arthropoda,Insecta,Diptera,Chironomidae,Thienemanniella,0.477121254719662,herbivore,2,tegument,2,crawler,3,soft_body,4
+Thienemannimyia fuscipes,Arthropoda,Insecta,Diptera,Chironomidae,Thienemannimyia,1.07918124604762,predator,1,tegument,2,crawler,3,soft_body,4
+Thienemannimyia geijskesi,Arthropoda,Insecta,Diptera,Chironomidae,Thienemannimyia,1.07918124604762,predator,1,tegument,2,crawler,3,soft_body,4
+Thienemannimyia sp.,Arthropoda,Insecta,Diptera,Chironomidae,Thienemannimyia,1.07918124604762,predator,1,tegument,2,crawler,3,soft_body,4
+Tinodes dives,Arthropoda,Insecta,Trichoptera,Psychomyiidae,Tinodes,0.301029995663981,herbivore,2,tegument,2,sessile,1,partly_sclerotized,3
+Tinodes unicolor,Arthropoda,Insecta,Trichoptera,Psychomyiidae,Tinodes,0.301029995663981,herbivore,2,tegument,2,sessile,1,partly_sclerotized,3
+Tinodes waeneri,Arthropoda,Insecta,Trichoptera,Psychomyiidae,Tinodes,0.301029995663981,herbivore,2,tegument,2,sessile,1,partly_sclerotized,3
+Tipula lateralis,Arthropoda,Insecta,Diptera,Tipulidae,Tipula,1.602059991,shredder,2,aerial,1,burrower,2,partly_sclerotized,3
+Tipula maxima,Arthropoda,Insecta,Diptera,Tipulidae,Tipula,1.602059991,shredder,2,aerial,1,burrower,2,partly_sclerotized,3
+Tipula montium,Arthropoda,Insecta,Diptera,Tipulidae,Tipula,1.602059991,shredder,2,aerial,1,burrower,2,partly_sclerotized,3
+Tipula oleracea,Arthropoda,Insecta,Diptera,Tipulidae,Tipula,1.602059991,shredder,2,aerial,1,burrower,2,partly_sclerotized,3
+Tipula paludosa,Arthropoda,Insecta,Diptera,Tipulidae,Tipula,1.602059991,shredder,2,aerial,1,burrower,2,partly_sclerotized,3
+Tipula rufina,Arthropoda,Insecta,Diptera,Tipulidae,Tipula,1.602059991,shredder,2,aerial,1,burrower,2,partly_sclerotized,3
+Tipula solstitialis,Arthropoda,Insecta,Diptera,Tipulidae,Tipula,1.602059991,shredder,2,aerial,1,burrower,2,partly_sclerotized,3
+Tipula sp.,Arthropoda,Insecta,Diptera,Tipulidae,Tipula,1.602059991,shredder,2,aerial,1,burrower,2,partly_sclerotized,3
+Tipula unca,Arthropoda,Insecta,Diptera,Tipulidae,Tipula,1.602059991,shredder,2,aerial,1,burrower,2,partly_sclerotized,3
+Tipula vittata,Arthropoda,Insecta,Diptera,Tipulidae,Tipula,1.602059991,shredder,2,aerial,1,burrower,2,partly_sclerotized,3
+Togoperla sp.,Arthropoda,Insecta,Plecoptera,Perlidae,Togoperla,1.30102999566398,predator,1,gill; tegument,3,crawler,3,partly_sclerotized,3
+Torleya sp.,Arthropoda,Insecta,Ephemeroptera,Ephemerellidae,Torleya,1,gatherer; herbivore,3,gill,3,crawler,3,soft_body,4
+Triaenodes bicolor,Arthropoda,Insecta,Trichoptera,Leptoceridae,Triaenodes,1.301029996,herbivore; shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Triaenodes sp.,Arthropoda,Insecta,Trichoptera,Leptoceridae,Triaenodes,1.301029996,herbivore; shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Tricula sp.,Mollusca,Gastropoda,Littorinida,Pomatiopsidae,Tricula,0.630427875025024,herbivore,2,gill,3,crawler,3,hard_shelled,1
+Tricyphona sp.,Arthropoda,Insecta,Diptera,Pediciidae,Tricyphona,0.832508912706236,predator,1,aerial,1,burrower,2,soft_body,4
+Trissopelopia longimana,Arthropoda,Insecta,Diptera,Chironomidae,Trissopelopia,0.903089986991944,predator,1,tegument,2,crawler,3,soft_body,4
+Trissopelopia sp.,Arthropoda,Insecta,Diptera,Chironomidae,Trissopelopia,0.903089986991944,predator,1,tegument,2,crawler,3,soft_body,4
+Trocheta bykowskii,Annelida,Clitellata,Hirudinida,Erpobdellidae,Trocheta,2.14612803567824,predator,1,tegument,2,crawler; sessile,3,soft_body,4
+Trocheta subviridis,Annelida,Clitellata,Hirudinida,Erpobdellidae,Trocheta,2.12057393120585,predator,1,tegument,2,crawler,3,soft_body,4
+Tubifex ignotus,Annelida,Clitellata,Tubificida,Naididae,Tubifex,1.322219295,gatherer,3,tegument,2,sessile,1,soft_body,4
+Tubifex tubifex,Annelida,Clitellata,Tubificida,Naididae,Tubifex,1.322219295,gatherer,3,tegument,2,sessile,1,soft_body,4
+Tvetenia calvescens,Arthropoda,Insecta,Diptera,Chironomidae,Tvetenia,0.845098040014257,herbivore,2,tegument,2,crawler,3,soft_body,4
+Tvetenia discoloripes,Arthropoda,Insecta,Diptera,Chironomidae,Tvetenia,0.845098040014257,herbivore,2,tegument,2,crawler,3,soft_body,4
+Tvetenia sp.,Arthropoda,Insecta,Diptera,Chironomidae,Tvetenia,0.845098040014257,herbivore,2,tegument,2,crawler,3,soft_body,4
+Tvetenia tamafulva,Arthropoda,Insecta,Diptera,Chironomidae,Tvetenia,0.845098040014257,herbivore,2,tegument,2,crawler,3,soft_body,4
+Tvetenia verralli,Arthropoda,Insecta,Diptera,Chironomidae,Tvetenia,0.845098040014257,herbivore,2,tegument,2,crawler,3,soft_body,4
+Tvetenia vitracies,Arthropoda,Insecta,Diptera,Chironomidae,Tvetenia,0.845098040014257,herbivore,2,tegument,2,crawler,3,soft_body,4
+Uncinais uncinata,Annelida,Clitellata,Tubificida,Naididae,Uncinais,1.30102999566398,gatherer,3,tegument,2,crawler,3,soft_body,4
+Unio douglasiae,Mollusca,Bivalvia,Unionida,Unionidae,Unio,2.146128036,filterer,4,gill,3,sessile,1,hard_shelled,1
+Unio pictorum,Mollusca,Bivalvia,Unionida,Unionidae,Unio,2.146128036,filterer,4,gill,3,sessile,1,hard_shelled,1
+Unio sp.,Mollusca,Bivalvia,Unionida,Unionidae,Unio,2.146128036,filterer,4,gill,3,sessile,1,hard_shelled,1
+Unio tumidus,Mollusca,Bivalvia,Unionida,Unionidae,Unio,2.146128036,filterer,4,gill,3,sessile,1,hard_shelled,1
+Uracanthella rufa,Arthropoda,Insecta,Ephemeroptera,Ephemerellidae,Uracanthella,1,gatherer; herbivore,3,gill,3,crawler,3,soft_body,4
+Uracanthella sp.,Arthropoda,Insecta,Ephemeroptera,Ephemerellidae,Uracanthella,1,gatherer; herbivore,3,gill,3,crawler,3,soft_body,4
+Valvata cristata,Mollusca,Gastropoda,Ectobranchia,Valvatidae,Valvata,0,herbivore,2,gill,3,crawler,3,hard_shelled,1
+Valvata macrostoma,Mollusca,Gastropoda,Ectobranchia,Valvatidae,Valvata,0,herbivore,2,gill,3,crawler,3,hard_shelled,1
+Valvata piscinalis,Mollusca,Gastropoda,Ectobranchia,Valvatidae,Valvata,0,filterer,4,gill,3,burrower,2,hard_shelled,1
+Valvata sp.,Mollusca,Gastropoda,Ectobranchia,Valvatidae,Valvata,1,filterer,4,gill,3,burrower,2,hard_shelled,1
+Vejdovskyella comata,Annelida,Clitellata,Tubificida,Naididae,Vejdovskyella,0.903089986991944,gatherer,3,tegument,2,burrower,2,soft_body,4
+Vejdovskyella intermedia,Annelida,Clitellata,Tubificida,Naididae,Vejdovskyella,0.477121254719662,gatherer,3,tegument,2,burrower,2,soft_body,4
+Velia sp.,Arthropoda,Insecta,Hemiptera,Veliidae,Velia,1,predator,1,aerial,1,swimmer,4,partly_sclerotized,3
+Vietnamella sp.,Arthropoda,Insecta,Ephemeroptera,Ephemerellidae,Vietnamella,1,gatherer; herbivore,3,gill,3,crawler,3,soft_body,4
+Viviparus acerosus,Mollusca,Gastropoda,Viviparida,Viviparidae,Viviparus,1.60205999132796,herbivore,2,gill,3,crawler,3,hard_shelled,1
+Viviparus chui,Mollusca,Gastropoda,Viviparida,Viviparidae,Viviparus,1.60205999132796,herbivore,2,gill,3,crawler,3,hard_shelled,1
+Viviparus viviparus,Mollusca,Gastropoda,Viviparida,Viviparidae,Viviparus,0.602059991327962,herbivore,2,gill,3,crawler,3,hard_shelled,1
+Whitmania pigra,Annelida,Clitellata,Hirudinida,Haemopidae,Whitmania,2.39794000867204,predator,1,tegument,2,crawler,3,soft_body,4
+Whitmania sp.,Annelida,Clitellata,Hirudinida,Haemopidae,Whitmania,2.39794000867204,predator,1,tegument,2,crawler,3,soft_body,4
+Wormaldia sp.,Arthropoda,Insecta,Trichoptera,Philopotamidae,Wormaldia,1,filterer,4,tegument,2,sessile,1,partly_sclerotized,3
+Ylodes conspersus,Arthropoda,Insecta,Trichoptera,Leptoceridae,Ylodes,0.301029995663981,herbivore,2,gill; tegument,3,crawler,3,soft_body,4
+Ylodes simulans,Arthropoda,Insecta,Trichoptera,Leptoceridae,Ylodes,1.30102999566398,herbivore; shredder,2,gill; tegument,3,crawler,3,soft_body,4
+Zalutschia sp.,Arthropoda,Insecta,Diptera,Chironomidae,Zalutschia,0.845098040014257,gatherer,3,tegument,2,crawler,3,soft_body,4
+Zavrelimyia sp.,Arthropoda,Insecta,Diptera,Chironomidae,Zavrelimyia,1,predator,1,tegument,2,crawler,3,soft_body,4
