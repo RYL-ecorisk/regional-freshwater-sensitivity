@@ -1,169 +1,231 @@
-# External validation and applicability domain assessment (Fig. 4a-b)
-# Run after 01_model_training.R; AD uses 10-NN mixed Gower distance.
+# JHM | Equal-weight 24-variable Manhattan-style applicability-domain analysis
+# Analysis only: no figures, plotting dependencies, or model fitting.
+# Run from the package root after placing the final screened external dataset at:
+#   data/STRICT_EXTERNAL.csv
 
-TRAIN <- "data/Training_DATABASE_MOA_RECHECKED.csv"
-EXTERNAL <- "data/STRICT_EXTERNAL.csv"
-MODEL_DIR <- "results/01_model_training"
-OUT <- "results/03_external_validation_and_applicability_domain"
-KNN <- 10L
+options(stringsAsFactors = FALSE, warn = 1, scipen = 9)
+suppressPackageStartupMessages(library(data.table))
 
-for (p in c("data.table", "xgboost", "ggplot2")) {
-  if (!requireNamespace(p, quietly = TRUE)) stop("Install R package: ", p)
+ROOT <- normalizePath(".", winslash = "/", mustWork = TRUE)
+DATA_DIR <- file.path(ROOT, "data")
+TRAIN_FILE <- file.path(DATA_DIR, "Training_DATABASE_MOA_RECHECKED.csv")
+EXTERNAL_FILE <- file.path(DATA_DIR, "STRICT_EXTERNAL.csv")
+OUT_DIR <- file.path(ROOT, "results", "applicability_domain_equal24_manhattan")
+
+# Manuscript reference checks. Keep enabled for the submitted JHM analysis.
+CHECK_MANUSCRIPT_REFERENCE <- TRUE
+EXPECTED_TRAIN_N <- 7043L
+EXPECTED_EXTERNAL_N <- 437L
+EXPECTED_TRAINING_P95 <- 1.057963
+EXPECTED_WITHIN_AD_N <- 396L
+P95_TOLERANCE <- 0.00006
+
+CHEM <- c(
+  "logS", "logKow", "logD7_4", "MW", "TPSA", "log_Henry",
+  "log_VaporPressure", "MeltingPoint", "HBA", "HBD",
+  "AromaticRingCount", "RotatableBondCount", "BertzCT"
+)
+ECO <- c(
+  "Log Body size", "Feeding_score", "Respiration_score",
+  "Locomotion_score", "Body_armor_score"
+)
+TAX <- c("Phylum", "Class", "Order", "Family", "Genus")
+MOA <- "Model_MOA_final"
+NUM_AD <- c(CHEM, ECO)
+CAT_AD <- c(TAX, MOA)
+AD_FEATURES <- c(NUM_AD, CAT_AD)
+
+stopifnot(length(CHEM) == 13L, length(ECO) == 5L,
+          length(TAX) == 5L, length(MOA) == 1L,
+          length(NUM_AD) == 18L, length(CAT_AD) == 6L,
+          length(AD_FEATURES) == 24L)
+
+if (!requireNamespace("data.table", quietly = TRUE)) {
+  stop('Install the required R package with install.packages("data.table").')
 }
-if (packageVersion("xgboost") < "3.0.0") stop("Requires xgboost >= 3.0")
-dir.create(OUT, recursive = TRUE, showWarnings = FALSE)
-library(data.table)
-library(ggplot2)
+if (!file.exists(TRAIN_FILE)) stop("Training data not found: ", TRAIN_FILE)
+if (!file.exists(EXTERNAL_FILE)) {
+  stop(
+    "The final screened external dataset is required: ", EXTERNAL_FILE,
+    "\nProvide the exact 437-record dataset used in the manuscript. Do not substitute the raw Excel file unless the original screening rules have been reproduced."
+  )
+}
+dir.create(OUT_DIR, recursive = TRUE, showWarnings = FALSE)
 
-d <- unique(fread(TRAIN, na.strings = c("", "NA", "NaN")))
-e <- fread(EXTERNAL, na.strings = c("", "NA", "NaN"))
-enc_info <- readRDS(file.path(MODEL_DIR, "xgboost_preprocessing.rds"))
-enc <- enc_info$encoder
-NUM <- enc_info$numeric
-CAT <- enc_info$categorical
-TARGET <- enc_info$target
-model <- xgboost::xgb.load(file.path(MODEL_DIR, "xgboost_model.json"))
-d <- d[is.finite(as.numeric(get(TARGET))) & !is.na(Taxon) & nzchar(trimws(Taxon))]
-required <- c("DTXSID", "Taxon", TARGET, NUM, CAT)
-if (!all(required %in% names(d)) || !all(required %in% names(e)))
-  stop("Missing training or external prediction columns")
-if (!all(c("Four_way_group_RECHECKED", "External_record_ID") %in% names(e)))
-  stop("Missing external validation group or record ID")
-
-# 1. Independent external predictions
 clean_cat <- function(x) {
   x <- trimws(as.character(x))
-  x[is.na(x) | x == ""] <- "__MISSING__"
+  x[is.na(x) | !nzchar(x)] <- "__MISSING__"
   x
 }
-make_xgb <- function(dat) {
-  z <- setNames(lapply(NUM, function(v) {
-    a <- suppressWarnings(as.numeric(dat[[v]]))
-    a[!is.finite(a)] <- enc$median[[v]]
-    a
-  }), NUM)
-  for (v in CAT) {
-    a <- clean_cat(dat[[v]])
-    a[!a %in% enc$levels[[v]]] <- "__NOVEL__"
-    z[[v]] <- factor(replace(a, a == "__NOVEL__", NA_character_),
-                     levels = enc$levels[[v]])
-  }
-  as.data.frame(z, check.names = FALSE, optional = TRUE)
-}
-e[, `:=`(Observed = as.numeric(get(TARGET)),
-         Predicted = as.numeric(predict(model, xgboost::xgb.DMatrix(make_xgb(e)))))]
-if (any(!is.finite(e$Observed)) || any(!is.finite(e$Predicted)))
-  stop("Non-finite external observations or predictions")
 
-GROUPS <- c("Both_seen_new_pair", "Seen_chemical_Unseen_species",
-            "Unseen_chemical_Seen_species", "Both_unseen")
-LABELS <- c("Both seen: new pair", "Unseen species", "Unseen chemical", "Both unseen")
-if (anyNA(e$Four_way_group_RECHECKED) ||
-    !all(e$Four_way_group_RECHECKED %in% GROUPS))
-  stop("Unrecognized external validation group")
-metrics <- rbindlist(lapply(seq_along(GROUPS), function(i) {
-  z <- e[Four_way_group_RECHECKED == GROUPS[i]]
-  if (nrow(z) < 3L) stop("Too few external observations in: ", GROUPS[i])
-  sst <- sum((z$Observed - mean(z$Observed))^2)
-  data.table(Group = GROUPS[i], Label = LABELS[i], N = nrow(z),
-             R2 = if (sst > 0) 1 - sum((z$Predicted - z$Observed)^2) / sst else NA_real_,
-             Pearson_r = cor(z$Observed, z$Predicted, method = "pearson"),
-             Spearman_rho = cor(z$Observed, z$Predicted, method = "spearman"))
+# Read and apply the same training-row filters used by the training workflow.
+train <- fread(TRAIN_FILE, na.strings = c("", "NA", "NaN"), encoding = "UTF-8")
+if (!all(c("DTXSID", "Taxon", "log10_Geomean_ug_L", AD_FEATURES) %in% names(train))) {
+  stop("Training data are missing required columns: ",
+       paste(setdiff(c("DTXSID", "Taxon", "log10_Geomean_ug_L", AD_FEATURES), names(train)),
+             collapse = ", "))
+}
+train[, log10_Geomean_ug_L := suppressWarnings(as.numeric(log10_Geomean_ug_L))]
+train[, Taxon := trimws(as.character(Taxon))]
+train <- train[is.finite(log10_Geomean_ug_L) & !is.na(Taxon) & nzchar(Taxon)]
+if (CHECK_MANUSCRIPT_REFERENCE && nrow(train) != EXPECTED_TRAIN_N) {
+  stop("Unexpected training sample size after the manuscript filters: ", nrow(train),
+       " (expected ", EXPECTED_TRAIN_N, ").")
+}
+
+ext <- fread(EXTERNAL_FILE, na.strings = c("", "NA", "NaN"), encoding = "UTF-8")
+if (!all(c("DTXSID", "Taxon", AD_FEATURES) %in% names(ext))) {
+  stop("External data are missing required columns: ",
+       paste(setdiff(c("DTXSID", "Taxon", AD_FEATURES), names(ext)), collapse = ", "))
+}
+if (CHECK_MANUSCRIPT_REFERENCE && nrow(ext) != EXPECTED_EXTERNAL_N) {
+  stop("Expected ", EXPECTED_EXTERNAL_N, " screened external records; found ", nrow(ext), ".")
+}
+if (!"External_record_ID" %in% names(ext)) ext[, External_record_ID := seq_len(.N)]
+ext[, Taxon := trimws(as.character(Taxon))]
+ext[, External_row := seq_len(.N)]
+
+# Validate and standardize data types without changing the source values.
+for (v in NUM_AD) {
+  train[, (v) := suppressWarnings(as.numeric(get(v)))]
+  ext[, (v) := suppressWarnings(as.numeric(get(v)))]
+  if (any(!is.finite(train[[v]]))) stop("Training data contain non-finite numeric predictor: ", v)
+  if (any(!is.finite(ext[[v]]))) stop("External data contain non-finite numeric predictor: ", v)
+}
+for (v in CAT_AD) {
+  train[, (v) := clean_cat(get(v))]
+  ext[, (v) := clean_cat(get(v))]
+}
+
+# Numeric reference parameters are estimated from the training data only.
+train_mean <- vapply(NUM_AD, function(v) mean(train[[v]]), numeric(1))
+train_sd <- vapply(NUM_AD, function(v) sd(train[[v]]), numeric(1))
+train_sd[!is.finite(train_sd) | train_sd < 1e-12] <- 1
+
+# Empirical category frequencies are estimated from the training data only.
+category_probabilities <- lapply(CAT_AD, function(v) {
+  p <- prop.table(table(train[[v]]))
+  setNames(as.numeric(p), names(p))
+})
+names(category_probabilities) <- CAT_AD
+
+# Each of the 24 original variables receives weight 1/24.
+# Numeric contribution: abs((x - training mean) / training SD) / 24.
+# Categorical contribution: (1 - training prevalence) / 24; unseen levels receive 1/24.
+# The total is the manuscript's equal-weight 24-variable Manhattan-style AD score.
+score_components <- function(dat) {
+  n <- nrow(dat)
+  chemical <- numeric(n)
+  ecology <- numeric(n)
+  taxonomy <- numeric(n)
+  moa <- numeric(n)
+
+  for (v in CHEM) {
+    chemical <- chemical + abs((dat[[v]] - train_mean[[v]]) / train_sd[[v]]) / 24
+  }
+  for (v in ECO) {
+    ecology <- ecology + abs((dat[[v]] - train_mean[[v]]) / train_sd[[v]]) / 24
+  }
+  for (v in TAX) {
+    p <- unname(category_probabilities[[v]][as.character(dat[[v]])])
+    contribution <- (1 - p) / 24
+    contribution[is.na(p)] <- 1 / 24
+    taxonomy <- taxonomy + contribution
+  }
+  p_moa <- unname(category_probabilities[[MOA]][as.character(dat[[MOA]])])
+  moa_contribution <- (1 - p_moa) / 24
+  moa_contribution[is.na(p_moa)] <- 1 / 24
+  moa <- moa + moa_contribution
+
+  data.table(
+    Chemical_descriptor_contribution = chemical,
+    Ecological_trait_contribution = ecology,
+    Taxonomy_contribution = taxonomy,
+    MOA_contribution = moa,
+    Manhattan_AD_score = chemical + ecology + taxonomy + moa
+  )
+}
+
+train_scores <- score_components(train)
+training_p95 <- as.numeric(quantile(train_scores$Manhattan_AD_score,
+                                    probs = 0.95, type = 7, names = FALSE))
+if (CHECK_MANUSCRIPT_REFERENCE &&
+    abs(training_p95 - EXPECTED_TRAINING_P95) > P95_TOLERANCE) {
+  stop("Training AD P95 does not match the manuscript reference: ",
+       sprintf("%.6f", training_p95), " (expected ",
+       sprintf("%.6f", EXPECTED_TRAINING_P95), "). Check the exact training data and preprocessing.")
+}
+
+external_scores <- score_components(ext)
+within_ad <- external_scores$Manhattan_AD_score <= training_p95
+if (CHECK_MANUSCRIPT_REFERENCE && sum(within_ad) != EXPECTED_WITHIN_AD_N) {
+  stop("External within-AD count does not match the manuscript reference: ",
+       sum(within_ad), "/", nrow(ext), " (expected ",
+       EXPECTED_WITHIN_AD_N, "/", EXPECTED_EXTERNAL_N,
+       "). Check the exact screened external data and predictor preprocessing.")
+}
+
+# Save analysis outputs only; no figures or plotting code are included.
+training_output <- data.table(
+  Training_row = seq_len(nrow(train)),
+  DTXSID = as.character(train$DTXSID),
+  Taxon = as.character(train$Taxon)
+)
+training_output <- cbind(training_output, train_scores)
+training_output[, Training_P95 := training_p95]
+fwrite(training_output, file.path(OUT_DIR, "training_AD_scores.csv"))
+
+id_cols <- intersect(c("External_row", "External_record_ID", "DTXSID", "Taxon",
+                       "Four_way_group_RECHECKED"), names(ext))
+external_output <- cbind(copy(ext[, ..id_cols]), external_scores)
+external_output[, `:=`(
+  Training_P95 = training_p95,
+  Within_AD = within_ad,
+  AD_status = ifelse(within_ad, "Within AD", "Outside AD")
+)]
+fwrite(external_output, file.path(OUT_DIR, "external_AD_records.csv"))
+
+summary_output <- data.table(
+  Method = "EQUAL_WEIGHT_24_VARIABLE_MANHATTAN_STYLE",
+  Training_N = nrow(train),
+  External_N = nrow(ext),
+  Number_of_variables = length(AD_FEATURES),
+  Numeric_variables = length(NUM_AD),
+  Categorical_variables = length(CAT_AD),
+  Training_P95 = training_p95,
+  Within_AD_N = sum(within_ad),
+  Outside_AD_N = sum(!within_ad),
+  Within_AD_percent = 100 * mean(within_ad),
+  Outside_AD_percent = 100 * mean(!within_ad),
+  Quantile_method = "R type 7"
+)
+fwrite(summary_output, file.path(OUT_DIR, "external_AD_summary.csv"))
+
+# Save the training-only reference parameters used to calculate the scores.
+num_parameters <- data.table(
+  Variable = NUM_AD,
+  Variable_type = ifelse(NUM_AD %in% CHEM, "Chemical descriptor", "Ecological trait"),
+  Training_mean = as.numeric(train_mean[NUM_AD]),
+  Training_SD = as.numeric(train_sd[NUM_AD]),
+  Category_level = NA_character_,
+  Training_frequency = NA_real_
+)
+cat_parameters <- rbindlist(lapply(CAT_AD, function(v) {
+  p <- category_probabilities[[v]]
+  data.table(
+    Variable = v,
+    Variable_type = if (v %in% TAX) "Taxonomy" else "MOA",
+    Training_mean = NA_real_,
+    Training_SD = NA_real_,
+    Category_level = names(p),
+    Training_frequency = as.numeric(p)
+  )
 }))
-fwrite(metrics, file.path(OUT, "external_validation_metrics.csv"))
-fwrite(e[, .(External_record_ID, DTXSID, Taxon, Group = Four_way_group_RECHECKED, Observed, Predicted)],
-       file.path(OUT, "external_validation_predictions.csv"))
+reference_parameters <- rbindlist(list(num_parameters, cat_parameters), use.names = TRUE, fill = TRUE)
+fwrite(reference_parameters, file.path(OUT_DIR, "AD_reference_parameters.csv"))
 
-# 2. Mixed Gower distance: 10 nearest training neighbors
-AD_NUM <- c("Log Body size", "logS", "logKow", "logD7_4", "MW", "TPSA",
-            "log_Henry", "log_VaporPressure", "MeltingPoint", "HBA", "HBD",
-            "AromaticRingCount", "RotatableBondCount", "BertzCT")
-AD_CAT <- c("Feeding", "Respiration", "Locomotion", "Body armor",
-            "Phylum", "Class", "Order", "Family", "Genus", "Model_MOA_final")
-AD_FEATURES <- c(AD_NUM, AD_CAT)
-if (!all(AD_FEATURES %in% names(d)) || !all(AD_FEATURES %in% names(e)))
-  stop("Missing raw applicability-domain columns: ",
-       paste(setdiff(AD_FEATURES, intersect(names(d), names(e))), collapse = ", "))
-
-make_ad <- function(dat, minimum, span) {
-  num <- sapply(AD_NUM, function(v) suppressWarnings(as.numeric(dat[[v]])))
-  if (is.vector(num)) num <- matrix(num, ncol = length(AD_NUM))
-  num <- sweep(sweep(num, 2L, minimum, "-"), 2L, span, "/")
-  cat <- as.matrix(dat[, ..AD_CAT])
-  storage.mode(cat) <- "character"
-  if (any(!is.finite(num)) || anyNA(cat) || any(trimws(cat) == ""))
-    stop("Missing or invalid applicability-domain variables")
-  list(num = num, cat = cat)
-}
-minimum <- vapply(d[, ..AD_NUM], function(x) min(as.numeric(x), na.rm = TRUE), numeric(1))
-maximum <- vapply(d[, ..AD_NUM], function(x) max(as.numeric(x), na.rm = TRUE), numeric(1))
-span <- pmax(maximum - minimum, 1e-12)
-a <- make_ad(d, minimum, span)
-b <- make_ad(e, minimum, span)
-
-gower_knn <- function(q, ref, k = 10L, leave_one_out = FALSE, batch = 48L) {
-  n <- nrow(q$num); m <- nrow(ref$num)
-  if (m <= k) stop("Not enough training records for nearest-neighbor AD")
-  result <- numeric(n)
-  for (first in seq.int(1L, n, by = batch)) {
-    ix <- first:min(n, first + batch - 1L)
-    dst <- matrix(0, length(ix), m)
-    for (j in seq_len(ncol(q$num)))
-      dst <- dst + pmin(abs(outer(q$num[ix, j], ref$num[, j], "-")), 1)
-    for (j in seq_len(ncol(q$cat)))
-      dst <- dst + outer(q$cat[ix, j], ref$cat[, j], "!=")
-    dst <- dst / (ncol(q$num) + ncol(q$cat))
-    if (leave_one_out) dst[cbind(seq_along(ix), ix)] <- Inf
-    result[ix] <- apply(dst, 1L, function(z) mean(sort(z, partial = k)[seq_len(k)]))
-  }
-  result
-}
-
-train_dist <- gower_knn(a, a, KNN, leave_one_out = TRUE)
-ext_dist <- gower_knn(b, a, KNN)
-threshold <- as.numeric(quantile(train_dist, 0.95))
-e[, `:=`(Gower_10NN = ext_dist,
-         AD_status = ifelse(ext_dist <= threshold, "Within AD", "Outside AD"))]
-ad_summary <- data.table(Training_N = nrow(d), External_N = nrow(e),
-                         K = KNN, Training_P95 = threshold,
-                         Within_AD_N = sum(e$AD_status == "Within AD"),
-                         Within_AD_percent = 100 * mean(e$AD_status == "Within AD"))
-fwrite(e[, .(External_record_ID, DTXSID, Taxon, Gower_10NN, AD_status)],
-       file.path(OUT, "external_AD_records.csv"))
-fwrite(ad_summary, file.path(OUT, "external_AD_summary.csv"))
-
-# 3. Figure 4a-b
-long <- melt(metrics, id.vars = c("Group", "Label", "N"),
-             measure.vars = c("R2", "Pearson_r", "Spearman_rho"),
-             variable.name = "Metric", value.name = "Value")
-long[, Label := factor(Label, levels = rev(LABELS))]
-fig_a <- ggplot(long, aes(Label, Value, fill = Metric)) +
-  geom_col(position = position_dodge(width = 0.75), width = 0.7) +
-  geom_text(aes(label = sprintf("%.3f", Value)),
-            position = position_dodge(width = 0.75), vjust = -0.25, size = 3) +
-  coord_flip() + labs(x = NULL, y = "Metric value") + theme_classic(12)
-ggsave(file.path(OUT, "Fig4a_external_validation.png"), fig_a,
-       width = 8, height = 5, dpi = 300)
-
-bins <- sort(unique(c(seq(0, max(ext_dist) + 0.016, by = 0.008), threshold)))
-counts <- hist(ext_dist, breaks = bins, plot = FALSE)
-h <- data.table(xmin = head(counts$breaks, -1L), xmax = tail(counts$breaks, -1L),
-                Percent = 100 * counts$counts / nrow(e))
-h[, AD := ifelse(xmax <= threshold, "Within AD", "Outside AD")]
-cdf <- data.table(Distance = sort(ext_dist), Cumulative = 100 * seq_along(ext_dist) / length(ext_dist))
-scale_factor <- max(h$Percent) / 100
-fig_b <- ggplot() +
-  geom_rect(data = h, aes(xmin = xmin, xmax = xmax, ymin = 0, ymax = Percent, fill = AD)) +
-  geom_step(data = cdf, aes(Distance, Cumulative * scale_factor), color = "#2F96D2") +
-  geom_vline(xintercept = threshold, linetype = "dashed") +
-  scale_fill_manual(values = c("Within AD" = "#37B8AE", "Outside AD" = "#E27D9F")) +
-  scale_y_continuous("Frequency (%)", sec.axis = sec_axis(~ . / scale_factor, name = "Cumulative (%)")) +
-  labs(x = "Gower distance", fill = NULL,
-       subtitle = sprintf("Training P95 = %.3f  |  External within AD = %.1f%%",
-                          threshold, ad_summary$Within_AD_percent)) + theme_classic(12)
-ggsave(file.path(OUT, "Fig4b_applicability_domain.png"), fig_b,
-       width = 8, height = 5, dpi = 300)
-
-print(metrics)
-print(ad_summary)
-cat("External validation and applicability domain results: ", OUT, "\n", sep = "")
+cat("Applicability-domain analysis completed.\n")
+cat("Output directory: ", OUT_DIR, "\n", sep = "")
+cat(sprintf("Training N = %d; P95 = %.6f; external N = %d; within AD = %d (%.2f%%); outside AD = %d (%.2f%%).\n",
+            nrow(train), training_p95, nrow(ext), sum(within_ad),
+            100 * mean(within_ad), sum(!within_ad), 100 * mean(!within_ad)))

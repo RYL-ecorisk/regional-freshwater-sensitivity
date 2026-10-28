@@ -1,103 +1,77 @@
-# Reproducibility Package
+# JHM Cross-Species Toxicity Prediction: Reproducibility Package
 
-## Regional variation in freshwater assemblage sensitivity across chemical toxicity gradients and modes of action
+This package contains the model-training workflow and downstream analysis scripts for the manuscript. The applicability-domain (AD) script is analysis-only: it calculates the equal-weight 24-variable Manhattan-style AD score and exports CSV results. It contains no plotting code.
 
-### Overview
+## Contents
 
-This package contains the analysis scripts and selected input data used for cross-species toxicity prediction and region-specific chemical hazard assessment in the associated manuscript. The workflow compares six machine-learning algorithms, evaluates predictive performance and applicability domain, interprets predictor contributions using SHAP, predicts toxicity for freshwater macroinvertebrate assemblages in seven regions, derives species sensitivity distributions (SSDs) and hazardous concentrations for 5% of species (HC5), and evaluates the implications for protection thresholds and chemical risk prioritization.
+- `01_model_training.R`: five-model training and tuning for XGBoost, Ridge, Elastic Net, Random Forest, and LightGBM.
+- `01b_ft_transformer_tuning.R`: optional FT-Transformer grid search.
+- `01c_export_xgboost_compat.R`: export the selected XGBoost model and preprocessing metadata.
+- `01d_combine_model_comparison.R`: combine five R-model results with FT-Transformer results.
+- `00_prepare_prediction_matrix.R`: construct the chemical-by-taxon prediction matrix.
+- `02_shap_moa.R`: SHAP and MOA analysis.
+- `03_external_validation_and_applicability_domain.R`: analysis-only equal-weight 24-variable Manhattan-style AD calculation; no model fitting or plotting.
+- `04_species_toxicity_prediction.R`: cross-species toxicity prediction.
+- `05_ssd_distribution_selection.R`: SSD distribution comparison.
+- `06_regional_ssd_hc5.R`: regional HC5 estimation and Monte Carlo uncertainty propagation.
+- `07_toxicity_gradients_and_regional_sensitivity_variation.R`: toxicity gradients and regional sensitivity comparisons.
+- `08_protection_thresholds_and_risk_prioritization.R`: protection-threshold comparison and risk prioritization.
+- `data/`: training data and supporting data files supplied with this package.
 
-The training dataset contains 7,043 chemical–taxon pairs involving 2,109 chemicals and 690 taxa. The regional prediction matrix covers 2,109 chemicals and 1,317 taxa.
+Standalone figure-only scripts are not included. The AD calculation script does not generate figures.
 
-### Package contents
+## Software requirements
 
-- `data/`: Training data, taxonomic and ecological-trait information, regional taxon membership, and supporting reference files.
-- `R-packages.txt`: R package requirements. XGBoost version 3.0.0 or later is required.
-- `requirements-ft.txt`: Python dependencies for the FT-Transformer analysis.
-- `01_model_training.R`: Hyperparameter tuning and model fitting for XGBoost, ridge regression, elastic net, random forest, and LightGBM.
-- `01b_ft_transformer_tuning.R`: FT-Transformer grid search and boundary checks.
-- `01c_export_xgboost_compat.R`: Exports the selected XGBoost model, preprocessing metadata, and out-of-fold (OOF) predictions for downstream analyses.
-- `01d_combine_model_comparison.R`: Combines the five R-based models and FT-Transformer for model comparison.
-- `00_prepare_prediction_matrix.R`: Builds the chemical–taxon prediction matrix for the seven regional assemblages.
-- `02_shap_moa.R`: SHAP interpretation across modes of action.
-- `03_external_validation_and_applicability_domain.R`: Independent external validation and applicability-domain assessment.
-- `04_species_toxicity_prediction.R`: Toxicity prediction for all chemical–taxon combinations in the regional prediction matrix.
-- `05_ssd_distribution_selection.R`: Comparison of candidate SSD distributions using AICc.
-- `06_regional_ssd_hc5.R`: Regional HC5 estimation and uncertainty propagation.
-- `07_toxicity_gradients_and_regional_sensitivity_variation.R`: Analysis of toxicity gradients, modes of action, and regional HC5 variation.
-- `08_protection_thresholds_and_risk_prioritization.R`: Comparison of protection thresholds and chemical risk prioritization.
-- `09_fig4c_chemical_space.R`: Optional chemical-space analysis for Fig. 4c.
+- R and the packages listed in `R-packages.txt`.
+- XGBoost for R version 3.0.0 or later.
+- For FT-Transformer only: a Python environment configured through `RETICULATE_PYTHON`, with the packages listed in `requirements-ft.txt`.
 
-### Software requirements
+Install the required R packages as needed, for example:
 
-Install the R packages listed in `R-packages.txt`. The model-training script requires XGBoost 3.0.0 or later. The FT-Transformer analysis additionally requires Python with the packages listed in `requirements-ft.txt`, accessed through the R package `reticulate`.
-
-Run the scripts from the package root directory. File paths are relative to this directory.
-
-To select the Python environment used by `reticulate`, set `RETICULATE_PYTHON` before running the FT-Transformer script. For example, on macOS or Linux:
-
-```bash
-export RETICULATE_PYTHON=/path/to/python
-Rscript 01b_ft_transformer_tuning.R
+```r
+install.packages(c("data.table", "glmnet", "ranger", "xgboost", "ggplot2", "patchwork", "MASS", "reticulate", "readxl"))
 ```
 
-On Windows, set `RETICULATE_PYTHON` to the full path of the intended `python.exe` before starting the R session.
+LightGBM and `ssdtools` may require installation steps specific to the local R environment. Confirm package versions before a formal reproducibility run.
 
-### Recommended workflow
+## Recommended run order
 
-1. **Tune the five R-based models.** Run:
+Run scripts from the package root.
 
-   ```bash
-   Rscript 01_model_training.R
-   ```
+1. Run `source("01_model_training.R")` to tune and evaluate the five R-based models.
+2. Optionally configure `RETICULATE_PYTHON` and run `source("01b_ft_transformer_tuning.R")` for FT-Transformer.
+3. If FT-Transformer was run, use `source("01d_combine_model_comparison.R")` to combine model-comparison results.
+4. Run `source("01c_export_xgboost_compat.R")` after the XGBoost tuning run has completed.
+5. Run `source("00_prepare_prediction_matrix.R")`, then the relevant downstream scripts (`02_shap_moa.R`, `04_species_toxicity_prediction.R`, `05_ssd_distribution_selection.R`, `06_regional_ssd_hc5.R`, `07_toxicity_gradients_and_regional_sensitivity_variation.R`, and `08_protection_thresholds_and_risk_prioritization.R`) in dependency order.
+6. For the AD analysis, place the exact final screened external dataset at `data/STRICT_EXTERNAL.csv`, then run `source("03_external_validation_and_applicability_domain.R")`. This script is independent of the model-fitting stage and uses the training predictors to define the AD reference distribution.
 
-   The script performs coarse screening, Bayesian optimization using a tree-structured Parzen estimator (TPE), local refinement, and parameter-boundary checks. All five models use the same five repeats of fivefold taxon-blocked cross-validation. Preprocessing is fitted within each training partition. For these five models, the implemented selection rule requires the maximum Train R2–OOF CV R2 gap across repeats to be no greater than 0.20; among eligible candidates, mean CV R2 is the primary selection criterion. The search can be computationally intensive and writes checkpoints to support resumption.
+## Model tuning and reproducibility
 
-2. **Tune FT-Transformer, if required for the six-model comparison.** After the shared folds and R-model tuning are available, configure `RETICULATE_PYTHON` and run:
+The five R-based models use a three-stage search: coarse exploration, TPE-based optimization, and local refinement, followed by parameter-boundary checks. The current search budgets are defined by model name in `01_model_training.R`. Candidate evaluation uses shared five-repeat, five-fold taxon-blocked cross-validation. Final candidate eligibility also applies the configured per-repeat training-versus-OOF R-squared gap constraint; the exact selection logic is implemented in the script and recorded in the output audit files.
 
-   ```bash
-   Rscript 01b_ft_transformer_tuning.R
-   ```
+No fixed master seed is hard-coded. On the first run, the training script generates a run-specific seed and saves it to `results/model_tuning_run06/00_RUN_SEED.txt`. Fold assignments, tuning checkpoints, parameter-boundary audits, and run metadata are saved under `results/`. Re-running the same working directory resumes the recorded run. For reproducibility, archive the seed, fold assignments, input files, package versions, and output audit tables together.
 
-   After the FT-Transformer run has completed, combine the results:
+## Applicability-domain method
 
-   ```bash
-   Rscript 01d_combine_model_comparison.R
-   ```
+The AD analysis uses 24 original predictors: 13 chemical descriptors, five ecological traits, five taxonomic variables, and one MOA variable. Each variable contributes weight `1/24`.
 
-3. **Export the selected XGBoost model.** Once XGBoost tuning is complete, run:
+- Numeric predictors are standardized using the training-set mean and standard deviation; their contribution is the absolute standardized deviation divided by 24.
+- Categorical predictors use training-set category prevalence; the contribution is `(1 - training prevalence) / 24`. A category not seen in training receives a contribution of `1/24` for that variable.
+- The training-set 95th percentile (R quantile type 7) defines the AD threshold.
+- All numeric reference parameters and categorical frequencies are estimated from the training set only.
 
-   ```bash
-   Rscript 01c_export_xgboost_compat.R
-   ```
+The script checks the manuscript reference values by default: 7,043 training records, 437 screened external records, training P95 approximately `1.057963`, and 396/437 external records within the AD. If these checks fail, the script stops rather than silently changing the input data or method. Do not disable the checks merely to force a run to complete.
 
-4. **Build the regional prediction matrix.** Run:
+The script writes four CSV files to `results/applicability_domain_equal24_manhattan/`: training AD scores, external-record AD scores and classifications, an external AD summary, and the reference parameters used in the calculation.
 
-   ```bash
-   Rscript 00_prepare_prediction_matrix.R
-   ```
+## Required inputs not included in this archive
 
-5. **Run downstream analyses in dependency order.** Run `02_shap_moa.R` and, when its required input is available, `03_external_validation_and_applicability_domain.R`. Then run `04_species_toxicity_prediction.R`, followed by `05_ssd_distribution_selection.R`, `06_regional_ssd_hc5.R`, and the relevant analyses in `07_toxicity_gradients_and_regional_sensitivity_variation.R` and `08_protection_thresholds_and_risk_prioritization.R`.
+- `data/STRICT_EXTERNAL.csv`: the final screened 437-record external dataset used in the manuscript. `External_validation_raw.xlsx` is provided as raw source material, but the final screened CSV is intentionally not reconstructed automatically because the original screening and grouping rules must be preserved.
+- `data/Taihu_9Sites_10OP_Original_LOD2_Simple.xlsx`: required by `08_protection_thresholds_and_risk_prioritization.R`; it was not present among the supplied files when this archive was assembled.
+- `data/Pollutants_13_descriptors_by_category.csv`: required only for the separate ChemExpo chemical-space workflow; that figure-specific workflow is not included in this analysis package.
 
-6. **Run the optional Fig. 4c analysis.** `09_fig4c_chemical_space.R` is separate from model training and requires an additional pollutant-category dataset; see *Additional inputs* below.
+Supply these files from the exact study records before running the corresponding analyses. Do not substitute an unprocessed source file unless the manuscript's original screening rules have been reproduced.
 
-### Reproducibility and checkpoint management
+## Scope and validation status
 
-The first model-training run generates a run-specific random seed and saves it in `results/model_tuning_run06/00_RUN_SEED.txt`. Shared fold assignments, run manifests, software-session information, candidate-level results, parameter records, boundary audits, OOF predictions, and model artifacts are saved under `results/model_tuning_run06/`.
-
-Keep the seed file, fold assignments, run manifest, and checkpoint directories together. If a run stops at the time limit, rerun the same script to resume. Do not combine checkpoints from different runs or reuse an existing checkpoint directory after changing the input data or search configuration. A new run may select different hyperparameters; report the parameters and performance metrics from the run actually used for the manuscript.
-
-### Additional inputs required for selected analyses
-
-The following files are not included in this archive and must be supplied separately for the corresponding analyses:
-
-- `data/STRICT_EXTERNAL.csv`: Required by `03_external_validation_and_applicability_domain.R`. The archive includes `External_validation_raw.xlsx`, but the strict external-validation dataset is not generated automatically by this package. Apply the eligibility and exclusion criteria documented for the study before running the validation script.
-- `data/Pollutants_13_descriptors_by_category.csv`: Required by the optional `09_fig4c_chemical_space.R` analysis.
-- `data/Taihu_9Sites_10OP_Original_LOD2_Simple.xlsx`: Required for the Taihu monitoring-data risk-ranking section of `08_protection_thresholds_and_risk_prioritization.R`. If this file is absent, the script can still run the threshold comparison, but the monitoring-data analysis is skipped.
-
-### Outputs and reporting
-
-Analysis outputs are written to subdirectories under `results/`. The tuning outputs include candidate rankings, selected parameters, boundary audits, OOF predictions, model artifacts, and software-session information. Use the outputs from the final completed run when preparing the model-performance results and supplementary hyperparameter tables. Because tuning is stochastic, the selected parameters from a new run may differ from previously reported values.
-
-### Citation and data reuse
-
-This package supports the manuscript titled *Regional variation in freshwater assemblage sensitivity across chemical toxicity gradients and modes of action*. Please cite the associated article using its final bibliographic details when available. Consult the original sources and their terms of use before redistributing or reusing third-party datasets.
+The package includes the updated TPE training script and the analysis-only 24-variable AD script. Static file and path checks were performed when assembling the archive. A complete end-to-end R execution was not performed in this environment; verify execution with the specified R/Python packages and exact study inputs before releasing the repository publicly.
