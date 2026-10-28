@@ -1,134 +1,126 @@
-# Cross-Species Toxicity Prediction and Regional SSD Analysis
+# Regional Freshwater Sensitivity to Contaminants
 
-Reproducibility code for the study of freshwater assemblage sensitivity to contaminants with diverse modes of action. The repository uses a simple root-level script layout: all analysis scripts are directly in the project root, all input data are in `data/`, and generated outputs are written to `results/`.
+This repository contains the reproducible training workflow and supporting data for cross-species freshwater toxicity prediction and regional assemblage sensitivity analysis.
 
-## Repository Structure
+## Six-model training workflow
 
-```text
-.
-├── README.md
-├── jhm_toxicity_prediction.Rproj
-├── r_dependencies.txt
-├── python_dependencies.txt
-├── 01_train_six_models.R
-├── 02_export_xgboost_model.R
-├── 03_analyze_shap_moa.R
-├── 04_analyze_applicability_domain.R
-├── 05_prepare_prediction_matrix.R
-├── 06_predict_cross_species_toxicity.R
-├── 07_select_ssd_distribution.R
-├── 08_estimate_regional_hc5.R
-├── 09_analyze_toxicity_gradients.R
-├── 10_assess_protection_thresholds_and_risk.R
-├── data/
-│   ├── training_data.csv
-│   ├── region_taxon_membership.csv
-│   ├── taxon_traits_prediction.csv
-│   ├── external_validation_raw.xlsx
-│   ├── moa_cas_reference.xlsx
-│   ├── supplementary_tables_reference.xlsx
-│   └── README.md
-└── results/
-    └── generated models, predictions, checkpoints, and analysis outputs
+Run the complete four-stage training workflow from the repository root:
+
+```r
+source("01_model_training.R")
 ```
 
-Open the `.Rproj` file in RStudio or set the working directory to the repository root before running any script. All paths are relative to this root; no user-specific absolute paths are required.
+The entry script runs the five R-native models first and starts FT-Transformer only after all five have produced eligible final models. The two backend scripts are kept separate to isolate the R-native and CUDA/Python environments; `01_model_training.R` is the single entry point for the full six-model workflow.
 
-## Six-Model Training
+### Models and predictors
 
-All six model-training workflows are combined in **one script**, `01_train_six_models.R`:
+The six model families are:
 
 1. XGBoost
 2. Ridge regression
 3. Elastic Net
-4. Random Forest
+4. Random Forest (`ranger`)
 5. LightGBM
 6. FT-Transformer
 
-The script contains coarse search, TPE-based Bayesian optimization, local refinement, parameter-boundary checks, final fitting, and the FT-Transformer grid search. The five classical models use five-repeat, five-fold taxon-blocked cross-validation; FT-Transformer uses the shared fold assignments. A run-specific master seed is generated and saved on the first run. The seed, fold assignments, and checkpoints are retained so an interrupted run can resume.
+The corrected training dataset is expected at `data/Training_DATABASE_MOA_RECHECKED.csv`. It contains 7,043 chemical–taxon records for 2,109 unique chemicals. The model matrix contains 24 predictors: 13 chemical descriptors, five ecological traits, five taxonomic variables, and one broad mode-of-action (MOA) variable. Specific-MOA fields are retained for post-hoc analyses and audit exports; they are **not** model predictors.
 
-The R dependencies are listed in `r_dependencies.txt`. FT-Transformer also requires the Python packages in `python_dependencies.txt`, a configured `RETICULATE_PYTHON`, and a working CUDA-enabled PyTorch environment. Training is computationally intensive and may require substantial time and disk space.
+The target is `log10_Geomean_ug_L`. Taxon is used for blocked cross-validation and is not a predictor.
 
-## Analysis Workflow
+### Four-stage tuning design
 
-Run the scripts from the repository root in the following order.
+Every candidate is evaluated using the complete fixed **five-repeat, five-fold Taxon-blocked cross-validation** (25 train/validation fits per candidate). The same fold assignments are shared across all six model families. Preprocessing is fitted within each training partition.
 
-### 1. Train and compare all six models
+| Stage | Five R-native models | FT-Transformer |
+|---|---|---|
+| 1. Coarse exploration | Discrete, space-filling exploration of each model's declared parameter space | 15-candidate coarse grid across embedding dimension and learning rate |
+| 2. Global/local search | TPE-style Bayesian search using completed candidate scores | 15-candidate fine grid around the Stage 1 optimum, varying the full declared FT search-parameter set |
+| 3. Local refinement or rescue | Local refinement around strong candidates | Up to five targeted candidates that probe selected parameter boundaries |
+| 4. Boundary expansion and audit | Adaptive boundary expansion, repeat-level gap checks, and a full audit of every selected parameter's boundary status | 12 fresh, targeted boundary candidates followed by final ranking and repeat-level eligibility checks |
 
-```r
-source("01_train_six_models.R")
-```
+For the five R-native models, the planned Stage 1–3 candidate counts are XGBoost 90, Ridge 60, Elastic Net 70, Random Forest 80, and LightGBM 90 (390 candidates in total before Stage 4). Stage 4 evaluates additional candidates in batches of 12; it may stop when the declared stopping criteria are met, or be resumed after the per-invocation search budget is reached.
 
-This writes model-specific tuning records, fitted model bundles, audit files, and the consolidated six-model comparison to `results/model_training/`.
+For FT-Transformer, the planned maximum is 47 candidates: 15 in Stage 1, 15 in Stage 2, up to five in Stage 3, and 12 in Stage 4. The number of Stage 3 rescue candidates can be lower when no new boundary candidate is needed.
 
-### 2. Export the selected XGBoost model for downstream analyses
+### Tuned hyperparameters
 
-```r
-source("02_export_xgboost_model.R")
-```
+All hyperparameters explicitly defined in the search spaces are optimized. The parameter domains and every tested candidate are exported to the output folders.
 
-### 3. Analyze SHAP contributions and MOA patterns
+| Model | Tuned hyperparameters |
+|---|---|
+| Ridge | Regularization strength (`lambda`) |
+| Elastic Net | Elastic-net mixing parameter (`alpha`) and regularization strength (`lambda`) |
+| Random Forest | Number of trees, number of candidate predictors per split (`mtry`), minimum node size, sample fraction, maximum depth |
+| XGBoost | Learning rate, maximum depth, minimum child weight, row subsampling, column subsampling, L1 and L2 regularization, split penalty (`gamma`), maximum categorical split threshold |
+| LightGBM | Learning rate, number of leaves, maximum depth, minimum data per leaf, feature fraction, bagging fraction, L2 regularization, categorical smoothing, minimum split gain |
+| FT-Transformer | Input embedding dimension, number of attention heads, number of attention blocks, dropout, learning rate, weight decay, batch size, and training epochs |
 
-```r
-source("03_analyze_shap_moa.R")
-```
+For FT-Transformer, the epoch count is derived from the learning rate for the coarse/fine grids and is explicitly perturbed in Stage 4. The optimizer family (AdamW) and feed-forward hidden multiplier are fixed in the current implementation; they are not claimed to have been searched.
 
-### 4. Calculate the applicability domain (analysis only)
+### Model-selection rule
 
-```r
-source("04_analyze_applicability_domain.R")
-```
+A candidate is eligible only when the maximum training–cross-validation \(R^2\) gap is no greater than 0.20 in **each of the five repeats**. Among eligible candidates, the model-specific selection routine prioritizes mean pooled out-of-fold (OOF) cross-validation \(R^2\), with RMSE and the boundary audit used as tie-breakers or eligibility checks. A model is not marked final-eligible if the gap constraint or required boundary checks remain unresolved.
 
-This script contains no plotting code. It calculates an equal-weight, 24-variable Manhattan-style applicability-domain score: 13 chemical descriptors, five ecological traits, five taxonomic variables, and one MOA variable. Numeric contributions use training-set standardization; categorical contributions use training-set category prevalence; each original variable contributes a weight of `1/24`. The 95th percentile of the training scores (R quantile type 7) defines the threshold.
+The repeated Taxon-blocked CV results are internal cross-validation, not independent external validation.
 
-The final screened external-validation dataset must be provided as `data/strict_external_validation.csv`. The included workbook `data/external_validation_raw.xlsx` is the raw source and is not assumed to be equivalent to the final screened 437-record dataset. The script checks the expected training size, external size, training P95, and number of external records within the domain.
+## Requirements
 
-### 5. Prepare the chemical–taxon prediction matrix
+### R environment
 
-```r
-source("05_prepare_prediction_matrix.R")
-```
+Use a recent R installation with these packages available:
 
-### 6. Predict cross-species toxicity
+- `data.table`
+- `glmnet`
+- `ranger`
+- `xgboost` (version 3.0.0 or later; native categorical support is required)
+- `lightgbm`
+- `reticulate`
 
-```r
-source("06_predict_cross_species_toxicity.R")
-```
+Package installation for `lightgbm` and XGBoost may require platform-specific setup.
 
-### 7. Select the SSD distribution
+### FT-Transformer Python environment
 
-```r
-source("07_select_ssd_distribution.R")
-```
+FT-Transformer requires a Python environment containing:
 
-### 8. Estimate regional HC5 values
+- `torch` with CUDA available
+- `pytorch_tabular`
+- `numpy`
+- `pandas`
 
-```r
-source("08_estimate_regional_hc5.R")
-```
-
-### 9. Analyze toxicity gradients and regional sensitivity variation
-
-```r
-source("09_analyze_toxicity_gradients.R")
-```
-
-### 10. Compare protection thresholds and prioritize risks
+Set `ECOTOX_FT_PYTHON` to the Python executable in that environment before running the workflow. For example, in R:
 
 ```r
-source("10_assess_protection_thresholds_and_risk.R")
+Sys.setenv(ECOTOX_FT_PYTHON = "C:/path/to/your/cuda-env/python.exe")
+source("01_model_training.R")
 ```
 
-The nine-site Taihu pesticide-risk analysis additionally requires `data/taihu_monitoring_data.xlsx`, which was not included in the supplied source files. That analysis section cannot be reproduced until the original workbook is supplied; the code does not fabricate a substitute.
+The exact path is machine-specific. The FT-Transformer script stops if the configured Python executable is missing or CUDA is unavailable; the five R-native models can be run only after installing their R dependencies.
 
-## File and Output Policy
+### Data-path override
 
-- `data/` contains source and reference inputs only.
-- The numbered `.R` files in the repository root contain the analysis workflows.
-- `results/` contains generated outputs, fitted models, checkpoints, and audit tables.
-- The scripts do not use machine-specific absolute paths. Run them from the project root.
-- Do not delete checkpoints while a long-running training or SSD analysis is active.
+The default input is `data/Training_DATABASE_MOA_RECHECKED.csv`. If the corrected dataset is stored elsewhere, set `ECOTOX_DATA_FILE` to its absolute path:
 
-## Reproducibility Note
+```r
+Sys.setenv(ECOTOX_DATA_FILE = "D:/project/data/Training_DATABASE_MOA_RECHECKED.csv")
+source("01_model_training.R")
+```
 
-The package has been reorganized and checked for path references and archive integrity. The complete R/Python workflow has not been executed end-to-end in the current environment. Before public release, run the workflow using the final study inputs and record the R, Python, package, CUDA, and hardware versions.
+The script checks for the audited MOA columns and verifies key dataset counts and selected MOA corrections before fitting. Do not substitute an older or differently processed training table without updating and reviewing those checks.
+
+## Outputs and resumability
+
+The workflow writes new outputs to versioned directories so that older model checkpoints and scores are not silently reused:
+
+- `01_SHARED_FOLDS_MOA_RECHECKED_v13_FULL4STAGE/` — common fold assignments
+- `02_5MODELS_MOA_RECHECKED_v13_FULL4STAGE/` — candidate definitions and scores, per-repeat metrics, OOF predictions, selected parameters, final fitted models, and boundary audits for the five R-native models
+- `03_FT_TRANSFORMER_MOA_RECHECKED_v13_FULL4STAGE/` — FT-Transformer candidates, checkpoints, metrics, final model, and parameter summaries
+
+The five-model backend has an 18-hour soft time budget per invocation. If it stops at the time budget or any model remains unresolved, rerun:
+
+```r
+source("01_model_training.R")
+```
+
+Completed, validated candidate-repeat checkpoints are resumed. The workflow will not start FT-Transformer until the five-model completion audit reports `ALL_5_MODELS_FINAL_ELIGIBLE`.
+
+Review the final completion-status files, per-repeat gap metrics, selected-parameter tables, and boundary audits before reporting results. A completed run is not, by itself, evidence of independent external validation.
