@@ -1,0 +1,91 @@
+site_id,chemical,measured_concentration_ug_L,lod_ug_L,concentration_used_for_rq_ug_L
+Site_1,Diazinon,0.06,0.001333333,0.06
+Site_1,Dimethoate,0.016,0.002970297,0.016
+Site_1,Chlorpyrifos,0.013,0.000961847,0.013
+Site_1,Malathion,0.034,0.000377596,0.034
+Site_1,Dichlorvos,0.014,0.000395413,0.014
+Site_1,Methyl parathion,0.008,0.006493506,0.008
+Site_1,Parathion,0.016,0.003846154,0.016
+Site_1,Methidathion,0.003,0.001948052,0.003
+Site_1,Triazophos,Below LOD,0.012931034,0.006465517
+Site_1,Trichlorfon,0.002325581,0.000395413,0.002325581
+Site_2,Diazinon,0.056,0.001333333,0.056
+Site_2,Dimethoate,0.025,0.002970297,0.025
+Site_2,Chlorpyrifos,0.025,0.000961847,0.025
+Site_2,Malathion,0.034,0.000377596,0.034
+Site_2,Dichlorvos,0.006,0.000395413,0.006
+Site_2,Methyl parathion,0.017,0.006493506,0.017
+Site_2,Parathion,0.005,0.003846154,0.005
+Site_2,Methidathion,Below LOD,0.001948052,0.000974026
+Site_2,Triazophos,0.002,0.012931034,0.006465517
+Site_2,Trichlorfon,0.003488372,0.000395413,0.003488372
+Site_3,Diazinon,0.038,0.001333333,0.038
+Site_3,Dimethoate,0.016,0.002970297,0.016
+Site_3,Chlorpyrifos,0.022,0.000961847,0.022
+Site_3,Malathion,0.045,0.000377596,0.045
+Site_3,Dichlorvos,0.003,0.000395413,0.003
+Site_3,Methyl parathion,Below LOD,0.006493506,0.003246753
+Site_3,Parathion,0.018,0.003846154,0.018
+Site_3,Methidathion,0.009,0.001948052,0.009
+Site_3,Triazophos,0.022,0.012931034,0.022
+Site_3,Trichlorfon,0.002325581,0.000395413,0.002325581
+Site_4,Diazinon,0.065,0.001333333,0.065
+Site_4,Dimethoate,0.005,0.002970297,0.005
+Site_4,Chlorpyrifos,0.029,0.000961847,0.029
+Site_4,Malathion,0.036,0.000377596,0.036
+Site_4,Dichlorvos,0.006,0.000395413,0.006
+Site_4,Methyl parathion,0.012,0.006493506,0.012
+Site_4,Parathion,0.017,0.003846154,0.017
+Site_4,Methidathion,Below LOD,0.001948052,0.000974026
+Site_4,Triazophos,0.023,0.012931034,0.023
+Site_4,Trichlorfon,0.002325581,0.000395413,0.002325581
+Site_5,Diazinon,0.042,0.001333333,0.042
+Site_5,Dimethoate,0.022,0.002970297,0.022
+Site_5,Chlorpyrifos,0.027,0.000961847,0.027
+Site_5,Malathion,0.062,0.000377596,0.062
+Site_5,Dichlorvos,0.018,0.000395413,0.018
+Site_5,Methyl parathion,0.007,0.006493506,0.007
+Site_5,Parathion,0.016,0.003846154,0.016
+Site_5,Methidathion,Below LOD,0.001948052,0.000974026
+Site_5,Triazophos,0.073,0.012931034,0.073
+Site_5,Trichlorfon,0.002325581,0.000395413,0.002325581
+Site_6,Diazinon,0.057,0.001333333,0.057
+Site_6,Dimethoate,0.009,0.002970297,0.009
+Site_6,Chlorpyrifos,0.059,0.000961847,0.059
+Site_6,Malathion,0.025,0.000377596,0.025
+Site_6,Dichlorvos,Below LOD,0.000395413,0.000197707
+Site_6,Methyl parathion,0.048,0.006493506,0.048
+Site_6,Parathion,Below LOD,0.003846154,0.001923077
+Site_6,Methidathion,0.008,0.001948052,0.008
+Site_6,Triazophos,0.013,0.012931034,0.013
+Site_6,Trichlorfon,0.003488372,0.000395413,0.003488372
+Site_7,Diazinon,0.046,0.001333333,0.046
+Site_7,Dimethoate,0.016,0.002970297,0.016
+Site_7,Chlorpyrifos,0.019,0.000961847,0.019
+Site_7,Malathion,0.031,0.000377596,0.031
+Site_7,Dichlorvos,0.01,0.000395413,0.01
+Site_7,Methyl parathion,0.009,0.006493506,0.009
+Site_7,Parathion,0.017,0.003846154,0.017
+Site_7,Methidathion,Below LOD,0.001948052,0.000974026
+Site_7,Triazophos,0.022,0.012931034,0.022
+Site_7,Trichlorfon,0.003488372,0.000395413,0.003488372
+Site_8,Diazinon,0.043,0.001333333,0.043
+Site_8,Dimethoate,0.012,0.002970297,0.012
+Site_8,Chlorpyrifos,0.029,0.000961847,0.029
+Site_8,Malathion,0.034,0.000377596,0.034
+Site_8,Dichlorvos,0.007,0.000395413,0.007
+Site_8,Methyl parathion,0.015,0.006493506,0.015
+Site_8,Parathion,0.026,0.003846154,0.026
+Site_8,Methidathion,Below LOD,0.001948052,0.000974026
+Site_8,Triazophos,0.032,0.012931034,0.032
+Site_8,Trichlorfon,0.003488372,0.000395413,0.003488372
+Site_9,Diazinon,0.058,0.001333333,0.058
+Site_9,Dimethoate,0.014,0.002970297,0.014
+Site_9,Chlorpyrifos,0.026,0.000961847,0.026
+Site_9,Malathion,0.041,0.000377596,0.041
+Site_9,Dichlorvos,0.006,0.000395413,0.006
+Site_9,Methyl parathion,0.017,0.006493506,0.017
+Site_9,Parathion,0.02,0.003846154,0.02
+Site_9,Methidathion,0.005,0.001948052,0.005
+Site_9,Triazophos,0.001,0.012931034,0.006465517
+Site_9,Trichlorfon,0.003488372,0.000395413,0.003488372
