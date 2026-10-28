@@ -1,15 +1,17 @@
 # Regional SSD HC5: fixed log-Gumbel and 10,000 paired Monte Carlo simulations.
 
-PRED <- "results/04_cross_species_toxicity_prediction/predicted_toxicity.csv"
+PRED <- "results/04_species_toxicity_prediction/predicted_toxicity.csv"
 SELECTION <- "results/05_ssd_distribution_selection/ssd_best_fit.csv"
-ROSTER <- "data/regional_taxa.csv"
-TRAIN <- "data/training_data.csv"
+ROSTER <- "data/SEVEN_REGION_TAXON_MEMBERSHIP_20261012.csv"
+TRAIN <- "data/Training_DATABASE_MOA_RECHECKED.csv"
 OOF <- "results/01_model_training/xgboost_oof.csv"
 OUT <- "results/06_regional_ssd_hc5"
 N_MC <- 10000L
 MC_BATCH <- 500L
 WORKERS <- 4L
-SEED <- 263131L
+SEED_FILE <- file.path("results","model_tuning_run06","00_RUN_SEED.txt")
+if (!file.exists(SEED_FILE)) stop("Run 01_model_training.R first to create the run seed.")
+SEED <- as.integer(readLines(SEED_FILE, n=1L))
 REGIONS <- c("Taihu Basin", "Liao River", "Songhua River",
              "Pearl River (Guangzhou segment)", "England",
              "Elbe River", "Danube River")
@@ -55,7 +57,7 @@ d <- d[is.finite(log10_Geomean_ug_L) & !is.na(Taxon) & nzchar(trimws(Taxon))]
 d[, Taxon := trimws(as.character(Taxon))]
 oof <- fread(OOF)
 stopifnot(all(c("Repeat", "Taxon", "Observed", "Predicted") %in% names(oof)))
-if (!"Row_ID" %in% names(oof)) oof[, Row_ID := seq_len(.N), by = Repeat]
+oof[, Row_ID := seq_len(.N), by = Repeat]
 a <- oof[, .(Taxon = first(Taxon), Observed = first(Observed),
              Predicted = mean(Predicted), N = .N), by = Row_ID][order(Row_ID)]
 stopifnot(nrow(a) == nrow(d), all(a$N == uniqueN(oof$Repeat)),

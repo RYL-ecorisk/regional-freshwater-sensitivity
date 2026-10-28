@@ -1,7 +1,7 @@
 # Five SSD families compared by AICc across the seven regional assemblages.
 
-PRED <- "results/04_cross_species_toxicity_prediction/predicted_toxicity.csv"
-ROSTER <- "data/regional_taxa.csv"
+PRED <- "results/04_species_toxicity_prediction/predicted_toxicity.csv"
+ROSTER <- "data/SEVEN_REGION_TAXON_MEMBERSHIP_20261012.csv"
 OUT <- "results/05_ssd_distribution_selection"
 WORKERS <- 4L
 DISTS <- c("lnorm", "llogis", "gamma", "weibull", "lgumbel")

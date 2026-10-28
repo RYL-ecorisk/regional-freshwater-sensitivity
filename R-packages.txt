@@ -1,0 +1,11 @@
+data.table
+glmnet
+ranger
+xgboost (>= 3.0.0)
+lightgbm
+ggplot2
+patchwork
+MASS
+ssdtools
+reticulate
+readxl

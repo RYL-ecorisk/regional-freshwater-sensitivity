@@ -1,8 +1,8 @@
 # Conventional versus regional protection thresholds and pesticide risk ranking (Fig. 7).
 
-TRAIN <- "data/training_data.csv"
+TRAIN <- "data/Training_DATABASE_MOA_RECHECKED.csv"
 HC5 <- "results/06_regional_ssd_hc5/regional_hc5.csv"
-MONITOR <- "data/taihu_monitoring.xlsx"
+MONITOR <- "data/Taihu_9Sites_10OP_Original_LOD2_Simple.xlsx"
 OUT <- "results/08_protection_thresholds_and_risk_prioritization"
 AF <- 100
 SSD_AF <- 5
