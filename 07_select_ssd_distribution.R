@@ -1,8 +1,8 @@
 # Five SSD families compared by AICc across the seven regional assemblages.
 
-PRED <- "results/04_species_toxicity_prediction/predicted_toxicity.csv"
-ROSTER <- "data/SEVEN_REGION_TAXON_MEMBERSHIP_20261012.csv"
-OUT <- "results/05_ssd_distribution_selection"
+PRED <- "results/species_toxicity_prediction/predicted_toxicity.csv"
+ROSTER <- "data/region_taxon_membership.csv"
+OUT <- "results/ssd_distribution_selection"
 WORKERS <- 4L
 DISTS <- c("lnorm", "llogis", "gamma", "weibull", "lgumbel")
 REGIONS <- c("Taihu Basin", "Liao River", "Songhua River",

@@ -2,11 +2,11 @@
 suppressPackageStartupMessages(library(data.table))
 ROOT <- normalizePath(".", winslash="/", mustWork=TRUE)
 DATA <- file.path(ROOT,"data")
-TRAIN <- fread(file.path(DATA,"Training_DATABASE_MOA_RECHECKED.csv"),
+TRAIN <- fread(file.path(DATA,"training_data.csv"),
                na.strings=c("","NA","NaN"),encoding="UTF-8")
-TAXON_FILE <- file.path(DATA,"Taxon_taxonomy_traits_prediction.csv")
-ROSTER_FILE <- file.path(DATA,"SEVEN_REGION_TAXON_MEMBERSHIP_20261012.csv")
-OUT <- file.path(DATA,"prediction_matrix.csv")
+TAXON_FILE <- file.path(DATA,"taxon_traits_prediction.csv")
+ROSTER_FILE <- file.path(DATA,"region_taxon_membership.csv")
+OUT <- file.path(ROOT,"results","prediction_matrix.csv")
 
 CHEM <- c("logS","logKow","logD7_4","MW","TPSA","log_Henry",
           "log_VaporPressure","MeltingPoint","HBA","HBD",
@@ -39,5 +39,6 @@ grid <- merge(grid,taxa,by="Taxon",all.x=TRUE,sort=FALSE)
 setcolorder(grid,c("DTXSID","Taxon",CHEM,setdiff(TAXON_COLS,"Taxon")))
 stopifnot(nrow(grid)==uniqueN(chem$DTXSID)*uniqueN(taxa$Taxon),
           !anyDuplicated(grid,by=c("DTXSID","Taxon")))
+dir.create(dirname(OUT), recursive=TRUE, showWarnings=FALSE)
 fwrite(grid,OUT)
 cat("Wrote ",nrow(grid)," chemical–taxon combinations to ",OUT,"\n",sep="")

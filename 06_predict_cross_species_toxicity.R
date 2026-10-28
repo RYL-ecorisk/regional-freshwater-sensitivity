@@ -1,8 +1,8 @@
 # Species toxicity prediction using the final XGBoost model.
 
-INPUT <- "data/prediction_matrix.csv"
-MODEL_DIR <- "results/01_model_training"
-OUT <- "results/04_species_toxicity_prediction"
+INPUT <- "results/prediction_matrix.csv"
+MODEL_DIR <- "results/xgboost_model"
+OUT <- "results/species_toxicity_prediction"
 CHUNK <- 100000L
 
 for (p in c("data.table", "xgboost"))

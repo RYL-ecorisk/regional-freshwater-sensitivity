@@ -1,16 +1,16 @@
 # JHM | Equal-weight 24-variable Manhattan-style applicability-domain analysis
 # Analysis only: no figures, plotting dependencies, or model fitting.
 # Run from the package root after placing the final screened external dataset at:
-#   data/STRICT_EXTERNAL.csv
+#   data/strict_external_validation.csv
 
 options(stringsAsFactors = FALSE, warn = 1, scipen = 9)
 suppressPackageStartupMessages(library(data.table))
 
 ROOT <- normalizePath(".", winslash = "/", mustWork = TRUE)
 DATA_DIR <- file.path(ROOT, "data")
-TRAIN_FILE <- file.path(DATA_DIR, "Training_DATABASE_MOA_RECHECKED.csv")
-EXTERNAL_FILE <- file.path(DATA_DIR, "STRICT_EXTERNAL.csv")
-OUT_DIR <- file.path(ROOT, "results", "applicability_domain_equal24_manhattan")
+TRAIN_FILE <- file.path(DATA_DIR, "training_data.csv")
+EXTERNAL_FILE <- file.path(DATA_DIR, "strict_external_validation.csv")
+OUT_DIR <- file.path(ROOT, "results", "applicability_domain")
 
 # Manuscript reference checks. Keep enabled for the submitted JHM analysis.
 CHECK_MANUSCRIPT_REFERENCE <- TRUE

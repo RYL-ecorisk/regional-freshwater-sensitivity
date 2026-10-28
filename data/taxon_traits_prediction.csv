@@ -1,4 +1,4 @@
-Taxon,Phylum,Class,Order,Family,Genus,Log Body size,Feeding,Feeding_score,Respiration,Respiration_score,Locomotion,Locomotion_score,Body armor,Body_armor_score
+﻿Taxon,Phylum,Class,Order,Family,Genus,Log Body size,Feeding,Feeding_score,Respiration,Respiration_score,Locomotion,Locomotion_score,Body armor,Body_armor_score
 Ablabesmyia longistyla,Arthropoda,Insecta,Diptera,Chironomidae,Ablabesmyia,1,predator,1,tegument,2,crawler,3,soft_body,4
 Ablabesmyia phatta,Arthropoda,Insecta,Diptera,Chironomidae,Ablabesmyia,1,predator,1,tegument,2,crawler,3,soft_body,4
 Ablabesmyia sp.,Arthropoda,Insecta,Diptera,Chironomidae,Ablabesmyia,1,predator,1,tegument,2,crawler,3,soft_body,4

@@ -1,0 +1,6 @@
+results/*
+!results/.gitkeep
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/

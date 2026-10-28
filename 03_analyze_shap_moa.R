@@ -1,11 +1,11 @@
 # Post-training TreeSHAP analysis for the selected XGBoost model (Fig. 3).
 
-DATA <- "data/Training_DATABASE_MOA_RECHECKED.csv"
-MODEL_DIR <- "results/01_model_training"
-OUT <- "results/02_shap_moa"
+DATA <- "data/training_data.csv"
+MODEL_DIR <- "results/xgboost_model"
+OUT <- "results/shap_moa"
 BOOTSTRAP_N <- 5000L
-SEED_FILE <- file.path("results","model_tuning_run06","00_RUN_SEED.txt")
-if (!file.exists(SEED_FILE)) stop("Run 01_model_training.R first to create the run seed.")
+SEED_FILE <- file.path("results","model_training","00_RUN_SEED.txt")
+if (!file.exists(SEED_FILE)) stop("Run 01_train_six_models.R first to create the run seed.")
 SEED <- as.integer(readLines(SEED_FILE, n=1L))
 
 for (p in c("data.table", "xgboost", "ggplot2")) {

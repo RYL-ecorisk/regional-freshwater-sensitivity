@@ -1,9 +1,9 @@
 # Chemical toxicity gradients, modes of action, and regional HC5 variation (Fig. 6).
 
-PRED <- "results/04_species_toxicity_prediction/predicted_toxicity.csv"
-HC5 <- "results/06_regional_ssd_hc5/regional_hc5.csv"
-TRAIN <- "data/Training_DATABASE_MOA_RECHECKED.csv"
-OUT <- "results/07_toxicity_gradients_and_regional_sensitivity_variation"
+PRED <- "results/species_toxicity_prediction/predicted_toxicity.csv"
+HC5 <- "results/regional_ssd_hc5/regional_hc5.csv"
+TRAIN <- "data/training_data.csv"
+OUT <- "results/toxicity_gradients"
 
 for (pkg in c("data.table", "ggplot2"))
   if (!requireNamespace(pkg, quietly = TRUE)) stop("Install R package: ", pkg)

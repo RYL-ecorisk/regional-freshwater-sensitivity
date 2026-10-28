@@ -1,16 +1,16 @@
 # Regional SSD HC5: fixed log-Gumbel and 10,000 paired Monte Carlo simulations.
 
-PRED <- "results/04_species_toxicity_prediction/predicted_toxicity.csv"
-SELECTION <- "results/05_ssd_distribution_selection/ssd_best_fit.csv"
-ROSTER <- "data/SEVEN_REGION_TAXON_MEMBERSHIP_20261012.csv"
-TRAIN <- "data/Training_DATABASE_MOA_RECHECKED.csv"
-OOF <- "results/01_model_training/xgboost_oof.csv"
-OUT <- "results/06_regional_ssd_hc5"
+PRED <- "results/species_toxicity_prediction/predicted_toxicity.csv"
+SELECTION <- "results/ssd_distribution_selection/ssd_best_fit.csv"
+ROSTER <- "data/region_taxon_membership.csv"
+TRAIN <- "data/training_data.csv"
+OOF <- "results/xgboost_model/xgboost_oof.csv"
+OUT <- "results/regional_ssd_hc5"
 N_MC <- 10000L
 MC_BATCH <- 500L
 WORKERS <- 4L
-SEED_FILE <- file.path("results","model_tuning_run06","00_RUN_SEED.txt")
-if (!file.exists(SEED_FILE)) stop("Run 01_model_training.R first to create the run seed.")
+SEED_FILE <- file.path("results","model_training","00_RUN_SEED.txt")
+if (!file.exists(SEED_FILE)) stop("Run 01_train_six_models.R first to create the run seed.")
 SEED <- as.integer(readLines(SEED_FILE, n=1L))
 REGIONS <- c("Taihu Basin", "Liao River", "Songhua River",
              "Pearl River (Guangzhou segment)", "England",
