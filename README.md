@@ -124,3 +124,9 @@ source("01_model_training.R")
 Completed, validated candidate-repeat checkpoints are resumed. The workflow will not start FT-Transformer until the five-model completion audit reports `ALL_5_MODELS_FINAL_ELIGIBLE`.
 
 Review the final completion-status files, per-repeat gap metrics, selected-parameter tables, and boundary audits before reporting results. A completed run is not, by itself, evidence of independent external validation.
+
+## Supporting datasets
+
+1. `freshwater_macroinvertebrate_external_validation_toxicity_dataset.csv`: Used for independent external validation.
+2. `taihu_surface_water_organophosphate_concentrations_9_sites.csv`: Used for the Taihu pesticide risk quotient (RQ) analysis and contaminant prioritization.
+
